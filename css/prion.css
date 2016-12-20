@@ -1,3 +1,44 @@
+.app-button {
+  display:inline-block;
+  overflow:hidden;
+  width:135px;
+  height:40px;
+  background-size:contain;
+  margin: 20px;
+}
+.app-play-button {
+  background:url(/img/en-badge-android.svg) no-repeat;
+}
+.app-store-button {
+  background:url(/img/en-badge-ios.svg) no-repeat;
+}
+
+
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    font-size: 18px;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 180px;
+        padding-bottom: 90px;
+    }
+
+    header .intro-text .intro-lead-in {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
