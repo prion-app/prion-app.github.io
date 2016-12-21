@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prion</title>
-    <link>index.xml</link>
+    <link>http://prionapp.com/index.xml</link>
     <description>Recent content on Prion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Dec 2016 10:16:05 +0100</lastBuildDate>
-    <atom:link href="index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://prionapp.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>iOS Utvecklare sökes</title>
-      <link>/jobs/ios/</link>
+      <link>http://prionapp.com/jobs/ios/</link>
       <pubDate>Wed, 14 Dec 2016 10:16:05 +0100</pubDate>
       
-      <guid>/jobs/ios/</guid>
+      <guid>http://prionapp.com/jobs/ios/</guid>
       <description>
 
 &lt;p&gt;Vi söker dig som älskar att &lt;em&gt;bygga och skapa&lt;/em&gt; - framför allt iOS-appar. Du kommer jobba i ett &lt;em&gt;litet bolag&lt;/em&gt; där vi tillsammans åstadkommer &lt;em&gt;stora saker&lt;/em&gt;. Det kommer gå &lt;em&gt;snabbt&lt;/em&gt;. Du kommer vara viktig och få ge det där extra som du vet att du har. Du kommer vara med och skapa en produkt som du själv använder varje dag. Tillsammas kommer vi skaka världen!&lt;/p&gt;
