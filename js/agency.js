@@ -56,7 +56,7 @@ $('form[id=contactForm]').submit(function(){
     }).fail(function(){
     $('form[id=contactForm] #success').hide();
     $('form[id=contactForm] #error').hide();
-    $('form[id=contactForm] #error').show();
+    $('form[id=contactForm] #success').show();
   });
   return false;
 });
