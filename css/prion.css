@@ -38,6 +38,16 @@ header .intro-text .intro-lead-in {
 
 
 
+a.white,
+a.white:hover,
+a.white:focus,
+a.white:active {
+  color: #FFFFFF;
+}
+
+
+
+
 
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
