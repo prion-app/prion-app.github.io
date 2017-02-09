@@ -5,16 +5,60 @@
     <link>http://prionapp.com/index.xml</link>
     <description>Recent content on Prion</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 14 Dec 2016 10:16:05 +0100</lastBuildDate>
+    <language>sv-se</language>
+    <lastBuildDate>Tue, 07 Feb 2017 10:16:05 +0100</lastBuildDate>
     <atom:link href="http://prionapp.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Familj</title>
+      <link>http://prionapp.com/familj/</link>
+      <pubDate>Tue, 07 Feb 2017 10:16:05 +0100</pubDate>
+      
+      <guid>http://prionapp.com/familj/</guid>
+      <description>&lt;p&gt;Information till familjer kommer här snart&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Förskola</title>
+      <link>http://prionapp.com/f%C3%B6rskola/</link>
+      <pubDate>Tue, 07 Feb 2017 10:16:05 +0100</pubDate>
+      
+      <guid>http://prionapp.com/f%C3%B6rskola/</guid>
+      <description>
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis blandit ex ut dapibus. Pellentesque porta velit blandit interdum auctor. Ut nec dictum urna. Sed nec sem et orci maximus accumsan ut sit amet nibh. Sed cursus tincidunt nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In sed laoreet nisl. Praesent quis ante urna. Sed semper at sapien vel sodales. Vestibulum eget sapien elit.
+&lt;div class=&#34;row&#34;&gt;
+  &lt;img class=&#34;col-md-4 center-block&#34; src=&#34;http://prionapp.com/img/about/1.jpg&#34; /&gt;
+  &lt;img class=&#34;col-md-4 center-block&#34; src=&#34;http://prionapp.com/img/about/2.jpg&#34; /&gt;
+  &lt;img class=&#34;col-md-4 center-block&#34; src=&#34;http://prionapp.com/img/about/3.jpg&#34; /&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Maecenas vulputate tincidunt est sit amet porttitor. Vestibulum vel sollicitudin elit. Quisque dui augue, placerat at dictum vitae, ultricies eget ipsum. Curabitur leo elit, condimentum non lobortis eu, malesuada sed mi. In risus urna, feugiat laoreet ornare quis, ornare vitae tortor. Pellentesque tristique leo nec volutpat fringilla. Nulla id imperdiet orci. Vivamus pellentesque feugiat molestie.&lt;/p&gt;
+
+&lt;h2 id=&#34;guider&#34;&gt;Guider&lt;/h2&gt;
+
+&lt;p&gt;Här finns dokument som går in mer i det praktiska dagliga arbetet med appen, det finns också information om hur man sätter upp och kommer igång med appen.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://prionapp.com/docs/get_started.pdf&#34;&gt;Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://prionapp.com/docs/get_started.pdf&#34;&gt;Start guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;kontakt-och-demobokning&#34;&gt;Kontakt och demobokning&lt;/h2&gt;
+
+&lt;p&gt;Har du frågor eller vill boka en kostadsfri demonstration av Prion? Då når du oss enklast via e-post:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;emailto:hello@prionapp.com&#34;&gt;hello@prionapp.com&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Android Utvecklare sökes</title>
-      <link>http://prionapp.com/jobs/android/</link>
+      <link>http://prionapp.com/jobs/android.se/</link>
       <pubDate>Wed, 14 Dec 2016 10:16:05 +0100</pubDate>
       
-      <guid>http://prionapp.com/jobs/android/</guid>
+      <guid>http://prionapp.com/jobs/android.se/</guid>
       <description>
 
 &lt;h5 id=&#34;om-bolaget&#34;&gt;Om bolaget&lt;/h5&gt;
@@ -69,10 +113,10 @@
     
     <item>
       <title>iOS Utvecklare sökes</title>
-      <link>http://prionapp.com/jobs/ios/</link>
+      <link>http://prionapp.com/jobs/ios.se/</link>
       <pubDate>Wed, 14 Dec 2016 10:16:05 +0100</pubDate>
       
-      <guid>http://prionapp.com/jobs/ios/</guid>
+      <guid>http://prionapp.com/jobs/ios.se/</guid>
       <description>
 
 &lt;h5 id=&#34;om-bolaget&#34;&gt;Om bolaget&lt;/h5&gt;

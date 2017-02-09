@@ -2,18 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://prionapp.com/familj/</loc>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/f%C3%B6rskola/</loc>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/jobs/android.se/</loc>
+    <lastmod>2016-12-14T10:16:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/jobs/ios.se/</loc>
+    <lastmod>2016-12-14T10:16:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/jobs/</loc>
+    <lastmod>2016-12-14T10:16:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://prionapp.com/</loc>
-    <lastmod>2016-12-14T10:16:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://prionapp.com/jobs/android/</loc>
-    <lastmod>2016-12-14T10:16:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://prionapp.com/jobs/ios/</loc>
-    <lastmod>2016-12-14T10:16:05+01:00</lastmod>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

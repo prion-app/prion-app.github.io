@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jobs-rsses on Prion</title>
+    <title>Jobs on Prion</title>
     <link>http://prionapp.com/jobs/index.xml</link>
-    <description>Recent content in Jobs-rsses on Prion</description>
+    <description>Recent content in Jobs on Prion</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>sv-se</language>
     <lastBuildDate>Wed, 14 Dec 2016 10:16:05 +0100</lastBuildDate>
     <atom:link href="http://prionapp.com/jobs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Android Utvecklare sökes</title>
-      <link>http://prionapp.com/jobs/android/</link>
+      <link>http://prionapp.com/jobs/android.se/</link>
       <pubDate>Wed, 14 Dec 2016 10:16:05 +0100</pubDate>
       
-      <guid>http://prionapp.com/jobs/android/</guid>
+      <guid>http://prionapp.com/jobs/android.se/</guid>
       <description>
 
 &lt;h5 id=&#34;om-bolaget&#34;&gt;Om bolaget&lt;/h5&gt;
@@ -69,10 +69,10 @@
     
     <item>
       <title>iOS Utvecklare sökes</title>
-      <link>http://prionapp.com/jobs/ios/</link>
+      <link>http://prionapp.com/jobs/ios.se/</link>
       <pubDate>Wed, 14 Dec 2016 10:16:05 +0100</pubDate>
       
-      <guid>http://prionapp.com/jobs/ios/</guid>
+      <guid>http://prionapp.com/jobs/ios.se/</guid>
       <description>
 
 &lt;h5 id=&#34;om-bolaget&#34;&gt;Om bolaget&lt;/h5&gt;
