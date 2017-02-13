@@ -28,7 +28,31 @@ li.checkmark {
 
 .preshool-quote-background {
     padding: 100px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/1147838.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/1147838.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-families-quote-background {
+    padding: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/223557445.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.families-quote-background {
+    padding: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/212749894.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.private-quote-background {
+    padding: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/27605.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,6 +60,9 @@ li.checkmark {
 
 @media(min-width:1200px) {
   .preshool-quote-background {
+    padding-bottom: 200px;
+  }
+  .child-families-quote-background {
     padding-bottom: 200px;
   }
 }
@@ -58,6 +85,9 @@ li.checkmark {
   margin-top: 20px;
   width: 80px;
   height: 80px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
 }
 
 ul.social-buttons li a {

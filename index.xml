@@ -27,29 +27,74 @@
       <guid>http://prionapp.com/f%C3%B6rskola/</guid>
       <description>
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis blandit ex ut dapibus. Pellentesque porta velit blandit interdum auctor. Ut nec dictum urna. Sed nec sem et orci maximus accumsan ut sit amet nibh. Sed cursus tincidunt nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In sed laoreet nisl. Praesent quis ante urna. Sed semper at sapien vel sodales. Vestibulum eget sapien elit.
+&lt;p&gt;Med Prion är det enkelt och roligt att ge föräldrar insyn i vad som sker på förskolan samtidigt som ni dokumenterar verksamheten. Det leder till en ökad förståelse och starkare relation mellan förskola och hemmet. Appen ger er en gemensam samlingsplats internt för allt bildmaterial kopplat till förskolan och är vidare ett effektivt verktyg för att ge föräldrar insyn utan att kompromissa på barnens integritet. Det är lätt att dela enbart till respektive barns föräldrar eller växla till hela avdelningen när det är material som gäller samtliga.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
 &lt;div class=&#34;row&#34;&gt;
   &lt;img class=&#34;col-md-4 center-block&#34; src=&#34;http://prionapp.com/img/about/1.jpg&#34; /&gt;
   &lt;img class=&#34;col-md-4 center-block&#34; src=&#34;http://prionapp.com/img/about/2.jpg&#34; /&gt;
   &lt;img class=&#34;col-md-4 center-block&#34; src=&#34;http://prionapp.com/img/about/3.jpg&#34; /&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Maecenas vulputate tincidunt est sit amet porttitor. Vestibulum vel sollicitudin elit. Quisque dui augue, placerat at dictum vitae, ultricies eget ipsum. Curabitur leo elit, condimentum non lobortis eu, malesuada sed mi. In risus urna, feugiat laoreet ornare quis, ornare vitae tortor. Pellentesque tristique leo nec volutpat fringilla. Nulla id imperdiet orci. Vivamus pellentesque feugiat molestie.&lt;/p&gt;
+&lt;p&gt;Prion gör det möjligt för förskolor att på ett enkel effektivt sätt dokumentera och ge föräldrainsyn och bidrar till:&lt;/p&gt;
 
-&lt;h2 id=&#34;guider&#34;&gt;Guider&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Här finns dokument som går in mer i det praktiska dagliga arbetet med appen, det finns också information om hur man sätter upp och kommer igång med appen.&lt;/p&gt;
+&lt;h5 id=&#34;effektivitet-för-förskolan&#34;&gt;Effektivitet för Förskolan&lt;/h5&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://prionapp.com/docs/get_started.pdf&#34;&gt;Manual&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://prionapp.com/docs/get_started.pdf&#34;&gt;Start guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Samlingsplats för bilder internt&lt;/strong&gt; på förskolan. Ser till att inga bilder från verksamheten ligger på enskilda telefoner utan att ni har dem på en gemensam plats inga obehöriga kommer åt.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Når effektivt ut till föräldrar&lt;/strong&gt; med den information ni önskar vid den tidpunkt ni vill. Inlägg sparas i en bra struktur per avdelning och barn som gör att ni kan se tillbaka på allt ni gjort.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minimerar administration&lt;/strong&gt; kopplat till att dokumentera verksamheten och eliminera energi- och tidskrävande moment. Med Prion blir dokumentationen något roligt och leder till feedback och uppmuntran från föräldrar!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;kontakt-och-demobokning&#34;&gt;Kontakt och demobokning&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;insyn-och-delaktighet-för-föräldrar&#34;&gt;Insyn och delaktighet för Föräldrar&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Föräldrar blir mer insatta&lt;/strong&gt; och får ökad förståelse för verksamheten vilket förbättrar kommunikationen mellan förskolan och föräldrarna.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Insyn ges samma dag aktiviteter skett&lt;/strong&gt; gör det lättare att knyta an till och samtala kring barnens tid på förskolan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alla föräldrar kan vara delaktiga&lt;/strong&gt; oberoende av tid, rum, i viss mån språk eller vem det är som hämtar barnet på förskolan. Samtidigt byggs en ”bild-bok” upp över tid som kan ses tillbaka på tillsammans med barnen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;integritet-för-barnen&#34;&gt;Integritet för Barnen&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Värnar om barnens integritet&lt;/strong&gt; genom att inga inlägg exponeras för obehöriga. Ni styr vilka föräldrar eller avdelningar som tar del av olika inlägg.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Äganderätten till bilderna&lt;/strong&gt; ni delar i Prion tillfaller inte Prion som företag utan ni äger fortsatt era bilder.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tekniskt säkert&lt;/strong&gt; exempelvis genom att all data som sparas och skickas via appen krypteras och material säkerhetskopieras dagligen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;guider&#34;&gt;Guider&lt;/h3&gt;
+
+&lt;p&gt;Här finns dokument som går in mer i det praktiska dagliga arbetet med appen.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://prionapp.com/docs/prion_bilder_och_funktioner.pdf&#34;&gt;Exempel och funktioner&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;kontakt-och-demobokning&#34;&gt;Kontakt och demobokning&lt;/h3&gt;
 
 &lt;p&gt;Har du frågor eller vill boka en kostadsfri demonstration av Prion? Då når du oss enklast via e-post:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;emailto:hello@prionapp.com&#34;&gt;hello@prionapp.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tipsa-oss-om-en-förskola&#34;&gt;Tipsa oss om en förskola&lt;/h3&gt;
+
+&lt;p&gt;Fyll i namnet på förskolan och en kontaktperson där, så hör vi av oss till dem!&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-xl&#34; href=&#34;mailto:hello@prionapp.com&#34;&gt;Tipsa&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
