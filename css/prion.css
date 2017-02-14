@@ -32,8 +32,12 @@ li.checkmark {
   font-size: 20px;
 }
 
+.preschool_image {
+  margin-top: 10px;
+}
+
 .preshool-quote-background {
-    padding: 100px;
+    padding: 100px 0px 100px 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/1147838.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -41,7 +45,7 @@ li.checkmark {
 }
 
 .child-families-quote-background {
-    padding: 100px;
+    padding: 100px 0px 100px 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/223557445.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -49,7 +53,7 @@ li.checkmark {
 }
 
 .families-quote-background {
-    padding: 100px;
+    padding: 100px 0px 100px 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/212749894.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -57,7 +61,7 @@ li.checkmark {
 }
 
 .private-quote-background {
-    padding: 100px;
+    padding: 100px 0px 100px 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/27605.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -162,12 +166,34 @@ section h2.section-heading {
 }
 
 @media(min-width:768px) {
+
+  .preshool-quote-background {
+      padding: 100px;
+  }
+
+  .child-families-quote-background {
+      padding: 100px;
+  }
+
+  .families-quote-background {
+      padding: 100px;
+  }
+
+  .private-quote-background {
+      padding: 100px;
+  }
+
   .container {
     margin-left: 10px;
     margin-right: auto;
   }
 
   #services .container  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav .container {
     margin-left: auto;
     margin-right: auto;
   }
