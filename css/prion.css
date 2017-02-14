@@ -167,6 +167,16 @@ section h2.section-heading {
     margin-right: auto;
   }
 
+  #services .container  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about .container  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .quote {
     font-size: 20px;
   }
@@ -196,14 +206,35 @@ section h2.section-heading {
     margin-right: auto;
   }
 
+  #services .container  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about .container  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   header .intro-text .intro-lead-in {
       font-size: 15px;
   }
 }
 
 @media(min-width:1200px) {
+
   .container {
     margin-left: 160px;
+    margin-right: auto;
+  }
+
+  #services .container  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about .container  {
+    margin-left: auto;
     margin-right: auto;
   }
 
