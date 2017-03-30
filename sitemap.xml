@@ -2,7 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://prionapp.com/event/</loc>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://prionapp.com/familj/</loc>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/f%C3%B6rskola-guider/</loc>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/f%C3%B6rskola-produktblad/</loc>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/blogg/Introduktion%20till%20Prion%20som%20digitalt%20hj%C3%A4lpmedel%20i%20f%C3%B6rskolan/</loc>
     <lastmod>2017-02-07T10:16:05+01:00</lastmod>
   </url>
   
@@ -22,6 +42,29 @@
   </url>
   
   <url>
+    <loc>http://prionapp.com/blogg/</loc>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/tags/ios/</loc>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/categories/ios/</loc>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://prionapp.com/jobs/</loc>
     <lastmod>2016-12-14T10:16:05+01:00</lastmod>
     <priority>0</priority>
@@ -30,6 +73,11 @@
   <url>
     <loc>http://prionapp.com/</loc>
     <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/tags/</loc>
     <priority>0</priority>
   </url>
   

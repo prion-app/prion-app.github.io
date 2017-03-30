@@ -136,18 +136,19 @@ li.checkmark {
 }
 
 ul.social-buttons li a {
-  background-color: #fff;
-  color: #222;
+  background-color: #222;
+  color: #fff;
 }
 
 footer {
   margin-top: 40px;
-  color: #fff;
-  background-color: #222;
+  color: #000;
+  background-color: #fff;
+  border-top: 1px #b2b2b2 solid;
 }
 
 footer a {
-  color: #fff;
+  color: #000;
 }
 
 header {
@@ -161,6 +162,179 @@ header .intro-text {
 
 .navbar-default {
   font-style: normal;
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+
+.navbar-default .nav li a {
+  color: #000;
+}
+.nav-border {
+  border-bottom: 1px;
+  border-color: #e5e5e5;
+  border-style: solid;
+}
+
+.navbar-brand>img {
+    height: 30px;
+    max-width: 250px;
+    margin: -3px;
+}
+.navbar-default .nav li a.selected-main-nav {
+  color: #0EB3EE;
+}
+.subpage-title {
+  margin-left: 0px;
+  margin-top: 60px;
+}
+.subpage-author {
+  margin-left: 0px;
+  margin-bottom: 30px;
+  color: #7f7f7f;
+  font-style: normal;
+}
+
+.subpage-content-container blockquote {
+  background-image: url("/img/quote.png");
+  background-repeat: no-repeat;
+  background-size: 60px auto;
+  border: none;
+  padding: 60px 0px 0px 0px;
+  margin-left: 0px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.subpage-content-container p.subpage-quote-caption {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-left: 0px;
+  font-size: 12px;
+}
+
+.subpage-content-container ul {
+  font-style: normal;
+}
+
+.subpage-content-container li {
+  margin-bottom: 14px;
+}
+
+.subpage-content-container blockquote p {
+  font-size: 16px;
+  margin: auto;
+}
+
+.subpage-content-container img {
+  width: 100%;
+}
+
+.subpage-content-container p,
+.subpage-content-container h1,
+.subpage-content-container h2,
+.subpage-content-container h3,
+.subpage-content-container h4,
+.subpage-content-container h5,
+.subpage-content-container h6 {
+  margin-left: 0px;
+  margin-right: 0px;
+  font-style: normal;
+}
+
+.subpage-content-container h1,
+.subpage-content-container h2,
+.subpage-content-container h3,
+.subpage-content-container h4,
+.subpage-content-container h5,
+.subpage-content-container h6 {
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.subpage-content-container p.subpage-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 11px;
+}
+
+.blog-author {
+  margin-left: 0px;
+  margin-bottom: 30px;
+  color: #7f7f7f;
+  font-style: normal;
+}
+
+.blog-entry {
+  list-style-type: none;;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+  border-bottom: 1px #b2b2b2 solid;
+}
+
+.blog-entry p {
+  font-style: normal;
+}
+
+.subnav-container {
+    height: auto;
+    border-bottom: 0px;
+}
+
+.subnav-container p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.subnav {
+  list-style-type: none;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-right: auto;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  justify-content:  center;
+  align-items:  flex-end;
+}
+
+.subnav li {
+  display: inline;
+  text-align: right;
+  border-bottom: 1px solid;
+  border-color: #e5e5e5;
+  padding-right: 13px;
+  padding-left: 13px;
+  padding-bottom: 12px;
+  padding-top: 0px;
+}
+
+.subnav li.selected-sub-nav {
+  border-bottom: 3px solid;
+  border-color: #e5e5e5;
+  padding-bottom: 10px;
+}
+
+.subnav li a{
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+  font-style: normal;
+}
+.sub-title {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-style: normal;
+  font-family: Merriweather,"Helvetica Neue",Helvetica,Arial,serif;
+  font-weight:100;
+  font-size: 24px;
+  float: none;
 }
 
 header .intro-text .intro-lead-in {
@@ -201,41 +375,79 @@ section h2.section-heading {
 }
 
 @media(min-width:768px) {
+  .subpage-content-container blockquote {
+    padding: 60px 150px 0px 0px;
+    margin-left: 150px;
+  }
 
+  .subpage-content-container p.subpage-quote-caption {
+    margin-left: 150px;
+  }
+
+  .subpage-title {
+    margin-left: 100px;
+  }
+  .subpage-author {
+    margin-left: 100px;
+  }
+  .subpage-content-container p,
+  .subpage-content-container h1,
+  .subpage-content-container h2,
+  .subpage-content-container h3,
+  .subpage-content-container h4,
+  .subpage-content-container h5,
+  .subpage-content-container h6 {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .subpage-content-container ul {
+    margin-left: 60px;
+    margin-right: 100px;
+  }
+
+  .subpage-content-container img {
+    width: calc(100% + 200px);
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+
+  .subnav-container {
+    height: 33px;
+    border-bottom: 1px solid;
+    border-color: #e5e5e5;
+  }
+  .subnav li {
+    height: 100%;
+    border-bottom: 0px solid;
+  }
+  .subnav {
+    float: right;
+  }
+  .sub-title {
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   .preshool-quote-background {
       padding: 100px;
   }
 
   .child-families-quote-background {
+    margin-left: auto;
       padding: 100px;
   }
 
   .families-quote-background {
+    margin-left: auto;
       padding: 100px;
   }
 
   .private-quote-background {
+    margin-left: auto;
       padding: 100px;
-  }
-
-  .container {
-    margin-left: 10px;
-    margin-right: auto;
-  }
-
-  #services .container  {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  nav .container {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #about .container  {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .quote {
@@ -265,20 +477,7 @@ section h2.section-heading {
 }
 
 @media(min-width:992px) {
-  .container {
-    margin-left: 110px;
-    margin-right: auto;
-  }
 
-  #services .container  {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #about .container  {
-    margin-left: auto;
-    margin-right: auto;
-  }
 
   header .intro-text .intro-lead-in {
       font-size: 15px;
@@ -287,23 +486,11 @@ section h2.section-heading {
 
 @media(min-width:1200px) {
 
-  .container {
-    margin-left: 160px;
-    margin-right: auto;
-  }
-
-  #services .container  {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #about .container  {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   header .intro-text .intro-lead-in {
       font-size: 15px;
+  }
+  .col-lg-6 {
+    width: 70%;
   }
 }
 
