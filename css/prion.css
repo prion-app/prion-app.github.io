@@ -67,6 +67,12 @@ li.checkmark {
   font-size: 20px;
 }
 
+.explained-section > h1 {
+  margin-left: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
 .preschool_image {
   margin-top: 10px;
 }
@@ -74,6 +80,14 @@ li.checkmark {
 .preshool-quote-background {
     padding: 100px 0px 100px 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/1147838.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.preshool-quote2-background {
+    padding: 100px 0px 100px 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/Background-quote-annelie-firstpage.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,6 +119,9 @@ li.checkmark {
 
 @media(min-width:1200px) {
   .preshool-quote-background {
+    padding-bottom: 200px;
+  }
+  .preshool-quote2-background {
     padding-bottom: 200px;
   }
   .child-families-quote-background {
@@ -435,6 +452,10 @@ section h2.section-heading {
       padding: 100px;
   }
 
+  .preshool-quote2-background {
+      padding: 100px;
+  }
+
   .child-families-quote-background {
     margin-left: auto;
       padding: 100px;
@@ -509,7 +530,28 @@ section h2.section-heading {
   max-width: 768px;
 }
 
+.desktop_explain_image {
+  width: 100%;
+  display: none;
+}
+.mobile_explain_image {
+  width: 100%;
+  display: block;
+}
+
 @media(min-width:768px) {
+
+  .explained-section > h1 {
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .desktop_explain_image {
+    display: block;
+  }
+  .mobile_explain_image {
+    display: none;
+  }
 
   .floating_phone {
       width: 330px;
@@ -541,6 +583,11 @@ section h2.section-heading {
 }
 
 @media(min-width:992px) {
+  .explained-section > h1 {
+    margin-left: 100px;
+    text-align: left;
+  }
+
   .floating_phone {
       width: 350px;
       margin-top: 30px;
@@ -573,6 +620,11 @@ section h2.section-heading {
 }
 
 @media(min-width:1200px) {
+  .explained-section > h1 {
+    margin-left: 150px;
+    text-align: left;
+  }
+
   .floating_phone {
       width: 450px;
       margin-top: -20px;
