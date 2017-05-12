@@ -173,8 +173,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 .navbar-default {
@@ -193,9 +193,9 @@ header .intro-text {
 }
 
 .navbar-brand>img {
-    height: 30px;
+    height: 20px;
     max-width: 250px;
-    margin: -3px;
+    margin: 0px;
 }
 .navbar-default .nav li a.selected-main-nav {
   color: #0EB3EE;
@@ -365,6 +365,7 @@ header .intro-text .intro-heading {
     text-transform: none;
     font-family: Merriweather,"Helvetica Neue",Helvetica,Arial,serif;
     font-style: italic;
+    margin-bottom: 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -392,6 +393,12 @@ section h2.section-heading {
 }
 
 @media(min-width:768px) {
+  .navbar-brand>img {
+      height: 30px;
+      max-width: 250px;
+      margin: -3px;
+  }
+
   .subpage-content-container blockquote {
     padding: 60px 150px 0px 0px;
     margin-left: 150px;
@@ -488,8 +495,8 @@ section h2.section-heading {
     }
 
     header .intro-text {
-        padding-top: 180px;
-        padding-bottom: 90px;
+        padding-top: 60px;
+        padding-bottom: 30px;
     }
 
     header .intro-text .intro-lead-in {
@@ -514,6 +521,13 @@ section h2.section-heading {
     width: 70%;
   }
 }
+.floating_phone_kids {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+}
 
 .floating_phone {
     width: 80%;
@@ -528,6 +542,11 @@ section h2.section-heading {
   text-align: center;
   padding: 20px;
   max-width: 768px;
+}
+.kids-logo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 250px;
 }
 
 .desktop_explain_image {
@@ -571,7 +590,11 @@ section h2.section-heading {
       float: left;
       margin-left: 10px;
   }
-
+  .preschool-section.right.kids {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
   .preschool-section.right {
     margin-right: 380px;
     text-align: left;
@@ -586,6 +609,15 @@ section h2.section-heading {
   .explained-section > h1 {
     margin-left: 100px;
     text-align: left;
+  }
+
+  .floating_phone_kids {
+    width: 600px;
+    margin-top: 180px;
+    position: relative;
+    top: 0px;
+    float: right;
+    margin-right: 10px;
   }
 
   .floating_phone {
@@ -606,7 +638,11 @@ section h2.section-heading {
       float: left;
       margin-left: 60px;
   }
-
+  .preschool-section.right.kids {
+    margin-right: 450px;
+    margin-left: 10px;
+    text-align: left;
+  }
   .preschool-section.right {
     margin-right: 450px;
     margin-left: 100px;
@@ -623,6 +659,15 @@ section h2.section-heading {
   .explained-section > h1 {
     margin-left: 150px;
     text-align: left;
+  }
+
+  .floating_phone_kids {
+    width: 700px;
+    margin-top: 130px;
+    position: relative;
+    top: 0px;
+    float: right;
+    margin-right: 60px;
   }
 
   .floating_phone {
@@ -714,8 +759,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
   border-color: #0EB3EE;
-  background-color: #FFF;
-  color: #0EB3EE;
+  background-color: #0EB3EE;
+  color: #FFF;
   text-transform: none;
   padding: 15px 30px;
   font-size: 16px;
