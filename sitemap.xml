@@ -93,13 +93,13 @@
   </url>
   
   <url>
-    <loc>http://prionapp.com/tags/ios/</loc>
+    <loc>http://prionapp.com/categories/ios/</loc>
     <lastmod>2017-04-20T10:16:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://prionapp.com/categories/ios/</loc>
+    <loc>http://prionapp.com/tags/ios/</loc>
     <lastmod>2017-04-20T10:16:05+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -108,6 +108,10 @@
     <loc>http://prionapp.com/jobs/</loc>
     <lastmod>2016-12-14T10:16:05+01:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/kontakt/</loc>
   </url>
   
   <url>
