@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://prionapp.com/blogg/bruksg%C3%A5rdens-f%C3%B6rskola/</loc>
+    <lastmod>2017-08-02T11:16:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://prionapp.com/blogg/video/</loc>
     <lastmod>2017-07-28T10:16:05+01:00</lastmod>
   </url>
@@ -108,7 +113,7 @@
   
   <url>
     <loc>http://prionapp.com/blogg/</loc>
-    <lastmod>2017-07-28T10:16:05+01:00</lastmod>
+    <lastmod>2017-08-02T11:16:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -119,13 +124,13 @@
   
   <url>
     <loc>http://prionapp.com/tags/ios/</loc>
-    <lastmod>2017-07-28T10:16:05+01:00</lastmod>
+    <lastmod>2017-08-02T11:16:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://prionapp.com/categories/ios/</loc>
-    <lastmod>2017-07-28T10:16:05+01:00</lastmod>
+    <lastmod>2017-08-02T11:16:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -137,7 +142,7 @@
   
   <url>
     <loc>http://prionapp.com/</loc>
-    <lastmod>2017-07-28T10:16:05+01:00</lastmod>
+    <lastmod>2017-08-02T11:16:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
