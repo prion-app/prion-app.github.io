@@ -9,22 +9,30 @@
     <atom:link href="http://prionapp.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Nyhet! Flera admins i Prion-grupper</title>
+      <title>Nyhet! Flera adminstratörer i Prion-grupper</title>
       <link>http://prionapp.com/blogg/ny-funktion-fler-admins/</link>
       <pubDate>Wed, 15 Nov 2017 12:14:05 +0100</pubDate>
       
       <guid>http://prionapp.com/blogg/ny-funktion-fler-admins/</guid>
-      <description>&lt;p&gt;Ny funktion i Prion! Nu kan du ha flera administratörer i en grupp. Perfekt för förskolelärare som vill hantera Prion-grupper med sina egna konton och inte bara med förskolans generella.&lt;/p&gt;
+      <description>&lt;p&gt;Ny funktion i Prion! Nu kan du ha flera administratörer i en grupp. Perfekt om man som förskola vill att personal ska kunna ha egna konton men ändå kunna ha mer långtgående rättigheter än föräldrarna i gruppen.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://prionapp.com/img/new-function-prion.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Administratörer kan posta inlägg och bjuda in nya personer in till gruppen medan dessa befogenheter kan begränsas för vanliga medlemmar.&lt;/p&gt;
+&lt;p&gt;Ett exempel på hur detta kan användas är att man kan begränsa så bara vissa personer kan bjuda in andra till gruppen. Eller begränsa så bara vissa kan göra nya inlägg i gruppen. Administratörer kan då posta inlägg och bjuda in nya personer medan dessa befogenheter kan begränsas för vanliga medlemmar.&lt;/p&gt;
 
-&lt;p&gt;Våra användare har efterfrågat denna funktion då många förskolelärare vill kunna hantera Priongrupper med eget konto och inte förskolans egna för att ha en personligare kommunikation med föräldrarna.&lt;/p&gt;
+&lt;p&gt;Många har efterfrågat denna funktion för att som förskollärare kunna hantera Priongrupper med eget konto och inte förskolans egna, för att ha en personligare kommunikation med föräldrarna där de ser vem som är avsändare.&lt;/p&gt;
 
-&lt;p&gt;Hör av dig till oss på &lt;a href=&#34;mailto:hello@prionapp.com&#34;&gt;hello@prionapp.com&lt;/a&gt; om du har andra förslag till Prion eller öppna din Prion-app och se vilka gruppmedlemmar du vill göra till admins.&lt;/p&gt;
+&lt;h4 id=&#34;vad-innebär-det-att-vara-ägare-och-adminstratör-för-en-grupp&#34;&gt;Vad innebär det att vara ägare och adminstratör för en grupp?&lt;/h4&gt;
+
+&lt;p&gt;Den som skapar en grupp är gruppägare och har den yttersta kontrollen över gruppen och det delade innehållet. Om inga aktiva val görs kan alla som är med i gruppen både göra inlägg och bjuda in andra till gruppen. Ägaren kan dock välja att ställa in så bara de som är administratörer har dessa befogenheter. Ägaren bestämmer vilka andra personer i gruppen som är administratörer.&lt;/p&gt;
+
+&lt;h4 id=&#34;hur-gör-man-någon-till-adminstratör&#34;&gt;Hur gör man någon till adminstratör?&lt;/h4&gt;
+
+&lt;p&gt;För att göra någon till administratör klickar ägaren på personens namn i gruppens medlemslistan och väljer &amp;ldquo;Make Admin&amp;rdquo;. På samma sätt kan ägaren även ta ifrån någon sin administratörsroll. Även om någon är administratör kan den aldrig ta bort gruppens ägare, en ägare kan dock välja att lämna över ägandeskapet till en annan person i gruppen.&lt;/p&gt;
+
+&lt;p&gt;Hör av dig till oss på &lt;a href=&#34;mailto:hello@prionapp.com&#34;&gt;hello@prionapp.com&lt;/a&gt; om du har några frågor.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://prionapp.com/img/prion-multiple-admins.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
