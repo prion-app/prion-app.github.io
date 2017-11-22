@@ -172,6 +172,12 @@ ul.social-buttons li a {
   background-color: #222;
   color: #fff;
 }
+.text-success {
+  margin-bottom: 11px;
+}
+.text-danger {
+  margin-bottom: 11px;
+}
 
 footer {
   margin-top: 40px;
@@ -183,6 +189,22 @@ footer {
 footer a {
   color: #000;
 }
+
+.link-list {
+  padding: 0px;
+}
+.link-list a {
+  color: #0EB3EE;
+}
+
+.link-list-item {
+  list-style-type: none;
+  padding-bottom: 14px;
+}
+.contact-container {
+  padding-bottom: 40px;
+}
+
 
 header {
   text-align: center;
@@ -753,6 +775,8 @@ a.white:active {
     color: #0EB3EE;
 }
 
+
+
 a {
     color: #0EB3EE;
 }
@@ -767,6 +791,7 @@ a.active {
     border-color: #0EB3EE;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #0EB3EE;
+    text-transform: none;
 }
 
 .btn-primary:hover,
@@ -777,6 +802,13 @@ a.active {
     border-color: #0EB3EE;
     color: #fff;
     background-color: #0EB3EE;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  border-color: #0EB3EE;
+  color: #0EB3EE;
+  background-color: #fff;
 }
 
 fieldset[disabled] .btn-primary.active {
