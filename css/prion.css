@@ -179,10 +179,14 @@ ul.social-buttons li a {
   margin-bottom: 11px;
 }
 
+ul.social-buttons {
+  margin-top: 0px;
+}
+
 footer {
   margin-top: 40px;
   color: #000;
-  background-color: #fff;
+  background-color: #00B0F012;
   border-top: 1px #b2b2b2 solid;
 }
 
