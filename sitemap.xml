@@ -12,6 +12,11 @@
   </url>
   
   <url>
+    <loc>http://prionapp.com/blogg/gdpr-pa-prion/</loc>
+    <lastmod>2017-12-13T09:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://prionapp.com/blogg/luciabilder%20p%C3%A5%20f%C3%B6rskolan/</loc>
     <lastmod>2017-12-11T09:00:05+01:00</lastmod>
   </url>
@@ -153,13 +158,13 @@
   </url>
   
   <url>
-    <loc>http://prionapp.com/categories/ios/</loc>
+    <loc>http://prionapp.com/tags/ios/</loc>
     <lastmod>2017-12-14T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://prionapp.com/tags/ios/</loc>
+    <loc>http://prionapp.com/categories/ios/</loc>
     <lastmod>2017-12-14T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>

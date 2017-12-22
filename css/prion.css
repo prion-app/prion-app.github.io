@@ -28,6 +28,11 @@
   background-repeat: no-repeat;
 }
 
+#gdpr {
+  background-color: #0EB3EE12;
+  padding: 30px;
+}
+
 #landing-video {
   float:left;
   width:100%;
@@ -447,9 +452,26 @@ section h2.section-heading {
     margin-right:20px;
     margin-top:70px;
   }
+  #gdpr p {
+    max-width: 300px;
+    margin-right: 10px;
+  }
+
+  .gdpr_image {
+      max-width: 150px;
+  }
 }
 
 @media(min-width:768px) {
+
+  #gdpr p {
+    max-width: 400px;
+    margin-right: 20px;
+  }
+
+  .gdpr_image {
+      max-width: 200px;
+  }
 
   .navbar-brand>img {
       height: 30px;
@@ -559,6 +581,10 @@ section h2.section-heading {
 
 @media(min-width:992px) {
 
+  #gdpr p {
+    max-width: 600px;
+    margin-right: 30px;
+  }
 
   header .intro-text .intro-lead-in {
       font-size: 15px;
@@ -566,6 +592,11 @@ section h2.section-heading {
 }
 
 @media(min-width:1200px) {
+
+  #gdpr p {
+    max-width: 800px;
+    margin-right: 40px;
+  }
 
   .col-lg-6 {
     width: 70%;
@@ -577,6 +608,12 @@ section h2.section-heading {
   margin-right: auto;
   margin-top: 20px;
   display: block;
+}
+
+.gdpr_image {
+    max-width: 200px;
+    margin-left: 20px;
+    display: block;
 }
 
 .floating_phone {

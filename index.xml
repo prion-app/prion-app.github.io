@@ -88,6 +88,74 @@
     </item>
     
     <item>
+      <title>GDPR på Prion</title>
+      <link>http://prionapp.com/blogg/gdpr-pa-prion/</link>
+      <pubDate>Wed, 13 Dec 2017 09:00:05 +0100</pubDate>
+      
+      <guid>http://prionapp.com/blogg/gdpr-pa-prion/</guid>
+      <description>&lt;p&gt;Den 25 maj 2018 träder den nya dataförordningen från EU i kraft. Här beskriver vi hur Prion arbetar med GDPR och hur detta påverkar dig som användare.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;vad-är-gdpr&#34;&gt;Vad är GDPR?&lt;/h3&gt;
+
+&lt;p&gt;GDPR, General Data Protection Regulation, är en ny dataförordning som EU:s medlemsländer har antagit och som träder i kraft den 25 maj 2018. Den kommer att ersätta PUL, den svenska personuppgiftslagen.&lt;/p&gt;
+
+&lt;p&gt;Med GDPR stärks individens rätt att själv bestämma över sina personuppgifter, bland annat kommer reglerna om samtycken och informationsinsatserna bli hårdare.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://prionapp.com/img/preschool/gdpr-prion.jpg&#34; alt=&#34;Prion är GDPR-säkert&#34; /&gt;
+&lt;/div&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;gdpr-innebär-att&#34;&gt;GDPR innebär att:&lt;/h4&gt;
+
+&lt;h5 id=&#34;privacy-by-default&#34;&gt;Privacy by default&lt;/h5&gt;
+
+&lt;p&gt;Varje organisation måste själv ta ansvar för den data som används och vilka system som använder datan, även den data som har lagts över på en IT-leverantör. Privacy by default innebär att man arbetar strukturerat med integritetsäkerhet i IT-projekt och system i varje led och inte tar in mer information om individen än nödvändigt. Frågor som organisationen bör ställa sig är varför har man sparat vissa uppgifter om individen, vad kommer de användas till, vem har tillgång till dem etc.&lt;/p&gt;
+
+&lt;h5 id=&#34;dataskyddsombud&#34;&gt;Dataskyddsombud&lt;/h5&gt;
+
+&lt;p&gt;En ny roll införs som har särskilt ansvar för att se till att reglerna efterföljs och som bevakar dataskyddsfrågor. Offentliga myndigheter och enheter samt privata företag som behandlar uppgifter om hälsodata, biometriska data eller genomför alla former av profilering av individer på internet är skyldiga att utse ett dataskyddsombud.&lt;/p&gt;
+
+&lt;h5 id=&#34;obligatorisk-anmälan-till-dataskyddsinspektionen&#34;&gt;Obligatorisk anmälan till Dataskyddsinspektionen&lt;/h5&gt;
+
+&lt;p&gt;Om något inträffar som riskerar att personuppgifter hamnar i orätta händer så måste detta rapporteras till Datainspektionen. Även de berörda måste informeras inom 72 timmar. Det kan röra sig om dataintrång eller att ett misstag har skett.&lt;/p&gt;
+
+&lt;h5 id=&#34;samtycke&#34;&gt;Samtycke&lt;/h5&gt;
+
+&lt;p&gt;Företag kan inte kräva samtycke i utbyte mot tjänster eller annat som en person borde vara berättigad till.&lt;/p&gt;
+
+&lt;h5 id=&#34;dataportabilitet&#34;&gt;Dataportabilitet&lt;/h5&gt;
+
+&lt;p&gt;Den registrerade har rätt att få sin data i ett strukturerat och allmänt använt och maskinläsbart format och att kunna skicka den informationen till konkurrerande verksamhet (till exempel från ett försäkringsbolag till ett annat).&lt;/p&gt;
+
+&lt;h5 id=&#34;ökade-rättigheter-för-den-registrerade&#34;&gt;Ökade rättigheter för den registrerade&lt;/h5&gt;
+
+&lt;p&gt;Den registrerade har rätt till att elektroniskt få en gratis kopia på sina uppgifter och att även få sina uppgifter raderade eller upprättade om någon uppgift är felaktig.&lt;/p&gt;
+
+&lt;h5 id=&#34;böter-för-det-företag-som-inte-följer-gdpr&#34;&gt;Böter för det företag som inte följer GDPR&lt;/h5&gt;
+
+&lt;p&gt;Datainspektionen kan ge böter till den organisation som inte har efterlevt lagstiftningen.&lt;/p&gt;
+
+&lt;h4 id=&#34;vad-gör-prion&#34;&gt;Vad gör Prion?&lt;/h4&gt;
+
+&lt;p&gt;Vi på Prion arbetar noggrannt med våra interna processer, rutiner samt system enligt privacy per default. Just nu genomgår vi säkerhets- och riskanalyser över våra leverantörer för att säkerställa att deras hantering av personuppgifter uppfyller GDPR till den 25 maj. Vi förbereder även våra system med att kunna exportera ut och redigera användardata ifall den användare efterfrågar det (dataportabilitet) och ser över våra samtyckesavtal. Det är idag redan möjligt att radera användardata.&lt;/p&gt;
+
+&lt;h4 id=&#34;vad-behöver-du-som-användare-tänka-på&#34;&gt;Vad behöver du som användare tänka på?&lt;/h4&gt;
+
+&lt;p&gt;Om du använder Prion i en organisation, till exempel på en förskola, bör du göra en inventering och säkerhetsanalys över hur din organisation använder personuppgifter.&lt;/p&gt;
+
+&lt;p&gt;Du som använder Prion för privat bruk har ingen skyldighet att följa GDPR. Dock kan du ställa krav på att din leverantör följer GDPR. Läs mer här på &lt;a href=&#34;https://www.datainspektionen.se/dataskyddsreformen/dataskyddsforordningen/tillampningsomrade/undantag-for-privat-behandling-av-personuppgifter/&#34; target=&#34;_blank&#34; title=Datainspektionen hemsidaDatainspektionen hemsida&gt;Datainspektionen hemsida&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Så här tolkar vi GDPR och hur detta påverkar oss och våra användare. Hör av dig till &lt;a href=&#34;mailto:hello@prionapp.com&#34; title=hello@prionapp.com&gt;hello@prionapp.com&lt;/a&gt; om du har fler frågor om GDPR.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;a href=&#34;http://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Sista minuten-tips kring luciabilder på förskolan</title>
       <link>http://prionapp.com/blogg/luciabilder%20p%C3%A5%20f%C3%B6rskolan/</link>
       <pubDate>Mon, 11 Dec 2017 09:00:05 +0100</pubDate>
@@ -723,79 +791,6 @@ Varje barn har en enskild avdelning av bilder som bara kan nås av det enskilda 
 &lt;h3 id=&#34;skapa-poster&#34;&gt;Skapa poster!&lt;/h3&gt;
 
 &lt;p&gt;Nu kan ni skapa, dokumentera och dela barnens dagar och äventyr med exakt rätt målgrupp.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Läs mer om Prion på &lt;a href=&#34;http://prionapp.com/&#34;&gt;prionapp.com&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Prion Kids</title>
-      <link>http://prionapp.com/kids/</link>
-      <pubDate>Wed, 17 May 2017 10:16:05 +0100</pubDate>
-      
-      <guid>http://prionapp.com/kids/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://prionapp.com/img/kids/PrionKids-logo-article.png&#34; alt=&#34;Kids Logo&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;barnens-kamera-app-på-förskolan&#34;&gt;Barnens kamera-app på förskolan&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Barnfunktion där barnen dokumenterar och fotograferar&lt;/li&gt;
-&lt;li&gt;Förskolan får spårning av vilket barn som tagit vilka bilder&lt;/li&gt;
-&lt;li&gt;Kan delas vidare till föräldrar eller användas på förskolan&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://prionapp.com/img/kids/kids-screens-article.png&#34; alt=&#34;Screenshots&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;om-appen&#34;&gt;Om appen&lt;/h3&gt;
-
-&lt;p&gt;Med Prion Kids kan flera barn kan ta bilder med samma iPad och få spårning
-av vem som tagit vilka bilder. Barnen har sina egna portfolios och ni kan arbeta vidare med bilder på olika sätt t.ex. dela vidare till föräldrar. Barnen blir delaktiga
-i sin dokumentation, får träna sig i att arbeta med bilder och kan utforska världen med foto. Bilderna kan underlätta reflektion kring digitala medier och stötta barnet
-i att uttrycka sina tankar. Ni som vuxna använder en egen version av appen som heter Prion där mer inställningar och funktioner finns tillgängliga.&lt;/p&gt;
-
-&lt;h2 id=&#34;såhär-fungerar-det&#34;&gt;Såhär fungerar det&lt;/h2&gt;
-
-&lt;h3 id=&#34;kom-igång&#34;&gt;Kom igång&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Barnen använder Prion Kids:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1 . &lt;a href=&#34;https://itunes.apple.com/us/app/prion-kids/id1180154600?l=sv&amp;amp;ls=1&amp;amp;mt=8&#34;&gt;Ladda ner Prion Kids i AppStore&lt;/a&gt; och skapa profiler för barnen. Barnen tar sedan bilder under sin profil.
-På iPad: sök på Prion Kids i AppStore, välj “appar för iPhone” uppe till vänster.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ni vuxna använder Prion:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;2 . &lt;a href=&#34;https://itunes.apple.com/se/app/prion/id924506638?mt=8&#34;&gt;Ladda ner Prion i AppStore&lt;/a&gt; och logga in med samma konto som i Prion Kids. Härifrån har ni mer funktioner
-för att hantera barnens bilder. På iPad: sök på Prion i AppStore, välj “appar för iPhone” uppe till vänster.&lt;/p&gt;
-
-&lt;h3 id=&#34;gör-foto-övningar-med-barnen&#34;&gt;Gör foto-övningar med barnen&lt;/h3&gt;
-
-&lt;p&gt;Låt barnen utforska själva och fånga världen från sitt egna perspektiv - ta bilder på  vad de anser intressant
-och viktigt. Bilderna kan användas för att starta samtal och vara ett stöd för barnet att utifrån bilden kunna
-uttrycka sina tankar. Bege er ut på foto-uppdrag och gör övningar som passar just hos er och nu. Låt barnen
-ta bilder på det ni arbetar med - som i allt skapande finns inga begräsningar.&lt;/p&gt;
-
-&lt;h3 id=&#34;dela-vidare-bilder-till-föräldrar-och-använd-som-reklektion&#34;&gt;Dela vidare bilder till föräldrar och använd som reklektion&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Varje barn har en egen portfolio&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Öppna barnens portfolios via Prion. Här får ni en bra överblick över bilderna och kan administrera både
-barnens bilder och profiler.&lt;/p&gt;
-
-&lt;p&gt;Samlas i mindre grupp och koppla iPad:en till projektor eller håll upp lärplattan för barnen. Öppna barnens
-portfolios i Prion (hittas till vänster om hem-flödet). Låt barnen berätta om sina dokumentationer. Se
-barnens portfolios en och en, blandat och i bildspel. Ni kan även lägga till bilder i barnens portfolios via Prion.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Dela vidare till föräldrarna&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Det är enkelt att dela vidare bilder till föräldrar. Bilderna vattenmärks med barnet som tagit dem - så även
-föräldrar kan se att deras barn tagit en viss bild. Ni kan antingen spara ner bilderna eller dela dem i Prion.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;btn btn-xl bullet-button&#34; href=&#34;https://itunes.apple.com/us/app/prion-kids/id1180154600?l=sv&amp;ls=1&amp;mt=8&#34;&gt;Ladda ned Prion Kids&lt;/a&gt;
-&lt;a class=&#34;btn btn-xl bullet-button&#34; href=&#34;https://bnc.lt/3TIg/qaaRFDrvGz&#34;&gt;Ladda ned Prion&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
