@@ -479,6 +479,10 @@ section h2.section-heading {
       margin: -3px;
   }
 
+  .navbar-default.navbar-shrink {
+    background-color: #fff;
+  }
+
   .subpage-content-container blockquote {
     padding: 60px 150px 0px 0px;
     margin-left: 150px;
