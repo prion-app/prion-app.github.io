@@ -137,6 +137,11 @@ li.checkmark {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.families-quote-text {
+  text-align: center;
+  color: #fff;
+
+}
 
 @media(min-width:1200px) {
   .preshool-quote-background {
@@ -584,7 +589,9 @@ section h2.section-heading {
 }
 
 @media(min-width:992px) {
-
+  #gdpr {
+    padding-left: 140px;
+  }
   #gdpr p {
     max-width: 600px;
     margin-right: 30px;
@@ -596,6 +603,9 @@ section h2.section-heading {
 }
 
 @media(min-width:1200px) {
+  #gdpr {
+    padding-left: 190px;
+  }
 
   #gdpr p {
     max-width: 800px;
