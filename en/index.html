@@ -248,6 +248,148 @@
   <br />
   <br />
 
+    
+      <!-- Footer section -->
+<footer>
+
+  <div class="container">
+    <div class="row text-left contact-container">
+
+      <div class="col-md-6">
+        <h3>Contact us!</h3>
+        <br />
+        
+
+        <form  action="https://formspree.io/hello@prionapp.com" method="POST" name="sentMessage" id="contactForm">
+
+          <fieldset>
+            <div class="row">
+              <div class="col-md-12">
+
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" required="required" name="message" placeholder="Message" data-validation-error-msg="Please enter your message"></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+
+                  <div class="form-group">
+                    <input class="form-control" id="email" required="required" type="email" name="email" placeholder="Email" data-validation-error-msg="Enter your email">
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+
+                <div class="form-group">
+                  <input class="form-control" id="firstname" required="required" type="text" name="firstname" placeholder="First name" data-validation-error-msg="Enter your first name">
+                  <p class="help-block text-danger"></p>
+                </div>
+
+
+
+
+                <div class="form-group">
+                  <input class="form-control" id="lastname" required="required" type="text" name="lastname" placeholder="Last name" data-validation-error-msg="Enter your last name"></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+
+                <input type="text" name="_gotcha" style="display:none" />
+
+              </div>
+
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div class="text-success" id="success" style="display:none;">
+                  Thanks for contacting us, we will be in touch soon
+                </div>
+                <div class="text-danger" id="error" style="display:none;">
+                  Your message could not be sent. Please contact us at hello@prionapp.com instead
+                </div>
+                <button type="submit" value="Submit" class="btn btn-primary btn-md">Send</button>
+              </div>
+            </div>
+
+            <input type="hidden" name="page" value="/en/"/>
+
+          </fieldset>
+        </form>
+        
+      </div>
+      <div class="col-md-6">
+        <h3>Prions news letter</h3>
+        <br />
+        
+        <form  action="https://formspree.io/hello@prionapp.com" method="POST" name="sentMessage" id="newsForm">
+
+          <fieldset>
+            <div class="row">
+              <div class="col-md-12">
+
+
+                  <div class="form-group">
+                    <input class="form-control" id="email" required="required" type="email" name="email" placeholder="Email" data-validation-error-msg="Please enter you email adress">
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+              </div>
+
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div class="text-success" id="success" style="display:none;">
+                  You are signed up for the news letter
+                </div>
+                <div class="text-danger" id="error" style="display:none;">
+                  Something went wrong, please try again
+                </div>
+                <button type="submit" value="Submit" class="btn btn-primary btn-md">Yes please</button>
+              </div>
+            </div>
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="text" name="news" value="yes" style="display:none" />
+          </fieldset>
+        </form>
+        
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">Copyright Prion AB, 2018</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+
+          
+            <li><a href="https://twitter.com/PrionApp"><i class="fa fa-twitter"></i></a></li>
+          
+            <li><a href="https://www.linkedin.com/company/9392753/"><i class="fa fa-linkedin"></i></a></li>
+          
+            <li><a href="https://www.instagram.com/prion_app/"><i class="fa fa-instagram"></i></a></li>
+          
+            <li><a href="https://www.facebook.com/prionapp/"><i class="fa fa-facebook"></i></a></li>
+          
+            <li><a href="mailto:hello@prionapp.com"><i class="fa fa-envelope-o"></i></a></li>
+          
+
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+
+          <li><a href="/">Swedish</a></li>
+
+          
+            <li><a href="http://app.prionapp.com/privacy">Privacy Policy</a></li>
+          
+            <li><a href="http://app.prionapp.com/terms">Terms of Use</a></li>
+          
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
     <!-- jQuery -->
 <script src="http://prionapp.com/js/jquery-v3.3.1/jquery.min.js"></script>
 
