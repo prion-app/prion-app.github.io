@@ -132,6 +132,16 @@
   </url>
   
   <url>
+    <loc>http://prionapp.com/en/</loc>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://prionapp.com/en/preschools/</loc>
+    <lastmod>2017-02-07T10:16:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://prionapp.com/blogg/prion-som-digitalt-hjalpmedel-i-forskolan/</loc>
     <lastmod>2017-02-07T10:16:05+01:00</lastmod>
   </url>
@@ -163,13 +173,13 @@
   </url>
   
   <url>
-    <loc>http://prionapp.com/tags/ios/</loc>
+    <loc>http://prionapp.com/categories/ios/</loc>
     <lastmod>2018-01-08T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://prionapp.com/categories/ios/</loc>
+    <loc>http://prionapp.com/tags/ios/</loc>
     <lastmod>2018-01-08T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
