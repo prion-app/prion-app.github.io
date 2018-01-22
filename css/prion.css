@@ -253,6 +253,7 @@ header .intro-text {
 .navbar-default .nav li a.selected-main-nav {
   color: #0EB3EE;
 }
+
 .subpage-title {
   margin-left: 0px;
   margin-top: 60px;
@@ -444,6 +445,19 @@ section {
 section h2.section-heading {
   margin-top: 100px;
 }
+
+.img-subpage-column {
+  width: 100% !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.text-subpage-column {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+
 @media(min-width:660px) {
   #landing-video {
     width: 340px;
