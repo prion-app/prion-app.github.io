@@ -6,8 +6,61 @@
     <description>Recent content on Prion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <lastBuildDate>Fri, 12 Jan 2018 09:00:05 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jan 2018 18:00:05 +0100</lastBuildDate>
     <atom:link href="http://prionapp.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ny funktion - Scanna teckninger och dokument med Prion!</title>
+      <link>http://prionapp.com/blogg/scanna-barnteckningar-med-prion-ny-funktion/</link>
+      <pubDate>Mon, 29 Jan 2018 18:00:05 +0100</pubDate>
+      
+      <guid>http://prionapp.com/blogg/scanna-barnteckningar-med-prion-ny-funktion/</guid>
+      <description>&lt;p&gt;Nyhet! Nu har vi lanserat en ny funktion som gör det möjligt att scanna in fysiska dokument och papper direkt med din Prion-app, perfekt för dig som vill bevara barnens arbeten och teckningar på en och samma plats.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;
+&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://prionapp.com/img/gul-teckning.png&#34; alt=&#34;Barnteckning inscannad med Prion&#34; /&gt;
+&lt;/figure&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Med Prions scanner kan förskolor samla all dokumentation kring ett barn i samma digitala portfolio vilket ger en bättre översikt över barnets utveckling och underlag för reflektion.&lt;/p&gt;
+
+&lt;p&gt;Genom att scanna in barnteckningar och andra skolarbeten i Prion kan förskolorna minska sin pappersadministration. Föräldrar tar även del av sitt barns skapande direkt i mobilen redan samma dag som det har skett på förskolan.&lt;/p&gt;
+
+&lt;p&gt;Fysiska dokument riskerar att både skadas och bleknas över tid. Det kan därför vara bra att bevara gamla barnteckningar digitalt innan det är för sent. Ihop med &lt;a href=&#34;http://prionapp.com/blogg/fardiga-fotobocker-av-dina-prion-foton/&#34; title=Prion Books &gt;Prion Books&lt;/a&gt; kan föräldrar även skapa uppskattade fotoböcker av barnens konstverk.&lt;/p&gt;
+
+&lt;p&gt;Till skillnad från när man fotograferar ett dokument med mobilen så följer inte oönskad bakgrund med på ett inscannat dokument och skuggor och ojämnheter kan även ljusas upp.&lt;/p&gt;
+
+&lt;h3 id=&#34;hur-funkar-scanningen&#34;&gt;Hur funkar scanningen?&lt;/h3&gt;
+
+&lt;p&gt;&lt;figure&gt;
+&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://prionapp.com/img/scanningsfunktion.png&#34; alt=&#34;Prions nya scanningsfunktion&#34; /&gt;
+&lt;figcaption&gt;Så här scannar du med Prion&lt;/figcaption&gt;&lt;/div&gt;
+&lt;/figure&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Så här går du till väga med att scanna i Prion:&lt;/p&gt;
+
+&lt;p&gt;1) Öppna Prion-appen och tryck på det stora plustecknet längst ner i huvudmenyn som leder dig till vyn för att skapa nytt inlägg.&lt;/p&gt;
+
+&lt;p&gt;2)  Ovanför kamera- och textbildikonerna hittar du ikonen för scanning. Tryck på ikonen och peka med mobilen på det du vill scanna.&lt;/p&gt;
+
+&lt;p&gt;3)  I det här steget kan du använda blixt ifall du behöver mer ljus och ändra från färg till svartvitt inscanning. Du kan också välja mellan manuell eller automatisk scanning.&lt;/p&gt;
+
+&lt;p&gt;4)  När du har scannat klart, kan du därefter beskära och rotera bilden. Tryck på “save” när du är nöjd och en nedsparad bild i kamerarullen är sedan redo för att delas vidare i Prion.&lt;/p&gt;
+
+&lt;h3 id=&#34;bilder-teckningar-och-filmer-allt-på-samma-plats&#34;&gt;Bilder, teckningar och filmer – allt på samma plats!&lt;/h3&gt;
+
+&lt;p&gt;Du kan dela vidare det inscannade dokumentet som ett vanligt Prion-inlägg ihop med andra bilder och videoklipp. En uppladdning i Prion kan innhålla max 10 stycken mediefiler men du kan välja att addera fler media i inlägget efter uppladdningen.&lt;/p&gt;
+
+&lt;p&gt;Den nya scanningsfunktionen finns än så länge på iPad och iPhone. Ladda ned senaste versionen på App Store.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-xl&#34; href=&#34;https://bnc.lt/3TIg/qaaRFDrvGz &#34;target=&#34;_blank&#34; title=Öppna Prion
+&gt;Öppna Prion&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Bättre bilddokumentation på Eskelhem förskola på Gotland</title>
@@ -759,72 +812,6 @@ Självklart går det att blanda videoklipp och bilder i inlägg. Den enda begrä
 
 &lt;p&gt;Prion är ett svenskt teknikbolag som har utvecklat en digital plattform i form av en app som gör det enkelt att dela, kommunicera och samla bilder privat. I appen som bär bolagets namn skapas inlägg med bilder, video och texter som kan skickas till utvalda grupper och personer. Bolagets grundare är VD Fredrika Bernadotte och teknikchef Tobias Brander. Namnet Prion kommer från de första bokstäverna i Privacy On, och står för appens privata fokus.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Ystads Allehanda tidning intervjuar förskollärare om Prion</title>
-      <link>http://prionapp.com/blogg/app-gor-det-latt-for-foraldrar-halla-koll/</link>
-      <pubDate>Sat, 03 Jun 2017 10:16:05 +0100</pubDate>
-      
-      <guid>http://prionapp.com/blogg/app-gor-det-latt-for-foraldrar-halla-koll/</guid>
-      <description>&lt;p&gt;Tidningen skriver om hur föräldrar kan följa sitt barn i realtid och därigenom få en större inblick i barnets vardag på förskolan. De har varit och besökt förskolan Ankaret i Abbekås som använt Prion sedan årsskiftet. Två av Ankarets tre avdelningar har testat appen och man anser det vara så lyckat att det även ska introduceras på samtliga avdelningar.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;I artikeln liknas Prion med Instagram - men personalen beskriver att skillnaden är att i Prion kränks inte integriteten och att den inte bara är för att dela allmänna uppdateringar utan barnens ansikten.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Vi har hållit på hela våren och blivit riktigt inkörda på detta. Det fungerar jättebra. Vi synliggör verksamheten för barnens föräldrar och det sker på ett integritetssäkert sätt. Vi är väldigt nöjda, alla föräldrar är också nöjda, så vi planerar att fortsätta.“
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;— Linda Björk, förskollärare&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://prionapp.com/img/preschool/forskollarare-linda-bjork-med-prion.jpeg&#34; alt=&#34;&#34; /&gt;
-&lt;p class=&#34;subpage-caption&#34;&gt;Foto: Katarina Melvinger&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-Varje barn har en enskild avdelning av bilder som bara kan nås av det enskilda barnets föräldrar. Sedan finns en allmän grupp där de lägger ut bilder som är gemensamma för alla, till exempel bilder från en utflykt till en sagostund på biblioteket. Föräldrarna får en notis när det finns ett nytt inlägg och kan öppna direkt i sin mobiltelefon.&lt;/p&gt;
-
-&lt;p&gt;Linda Björk på Ankarets förskola beskriver för Ystads Allehanda att hon tycker att det är bra att appen är så enkel och att det går väldigt snabbt att skriva en liten uppdatering om något barn och lägga ut en bild.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Det sker på ett ögonblick och det är en förutsättning för att det ska fungera. Och det är inte så att vi känner att vi måste göra det hela tiden. Det får inte bli en belastning. Hinner man inte uppdatera får det vänta.“
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;— Linda Björk, förskollärare&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Hon beskriver hur hon tror att föräldrar särskilt uppskattar att kunna ta del av information om barnens aktiviteter samma dag som de hänt. Det gör det lättare att samtala med barnet kring dagen hemma vid köksbordet.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Ofta kan det vara svårt att få barnet att berätta vad de har varit med om och gjort under dagen. Det är nog något alla föräldrar känner igen sig i. Men om man då har sett en bild på barnet där han eller hon sitter och målar eller lägger pärlplattor, så kan man börja prata om det. Man kan också visa barnet bilden och så har man något konkret att prata om.“
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;— Linda Björk, förskollärare&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Extra bra är appen kanske för föräldrar som skolar in sitt barn och kanske lämnar dem gråtande här på förskolan. Vi kan då senare lägga upp en bild på barnet som sitter hur glad som helst och lägger pussel fortsätter hon.&lt;/p&gt;
-
-&lt;h3 id=&#34;inblicken-uppmuntrar-till-samtal-mellan-barn-och-föräldrar&#34;&gt;Inblicken uppmuntrar till samtal mellan barn och föräldrar&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Vi har bara tyckt att det är kul. Det är roligt att få en inblick i vår sons vardag. Och får vi en bild på honom där han sitter och tittar på en nyckelpiga så kan vi ta upp det senare och prata om det under kvällen hemma.“
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;— Susanne Strandberg som har sin son på Ankaret&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Läs hela artikeln här:
-&lt;a href=&#34;http://www.ystadsallehanda.se/skurup/app-gor-det-latt-for-foraldrar-halla-koll/&#34;&gt;Få stenkoll på barnen - med ny förskoleapp&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;läs-mer-om-prion&#34;&gt;Läs mer om Prion&lt;/h3&gt;
-
-&lt;p&gt;Filmer, produktblad och guider om Prion.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://prionapp.com/forskola/&#34;&gt;Läs vidare&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;kom-igång-direkt&#34;&gt;Kom igång direkt&lt;/h3&gt;
-
-&lt;p&gt;Ladda ner appen till en lärplatta, iPhone eller Android-telefon.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://bnc.lt/3TIg/qaaRFDrvGz&#34;&gt;Hämta Appen&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;tipsa&#34;&gt;Tipsa!&lt;/h3&gt;
-
-&lt;p&gt;&lt;a class=&#34;btn btn-xl&#34; href=&#34;mailto:hello@prionapp.com&#34;&gt;Tipsa om en förskola&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
