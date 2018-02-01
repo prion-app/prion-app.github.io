@@ -9,6 +9,42 @@
     <atom:link href="http://prionapp.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Nyhet! Bestäm vilka som ska få kommentera i grupper</title>
+      <link>http://prionapp.com/blogg/begransa-kommentarer/</link>
+      <pubDate>Thu, 01 Feb 2018 09:00:05 +0100</pubDate>
+      
+      <guid>http://prionapp.com/blogg/begransa-kommentarer/</guid>
+      <description>&lt;p&gt;Nu kan du som har skapat en grupp i Prion (owner) begränsa vem som får lämna kommentarer på inlägg i gruppen.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;
+&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://prionapp.com/img/blakommentar.png&#34; alt=&#34;Begränsa vilka som får kommentera i Prion&#34; /&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Flera av våra användare har efterfrågat möjligheten att få bestämma vilka som ska få kommentera i grupper. Det kan tex vara förskolepersonal som hanterar större grupper för informationsspridning till alla vårdnadshavare på en avdelning eller förskola och där man vill sköta dialogen snarare i de individuella barngrupperna i Prion.&lt;/p&gt;
+
+&lt;h4 id=&#34;hur-bestämmer-man-vem-som-får-kommentera&#34;&gt;Hur bestämmer man vem som får kommentera?&lt;/h4&gt;
+
+&lt;p&gt;Om du är owner i en grupp kan du gå till gruppens inställningar (group settings) och där klicka i om du vill att endast admins ska få kommentera. Inställningarna hittar du genom att klicka på kugghjulet längst upp till höger inne i en gruppsida i Prion. Man kan när som helst slå på eller av kommentarsfunktionen för medlemmarna.&lt;/p&gt;
+
+&lt;p&gt;I samma vy kan du även ställa in andra rättigheter till gruppmedlemmarna. Om inga aktiva val görs kan alla som är med i gruppen både göra inlägg och bjuda in andra till gruppen. Ägaren kan dock välja så att bara de som är administratörer har dessa befogenheter. I vyn för gruppens medlemmar bestämmer du vem du vill ska vara admins av gruppens medlemmar.&lt;/p&gt;
+
+&lt;p&gt;Owner har alltid den yttersta kontrollen över gruppen och det delade innehållet.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;
+&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://prionapp.com/img/screenshot-comments.png&#34; alt=&#34;Begränsa vilka som får kommentera i Prion&#34; /&gt;
+&lt;/figure&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Om du har några frågor om gruppinställningar eller har förslag på förbättringar kan du alltid mejla oss på &lt;a href=&#34;mailto:hello@prionapp.com&#34;&gt;hello@prionapp.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;btn btn-xl&#34; href=&#34;https://bnc.lt/3TIg/qaaRFDrvGz &#34;target=&#34;_blank&#34; title=Öppna Prion
+&gt;Öppna Prion&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Ny funktion - Scanna teckninger och dokument med Prion!</title>
       <link>http://prionapp.com/blogg/scanna-barnteckningar-med-prion-ny-funktion/</link>
       <pubDate>Mon, 29 Jan 2018 18:00:05 +0100</pubDate>
@@ -734,35 +770,6 @@ risker som finns med samma samhällsutveckling.”
 &lt;h3 id=&#34;prion-är-ett-digitalt-verktyg-för-att-personal-och-barn-tillsammans-ska-ge-föräldrar-insyn&#34;&gt;Prion är ett digitalt verktyg för att personal och barn tillsammans ska ge föräldrar insyn&lt;/h3&gt;
 
 &lt;p&gt;Prion används i förskolan för att ge föräldrar inblick i vad som sker på förskolan dagligen. Appen är säker ur integritetessynpunkt och följer Personuppgiftslagen vilket gör att även barnens ansiken får delas i appen.  &lt;a href=&#34;http://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Förskolan ska förbereda barnen för ett digitaliserat samhälle</title>
-      <link>http://prionapp.com/blogg/forskolan-ska-forbereda-barnen-for-ett-digitaliserat-samhalle/</link>
-      <pubDate>Tue, 07 Feb 2017 10:16:05 +0100</pubDate>
-      
-      <guid>http://prionapp.com/blogg/forskolan-ska-forbereda-barnen-for-ett-digitaliserat-samhalle/</guid>
-      <description>
-
-&lt;p&gt;Förskolan ska förbereda barn för ett allt mer digitaliserat samhälle. Därför föreslår nu Skolverket
-&lt;a href=&#34;http://prionapp.com/blogg/4-forandringar-i-forskolans-laroplan-att-vanta&#34; title=&#34;läs mer här om förändringarna i förskolans läroplan&#34;&gt;förändringar i läroplanen för förskolan.&lt;/a&gt; Förändringarna innebär att det ingår förskolors uppdrag att ge barnen möjligheter att möta och förhålla sig till den moderna digitala teknik som de omges av på sin egen nivå. Det kan exempelvis handla om hushållsapparater, trafikljus och kameror.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Vi vet att många förskolor redan idag arbetar med att låta barnen möta digitala verktyg som ett inslag i förskolans verksamhet. Med vårt förslag vill vi att alla förskolor ska arbeta med dessa frågor. Det är viktigt för likvärdigheten.“
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;— Christian Magnusson, undervisningsråd på Skolverket&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;digitalt-lärande-från-förskola-till-vuxenutbildning&#34;&gt;Digitalt lärande från förskola till vuxenutbildning&lt;/h3&gt;
-
-&lt;p&gt;Avsikten med förändringarna är att skapa en röd tråd för att på bästa sätt förbereda morgondagens medborgare för ett allt mer digitaliserat samhälle. Tanken är att förskollärare ska ansvara för att arbetet i barngruppen genomförs så att barnen stimuleras och utmanas i sin användning av digitala verktyg på ett sätt som främjar deras utveckling och lärande.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Tanken är inte att barnen passivt ska titta på en skärm eller att lärplattor ska användas för barnpassning. Tvärtom är det så att pedagoger kan visa på hur dessa verktyg kan användas på andra sätt än många barn kanske är vana med i hemmet.”
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;— Christian Magnusson, undervisningsråd på Skolverket&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://prionapp.com/https://www.skolverket.se/skolutveckling/nyhetsarkiv/2016/forskolan-ska-forbereda-barnen-for-ett-digitaliserat-samhalle-1.256632/&#34;&gt;Läs hela texten här &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
