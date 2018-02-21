@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://prionapp.com/blogg/webinar-om-prion/</loc>
+    <lastmod>2018-02-08T09:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://prionapp.com/blogg/begransa-kommentarer/</loc>
     <lastmod>2018-02-01T09:00:05+01:00</lastmod>
   </url>
@@ -14,11 +19,6 @@
   <url>
     <loc>http://prionapp.com/blogg/gotlandpedagog-app-underlattar-bilddokumentation/</loc>
     <lastmod>2018-01-12T09:00:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://prionapp.com/blogg/webinar24jan/</loc>
-    <lastmod>2018-01-08T09:00:05+01:00</lastmod>
   </url>
   
   <url>
@@ -178,7 +178,7 @@
   
   <url>
     <loc>http://prionapp.com/blogg/</loc>
-    <lastmod>2018-02-01T09:00:05+01:00</lastmod>
+    <lastmod>2018-02-08T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -189,13 +189,13 @@
   
   <url>
     <loc>http://prionapp.com/tags/ios/</loc>
-    <lastmod>2018-02-01T09:00:05+01:00</lastmod>
+    <lastmod>2018-02-08T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://prionapp.com/categories/ios/</loc>
-    <lastmod>2018-02-01T09:00:05+01:00</lastmod>
+    <lastmod>2018-02-08T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -213,7 +213,7 @@
   
   <url>
     <loc>http://prionapp.com/</loc>
-    <lastmod>2018-02-01T09:00:05+01:00</lastmod>
+    <lastmod>2018-02-08T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
