@@ -58,7 +58,7 @@
     vertical-align: middle;
 }
 .service-heading {
-    margin: 35px 0;
+    margin: 35px 0 10px 0;
     text-transform: none;
 }
 
@@ -978,7 +978,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .timeline>li .timeline-image {
-    background-color: #0EB3EE;
+    background-color: #0000;
+    border: 0px;
 }
 
 ul.social-buttons li a:hover,
