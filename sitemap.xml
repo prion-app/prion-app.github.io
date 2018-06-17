@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://prionapp.com/blogg/webinar-om-prion-juni/</loc>
+    <loc>http://prionapp.com/blogg/webinar-om-prion-28-juni/</loc>
     <lastmod>2018-06-05T09:00:05+01:00</lastmod>
   </url>
   
@@ -208,13 +208,13 @@
   </url>
   
   <url>
-    <loc>http://prionapp.com/tags/ios/</loc>
+    <loc>http://prionapp.com/categories/ios/</loc>
     <lastmod>2018-06-05T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://prionapp.com/categories/ios/</loc>
+    <loc>http://prionapp.com/tags/ios/</loc>
     <lastmod>2018-06-05T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
