@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://prionapp.com/blogg/prion-bodafors-vastra-forskola/</loc>
-    <lastmod>2018-10-09T10:16:05+01:00</lastmod>
+    <loc>http://prionapp.com/blogg/webinar-om-prion-6-december/</loc>
+    <lastmod>2018-11-29T09:00:05+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://prionapp.com/blogg/webinar-om-prion-29-november/</loc>
-    <lastmod>2018-10-09T09:00:05+01:00</lastmod>
+    <loc>http://prionapp.com/blogg/prion-bodafors-vastra-forskola/</loc>
+    <lastmod>2018-10-09T10:16:05+01:00</lastmod>
   </url>
   
   <url>
@@ -208,7 +208,7 @@
   
   <url>
     <loc>http://prionapp.com/blogg/</loc>
-    <lastmod>2018-10-09T10:16:05+01:00</lastmod>
+    <lastmod>2018-11-29T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -218,14 +218,14 @@
   </url>
   
   <url>
-    <loc>http://prionapp.com/tags/ios/</loc>
-    <lastmod>2018-10-09T10:16:05+01:00</lastmod>
+    <loc>http://prionapp.com/categories/ios/</loc>
+    <lastmod>2018-11-29T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://prionapp.com/categories/ios/</loc>
-    <lastmod>2018-10-09T10:16:05+01:00</lastmod>
+    <loc>http://prionapp.com/tags/ios/</loc>
+    <lastmod>2018-11-29T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -243,7 +243,7 @@
   
   <url>
     <loc>http://prionapp.com/</loc>
-    <lastmod>2018-10-09T10:16:05+01:00</lastmod>
+    <lastmod>2018-11-29T09:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
