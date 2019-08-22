@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pressmeddelanden on Prion</title>
-    <link>http://prionapp.com/pressmeddelanden/index.xml</link>
+    <link>https://prionapp.com/pressmeddelanden/index.xml</link>
     <description>Recent content in Pressmeddelanden on Prion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
     <lastBuildDate>Tue, 10 Oct 2017 10:16:05 +0100</lastBuildDate>
-    <atom:link href="http://prionapp.com/pressmeddelanden/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://prionapp.com/pressmeddelanden/index.xml" rel="self" type="application/rss+xml" />
+
     <item>
       <title>Prion gasar och breddar teamet</title>
-      <link>http://prionapp.com/pressmeddelanden/prion-gasar-och-breddar-teamet/</link>
+      <link>https://prionapp.com/pressmeddelanden/prion-gasar-och-breddar-teamet/</link>
       <pubDate>Tue, 10 Oct 2017 10:16:05 +0100</pubDate>
-      
-      <guid>http://prionapp.com/pressmeddelanden/prion-gasar-och-breddar-teamet/</guid>
+
+      <guid>https://prionapp.com/pressmeddelanden/prion-gasar-och-breddar-teamet/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Pressmeddelande 19 oktober 2017&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://prionapp.com/img/press/team.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://prionapp.com/img/press/team.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;subpage-caption&#34;&gt;Amelie, Fredrika och Tobias (samt Clara 1 år, Tobias dotter och Prions ständiga inspirationskälla)
 &lt;/p&gt;&lt;/p&gt;
 
@@ -59,6 +59,6 @@
 &lt;p&gt;Prion är ett svenskt teknikbolag som har utvecklat en digital plattform i form av en app som gör det enkelt att dela, kommunicera och samla bilder privat. I appen som bär bolagets namn skapas inlägg med bilder, video och texter som kan skickas till utvalda grupper och personer. Rättigheten till de bilder som laddas upp på plattformen bevaras.  Bolagets grundare är vd Fredrika Bernadotte och teknikchef Tobias Brander. Namnet Prion kommer från de första bokstäverna i Privacy On, och står för appens privata fokus. Läs mer på &lt;a href=&#34;prionapp.com&#34;&gt;prionapp.com&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
-    
+
   </channel>
 </rss>
