@@ -1,883 +1,237 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ios on Prion</title>
-    <link>https://prionapp.com/tags/ios/index.xml</link>
-    <description>Recent content in Ios on Prion</description>
+    <title>ios on Prion</title>
+    <link>https://prionapp.com/tags/ios/</link>
+    <description>Recent content in ios on Prion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <atom:link href="https://prionapp.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
-
+    <lastBuildDate>Thu, 31 Oct 2019 09:00:05 +0100</lastBuildDate>
+    
+	<atom:link href="https://prionapp.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Webinar om Prion på förskolan</title>
-      <link>https://prionapp.com/blogg/webinar-om-prion-20-mars/</link>
-      <pubDate>Thu, 28 Feb 2019 09:00:05 +0100</pubDate>
-
-      <guid>https://prionapp.com/blogg/webinar-om-prion-20-mars/</guid>
-      <description>&lt;p&gt;Nyfiken på att prova ett nytt verktyg för digital dokumentation? Välkommen då till vårt live webinar den 20 mars om hur man kan arbeta med dokumentation och personligare kommunikation med föräldrar direkt från mobilen eller lärplattan.&lt;/p&gt;
+      <link>https://prionapp.com/blogg/webinar-om-prion-26-november/</link>
+      <pubDate>Thu, 31 Oct 2019 09:00:05 +0100</pubDate>
+      
+      <guid>https://prionapp.com/blogg/webinar-om-prion-26-november/</guid>
+      <description>&lt;p&gt;Nyfiken på att prova ett nytt verktyg för digital dokumentation? Välkommen då till vårt live webinar den 26 november om hur man kan arbeta med dokumentation och personligare kommunikation med föräldrar direkt från mobilen eller lärplattan.&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/180124prion-webinarinbjudan.png&#34; alt=&#34;Välkommen till webinar om Prion på förskolan, 2018&#34; /&gt;
 &lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Prion gör det snabbt och lätt att dokumentera barnens utveckling digitalt och ger föräldrar inblick i vad som sker på förskolan direkt från mobilen eller lärplattan.&lt;/p&gt;
-
-&lt;p&gt;På det kostnadsfria webinaret går vi igenom hur Prion fungerar och hur det mobila verktyget kan hjälpa din verksamhet. Det kommer även finnas möjlighet till att ställa frågor. Du kan ansluta dig till webinaret var som helst direkt från din dator.&lt;/p&gt;
-
-&lt;p&gt;Anmäl dig till &lt;a href=&#34;mailto:hello@prionapp.com?subject=Anmälan till webinar den 20 mars&#34;&gt;hello@prionapp.com&lt;/a&gt; senast 19 mars.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;När:&lt;/strong&gt; 20 mars, 09.00-09.45
-&lt;br&gt;
-&lt;strong&gt;Var:&lt;/strong&gt; Var som helst från dator med internetuppkoppling&lt;/p&gt;
-
-&lt;p&gt;Vi ses på webinaret!&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;a href=&#34;https://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/figure&gt;</description>
     </item>
-
+    
     <item>
       <title>Bodafors Västra förskola har börjat med Prion</title>
       <link>https://prionapp.com/blogg/prion-bodafors-vastra-forskola/</link>
       <pubDate>Tue, 09 Oct 2018 10:16:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/prion-bodafors-vastra-forskola/</guid>
-      <description>&lt;p&gt;“Det sparar tid. Det är lättillgängligt både för oss i arbetslaget och för barnen” säger Marika, förskollärare på Förskolan Bodafors Västra i Nässjö kommun. Marika och hennes kollegor har precis börjat använda sig av Prion som ett dokumentationsverktyg. Ann-Marie Edh, Marika Pettersson och Sandra Hernberg är alla tre nöjda med deras beslut att implementera verktyget på deras förskola.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/preschool/ann-marie-marika-sandra-3.png&#34; alt=&#34;dokumentera bättre&#34; style=&#34;width: 70%;&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;förändring-från-fysiska-portfolios-till-digitala&#34;&gt;Förändring från fysiska portfolios till digitala&lt;/h3&gt;
-
-&lt;p&gt;Innan Prion användes gjordes dokumentationer i personliga fysiska pärmar för varje barn på förskolan. Detta var en process som krävde tid eftersom bilderna behövdes skrivas ut och sättas in i olika pärmar. Ann-Marie menar att eftersom dokumentationen i sig tog upp mycket tid blev det inte så mycket dokumentation till varje barn. “Tittar man tillbaka i pärmen så är det inte så mycket dokumentationer, det blir några varje år sådär. Nu kan man lägga upp varje vecka och det är smidigt”. Metoden med pärmarna blev mer att bocka av ett system och gjorde inte dokumentationen så kontinuerlig. Prion ger möjlighet att göra en hel serie på en gång vilket sparar tid och förenklar dokumentationen.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/preschool/fredrika-bodafors-3.png&#34; alt=&#34;dokumentera bättre&#34; style=&#34;width: 80%;&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;bättre-överblick&#34;&gt;Bättre överblick&lt;/h3&gt;
-
-&lt;p&gt;Förskolan Bodafors Västra upplever även smidigheten med att ha alla barnens portfolio och dokumentation samlat på en och samma plattform. Istället för att varje barn ska ha egna fysiska pärmar, går det nu att få en bra översikt eftersom all dokumentation finns i Prion. Det här skapar en enklare och smidigare struktur för förskolan och ger en bra bild över vad förskolan har jobbat med, både på varje avdelning men också på individnivå. Ann-Marie, Marika och Sandra är alla överens om att Prion gör det enklare och smidigare att se varje barns läroprocess och underlättar för att se vad förskolan har arbetat med för olika läroplansmål. Istället för att gå igenom flera olika pärmar blir det enkelt och tydligt att se vilka läroplansmål som behövs utvecklas mera.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/preschool/bodafors.jpg&#34; alt=&#34;dokumentera bättre&#34; style=&#34;width: 70%;&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;positiva-vårdnadshavare&#34;&gt;Positiva vårdnadshavare&lt;/h3&gt;
-
-&lt;p&gt;Föräldrarna på förskolan är också nöjda med det nya verktyget, Prion. Tack vare att de nu har fått en större inblick i verksamheten blir de också mer nyfikna på vad som har hänt på förskolan under dagen. Dokumentationen finns lättillgänglig i mobilen för både barn, vårdnadshavare och personal på förskolan, det blir då enklare för föräldrar att hänga med. Förut var det inte så många vårdnadshavare som tog sig tiden att titta i barnens egna pärmar utan det var mest under utvecklingssamtalen som föräldrar tittade i dokumentationen. “Man kanske lever i ett ganska stressat samhälle, nu går det att titta när det passar en själv.” säger Sandra och både Marika och Ann-Marie instämmer. Prion är ett smidigt sätt att bygga bron mellan vårdnadshavare och förskolan och underlättar kommunikationen parterna emellan.  “Prion har också ett översättningsprogram så att de vårdnadshavare som inte har svenska som modersmål kan översätta till sitt språk. Det är jätteviktigt.” säger Ann-Marie och Marika stämmer in “för allas lika värde”.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Prion har också ett översättningsprogram så att de vårdnadshavare som inte har svenska som modersmål kan översätta till sitt språk. Det är jätteviktigt.&amp;rdquo;
-&lt;p class=&#34;subpage-quote-caption&#34;&gt; - Ann-Marie Edh, Barnskötare på Bodafors Västra Förskola&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;rolig-app&#34;&gt;Rolig app&lt;/h3&gt;
-
-&lt;p&gt;Avslutningsvis så berättar Ann-Marie att appen är rolig att arbeta med. Barnen är väldigt nyfikna på de bilder som tagits och de vill gärna se resultatet. Dokumentationen i förskolan går sedan enkelt att använda som underlag vid fortsatt arbete, både för barnen men också för personalen, det är lätt för att se vad barnen tidigare jobbat med, ställa frågor och arbeta vidare med det.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;“Det sparar tid. Det är lättillgängligt både för oss i arbetslaget och för barnen” säger Marika, förskollärare på Förskolan Bodafors Västra i Nässjö kommun. Marika och hennes kollegor har precis börjat använda sig av Prion som ett dokumentationsverktyg. Ann-Marie Edh, Marika Pettersson och Sandra Hernberg är alla tre nöjda med deras beslut att implementera verktyget på deras förskola.&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>Prion utvecklar fotoapp för barn i förskolan!</title>
       <link>https://prionapp.com/blogg/prion-utvecklar-fotoapp-tillsammans-med-vinnova/</link>
       <pubDate>Wed, 12 Sep 2018 09:00:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/prion-utvecklar-fotoapp-tillsammans-med-vinnova/</guid>
-      <description>&lt;p&gt;Digital kompetens blir allt viktigare i vårt samhälle. Nästa år träder den reviderade läroplanen för förskolan i kraft som sätter högre krav på att barnen ska ha förutsättningar att utveckla sin digitala förmåga. För att ge förskolan möjlighet att nå de nya målen, utvecklar Prion den första fotoappen för barn på förskolan. Projektet finansieras av Sveriges innovationsmyndighet Vinnova.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Vinnova är en statlig myndighet som gynnar innovation och forskning i Sverige, deras vision är att stärka Sverige som forsknings- och innovationsland. Under 2018 har Vinnova gett Prion bidrag för att utveckla ett nytt barnanpassat digitalt verktyg. Syftet med att utveckla verktyget är att ge rätt förutsättningar till förskolan att arbeta med att utveckla barnens digitala kompetens.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/vinnova-logga.jpg&#34; alt=&#34;Vinnova logga&#34; style=&#34;width: 75%;&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;I den nya läroplanen blir kunskapskrav och användandet av digitala verktyg allt viktigare. Förskolan ska ge barn förutsättningar att utveckla adekvat digital kompetens genom att ge dem en möjlighet att förstå och utforska den digitala teknik som de möter i vardagen. Barnen ska ges förutsättningar att utveckla intresse för digitala verktyg och att utveckla sin egna förmåga att kommunicera, dokumentera och förmedla upplevelser med digital teknik. Det nya verktyget som idag går under arbetsnamnet “PrionKids”är nu under utveckling.&lt;/p&gt;
-
-&lt;p&gt;Projektet avser att ta fram en barnanpassad kamera/dokumentationsverktyg med funktioner och gränssnitt utvecklad för att ge barn möjlighet att träna sin förmåga inom fotografi och digital kompetens i förskolan. Med verktyget kan barnen själva dokumentera sitt arbete och utforska världen med hjälp av bilder. Barnen kommer då både stärka sina kunskaper och sin förmåga att fotografera, skapa visuell kommunikation och ger underlag för reflektion. Barnappen kommer kunna kopplas till Prion, som är en dokumentations-app för förskolan. Från Prion kan förskolepersonalen administrera barnappen och materialet barnen skapar.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/barn-med-kamera.jpg&#34; alt=&#34;Barn med kamera&#34; style=&#34;width: 75%;&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-&lt;/a&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Prion behöver nu din hjälp då vi söker personer som vill vara delaktiga i projektet. Det innebär att man får möjlighet att komma med inspel på funktionalitet och att vara testpiloter under 2018. Tillsammans tar vi fram världens första dokumentationsverktyg för barn i förskolan! Är du intresserad av att vara med? Maila oss på &lt;a href=&#34;mailto:hello@prionapp.com&#34;&gt;hello@prionapp.com&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Digital kompetens blir allt viktigare i vårt samhälle. Nästa år träder den reviderade läroplanen för förskolan i kraft som sätter högre krav på att barnen ska ha förutsättningar att utveckla sin digitala förmåga. För att ge förskolan möjlighet att nå de nya målen, utvecklar Prion den första fotoappen för barn på förskolan. Projektet finansieras av Sveriges innovationsmyndighet Vinnova.&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>5 tips på hur du som förskollärare kan dokumentera bättre</title>
       <link>https://prionapp.com/blogg/5tips-dokumentera-battre/</link>
       <pubDate>Fri, 18 May 2018 09:00:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/5tips-dokumentera-battre/</guid>
-      <description>&lt;p&gt;Att dokumentera vad barnen gör under dagarna på förskolan är viktigt. Ibland kan det dock vara lite knepigt. Här har du därför 5 tips på hur du får en bättre dokumentation!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;1-ha-ett-tydligt-motiv&#34;&gt;1) Ha ett tydligt motiv&lt;/h5&gt;
-
-&lt;p&gt;Att ha ett tydligt fokusområde med dokumentationen förenklar. Bestäm därför vad du letar efter just nu. Det kan exempelvis vara ett projekt eller ett speciellt tema som “möten” (vilket passar bra under inskolningen), fokuset blir då att fånga just det.&lt;/p&gt;
-
-&lt;h5 id=&#34;2-våga-ta-kort-på-nära-håll&#34;&gt;2) Våga ta kort på nära håll&lt;/h5&gt;
-
-&lt;p&gt;Att fotografera nära ger oftast en häftigare och roligare bild. Det blir även mer fokus på barnet/föremålet/händelsen istället för bakgrunden.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/tips-till-forskolelarare.jpg&#34; alt=&#34;dokumentera bättre&#34; style=&#34;width: 70%;&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;3-tänk-på-bakgrunden&#34;&gt;3) Tänk på bakgrunden!&lt;/h5&gt;
-
-&lt;p&gt;Ska du fotgrafera ett specifikt objekt, till exempel ett barn eller något föremål kan bakgrunden spela stor roll. För att det du fotograferar ska lyftas fram så bra som möjligt är det bra att tänka på att ha en så enkel bakgrund som möjligt.&lt;/p&gt;
-
-&lt;h5 id=&#34;4-låt-barnen-hjälpa-till&#34;&gt;4) Låt barnen hjälpa till&lt;/h5&gt;
-
-&lt;p&gt;Det är roligt men också lärorikt om barnen hjälper till att dokumentera, låt de fotografera och dokumentera varandras lärande. Efteråt kan ni sedan tillsammans reflektera över detta, vilket då synliggör barnens tankar och kunskaper.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/tips-till-forskolelarare2.jpg&#34; alt=&#34;dokumentera bättre&#34; style=&#34;width: 70%;&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-&lt;/a&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;5-uppdatera-föräldrarna&#34;&gt;5) Uppdatera föräldrarna&lt;/h5&gt;
-
-&lt;p&gt;Använd gärna dokumentationen till att hålla föräldrarna uppdaterade om vad som pågår i förskolan, vad barnen gör för aktiviteter och vad de lär sig om dagarna. Hitta ett sätt som är smidigt för både er och föräldrarna - oavsett om det är en pärm i barnens fack eller via ett digitalt verktyg. Hitta det sätt som passar just er!&lt;/p&gt;
-
-&lt;p&gt;Tänk också på att låta dokumentationen bli en del av den löpande verksamheten och låt uppdateringarna ske kontinuerligt. Det blir då både enklare och roligare att dokumentera!&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;strong&gt;Hoppas dessa tips var till nytta för dig! Saknade du något på listan eller är du av en annan åsikt? Mejla oss gärna på &lt;a href=&#34;mailto:hello@prionapp.com&#34;&gt;hello@prionapp.com&lt;/a&gt;. Var artikeln hjälpsam - dela gärna vidare till kollegor!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;i&gt;Om Prion:&lt;/i&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;Prion är en app för dokumentation och föräldrakommunikation. Med appen är det enkelt för personalen att ge föräldrar inblick i vad som sker på förskolan tillsammans med barnen. Appen finns gratis att ladda ned för iPhone, Android och lärplattor.&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Att dokumentera vad barnen gör under dagarna på förskolan är viktigt. Ibland kan det dock vara lite knepigt. Här har du därför 5 tips på hur du får en bättre dokumentation!&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>Guide: Lär barn fotografera!</title>
       <link>https://prionapp.com/blogg/guide-lar-barn-fotografera/</link>
       <pubDate>Fri, 18 May 2018 09:00:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/guide-lar-barn-fotografera/</guid>
-      <description>&lt;p&gt;Förskolans huvuduppgift är att skapa en bra grund för att barn på sikt ska lära sig de kunskaper som krävs för att leva och samverka i ett modernt samhälle. Digital kompetens blir allt viktigare och en central fråga är numera hur digitala verktyg ska tas in i förskolan. Att kunna ta bilder med digitala verktyg blir därför ett steg i rätt riktning. Här nedan kommer därför lite tips på hur du kan instruera barnen på förskolan att lära sig fotografera!&lt;/p&gt;
-
-&lt;p&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/lar-barnen-fotografera.jpg&#34; alt=&#34;Lär barnen fotografera bättre&#34; style=&#34;width: 70%;&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;stabilt-grepp&#34;&gt;- Stabilt grepp&lt;/h5&gt;
-
-&lt;p&gt;Först och främst är det viktigt att visa och förklara för barnen hur de på bästa och enklaste sättet håller i kameran/plattan/mobilen för att kunna ta en bild. Ett stabilt grepp gör det enklare att ta kort och minskar även risken för att råka tappa eller skada kameran.&lt;/p&gt;
-
-&lt;h5 id=&#34;kameralinsen&#34;&gt;- Kameralinsen&lt;/h5&gt;
-
-&lt;p&gt;Visa barnen var kameralinsen sitter så att barnen förstår vart bilden tas ifrån. Belys att kameralinsen inte får täckas över eftersom det då inte går att ta någon bild.&lt;/p&gt;
-
-&lt;h5 id=&#34;rakt-och-stilla&#34;&gt;- Rakt och stilla&lt;/h5&gt;
-
-&lt;p&gt;En suddig och sne bild kan vara svår att titta på och förstå, det kan därför vara bra att barnen vet om att en så stilla och rak kamera som möjligt bidrar till en bättre bild.&lt;/p&gt;
-
-&lt;h5 id=&#34;fokusera-på-en-sak&#34;&gt;- Fokusera på en sak!&lt;/h5&gt;
-
-&lt;p&gt;Berätta för barnen att det är enklare att ta kort om de fokuserar på ett föremål i taget. Uppmana dem att våga gå nära föremålet och fotografera det på nära håll men också från olika vinklar och perspektiv.&lt;/p&gt;
-
-&lt;h5 id=&#34;ljuset&#34;&gt;- Ljuset&lt;/h5&gt;
-
-&lt;p&gt;För att kunna ta en bild behövs ljus, annars kommer inte motiven på bilden att synas. Visa gärna detta för barnen genom att låta de ta kort både inomhus i mörka rum och utomhus i solen, jämför bilderna och reflektera tillsammans.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/lar-barnen-fotografera2.jpg&#34; alt=&#34;Lär barnen fotografera bättre&#34; style=&#34;width: 70%;&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Det kan vara roligt att låta barnen ta kort på precis vad de vill, det skapar nya perspektiv och barnen får själv utforska egna taktiker. Forskaren Lena O Magnusson på högskolan i Gävle, gav treåringar kameror utan några instruktioner. Resultatet hon fick var bilder utifrån barnens perspektiv. Hon menar att när barnen själva fotograferar får de uppleva världen på ett annat sätt och bilderna de tar visar på vad barnen själva tycker är intressant och roligt. Att låta barn fotografera är därför ett sätt att lära sig om barnens intressen.&lt;/p&gt;
-
-&lt;p&gt;Det kan också vara roligt låta barnen få följa instruktioner när de ska fotografera, det kan då både bli en lärorik och rolig stund. Du kan exempelvis ge barnen ett tema eller en uppgift som de ska följa när de fotograferar. Det kan vara teman som kärlek och lycka eller en uppgifter som att de  fotografera något kvadratiskt. Efteråt kan ni sitta ner tillsammans och låta barnen visa, berätta och reflektera över bilderna de har tagit.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;strong&gt;Hoppas denna guide var till hjälp och att du gillade den! Var det något du saknade bland tipsen eller är du av en annan åsikt? Mejla oss gärna på &lt;a href=&#34;mailto:hello@prionapp.com&#34;&gt;hello@prionapp.com&lt;/a&gt;. Var artikeln hjälpsam - dela gärna vidare till kollegor!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;i&gt;Om Prion:&lt;/i&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;Prion är en kostnadsfri app för dokumentation och föräldrakommunikation. Med appen är det enkelt för personalen att ge föräldrar inblick i vad som sker på förskolan tillsammans med barnen. Appen finns gratis att ladda ned för iPhone, Android och lärplattor.&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Förskolans huvuduppgift är att skapa en bra grund för att barn på sikt ska lära sig de kunskaper som krävs för att leva och samverka i ett modernt samhälle. Digital kompetens blir allt viktigare och en central fråga är numera hur digitala verktyg ska tas in i förskolan. Att kunna ta bilder med digitala verktyg blir därför ett steg i rätt riktning. Här nedan kommer därför lite tips på hur du kan instruera barnen på förskolan att lära sig fotografera!&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>8 tips på hur du får hela förskolan att använda ett nytt digitalt verktyg</title>
       <link>https://prionapp.com/blogg/8tips-digitalt-verktyg-pa-forskolan/</link>
       <pubDate>Wed, 14 Mar 2018 09:00:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/8tips-digitalt-verktyg-pa-forskolan/</guid>
       <description>&lt;p&gt;Har du hittat en ny spännande app till lärplattan eller nytt digitalt arbetssätt som du vill införa i din förskoleverksamhet men känner dig orolig att inte få med alla på förskolan?
-Lugn, här kommer 8 tips som olika förskolor själva har använt sig av, varsågoda!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/digitalt-verktyg-pa-forskolan.png&#34; alt=&#34;Digitala verktyg på förskolan&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;h5 id=&#34;1-ha-ett-tydligt-syfte&#34;&gt;1) Ha ett tydligt syfte&lt;/h5&gt;
-
-&lt;p&gt;Ha det klart för er själva varför ni vill införa verktyget i er verksamhet och kommunicera ut det till de inblandade. Det kommer då att bli enklare för personal och eventuella föräldrar att förstå varför förskolan ska arbeta på ett nytt sätt.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/trophy.png&#34; alt=&#34;Digitala verktyg på förskolan&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;h5 id=&#34;2-hitta-de-digitala-eldsjälarna-på-din-förskola&#34;&gt;2) Hitta de “digitala eldsjälarna” på din förskola&lt;/h5&gt;
-
-&lt;p&gt;Hitta de som är mer digitalt nyfikna i den egna verksamheten och ge dem stöttning och mandat att pröva nya hjälpmedel. Jeanette Roberts, verksamhetschef på Möllevångens Montessoriförskola i Helsingborg, berättar om att när de införde en dokumentationsapp så var det en avdelning som kom igång betydligt snabbare jämfört med andra:&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;En förskollärare var mer intresserad och tyckte det var kul och drev därför fram utvecklingen på den avdelningen hon var på. De andra kunde sedan lära sig av den avdelningen och vände sig specifikt till henne när de behövde hjälp.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;
- &lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/eldsjal.png&#34; alt=&#34;Digitala verktyg på förskolan&#34; /&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;/figure&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;3-bestäm-ej-uppifrån-och-ge-tid&#34;&gt;3) Bestäm ej uppifrån och ge tid!&lt;/h5&gt;
-
-&lt;p&gt;Oavsett om idéen att testa ett verktyg kommer från ledningen eller från arbetsgruppen, är det bra att involvera de som ska använda verktyget på ett tidigt stadium, även om det kan förlänga beslutsprocessen. Då kan förskolan försäkra sig om att det används så som det var avsett efter implementeringen.&lt;/p&gt;
-
-&lt;p&gt;Annelie Médoc, IKT-pedagog i Skurups kommun, ger hennes bästa tips på en framgångsrik implementation:&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Det fungerar sällan bra om man bestämmer uppifrån att ett nytt verktyg ska börja användas. Låt istället enstaka få pröva och om de är nöjda kan de sprida användningen vidare. Det måste få ta tid att testa!&amp;rdquo;&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/ge-tid.png&#34; alt=&#34;Digitala verktyg på förskolan&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;h5 id=&#34;4-om-föräldrar-ska-involveras-informera-och-ha-dialog&#34;&gt;4) Om föräldrar ska involveras – informera och ha dialog!&lt;/h5&gt;
-
-&lt;p&gt;Om det nya arbetssättet involverar föräldrar så glöm inte bort att att informera dem om era planer, var återigen tydlig med syftet och hur det påverkar dem. Ta er tid att lyssna på föräldrarna om det är något de undrar över eller är osäkra på.&lt;/p&gt;
-
-&lt;p&gt;När Asklidens förskola i Skurup kommun nyligen implementerade Prion för att dokumentera digitalt  så informerade förskolläraren Susanne Walldén och hennes kollegor både via mail, men också vid hämtning och lämning. Personalen höll även föräldramöte där deras nya verktyg diskuterades med alla inblandade och där föräldrar fick ställa frågor.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://prionapp.com/img/blog/checklista-nytt-verktyg.pdf&#34; target=&#34;_blank&#34;&gt;
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/checklista-nytt-verktyg.png&#34; alt=&#34;Lista för nytt digitalt verktyg&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;figcaption&gt;Checklista för hur du inför nytt digitalt verktyg - Klicka på bilden för att skriva ut&lt;/figcaption&gt;&lt;/div&gt;
-&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;5-kom-ihåg-barnen&#34;&gt;5) Kom ihåg barnen!&lt;/h5&gt;
-
-&lt;p&gt;Det är inte bara personal och eventuellt föräldrar som ska uppskatta det nya digitala arbetssättet utan även barnen. Involvera dem in i verktyget och förhoppningsvis blir deras engagemang även en extra morot att använda verktyget löpande i verksamheten.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/kom-ihag-barnen.png&#34; alt=&#34;Digitala verktyg på förskolan&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;h5 id=&#34;6-ha-en-plan-framåt&#34;&gt;6) Ha en plan framåt&lt;/h5&gt;
-
-&lt;p&gt;Se till att få in verktyget i en rutin eller i ett återkommande arbetsmoment för att säkra kontinuitet i användningen, även vid stressiga perioder. Kom överens i arbetslaget om hur ofta och vid vilka tillfällen det ska användas.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/plan.png&#34; alt=&#34;Digitala verktyg på förskolan&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;h5 id=&#34;7-ha-en-testperiod-utvärdera-därefter&#34;&gt;7) Ha en testperiod –utvärdera därefter&lt;/h5&gt;
-
-&lt;p&gt;Börja med att ha en uttalad testperiod, då verktyget kan få extra fokus just under de veckorna. Boka även in hur utvärdering ska ske redan innan det införts och av vilka. Det gör det naturligt att reflektera över användningen och om verktyget leder till det tänkta syftet. Bör något ändras innan det blir en del i den ordinarie verksamheten så fångas det även upp här.&lt;/p&gt;
-
-&lt;p&gt;Så här utvärderade Jeanette Roberts om deras implementering gick bra:&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Vi tog upp användningen av dokumentationsappen på vårt föräldrarådsmöte och bad om feedback. Dessförinnan hade vi tagit upp det ett flertal gånger på personalmöten och diskuterat användningen och andra frågor. Hittills har vi utvärderat muntligt men varje år i maj så gör vi en större skriftlig utvärdering av hela läsårets arbete och utveckling där vi även tar upp detta.&amp;rdquo;&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/utvardera.png&#34; alt=&#34;Digitala verktyg på förskolan&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;h5 id=&#34;8-var-inte-rädd-testa&#34;&gt;8) Var inte rädd - testa!&lt;/h5&gt;
-
-&lt;p&gt;Slutligen, digitaliseringen pågår inom förskolan liksom i samhället som stort och varje dag presenteras nya digitala lösningar. Vänj dig därför vid att testa nya digitala verktyg och avsluta de som ni inte är nöjda med - plötsligt stöter ni på något som verkligen utvecklar och förbättrar verksamheten!&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blog/testa.png&#34; alt=&#34;Digitala verktyg på förskolan&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sådär, 8 tips på hur du får med alla på förskolan nästa gång du inför ett nytt digitalt verktyg. Var det något du saknade bland tipsen eller är du av en annan åsikt? Mejla oss gärna på &lt;a href=&#34;mailto:hello@prionapp.com&#34;&gt;hello@prionapp.com&lt;/a&gt;. Var artikeln hjälpsam - dela gärna vidare till kollegor!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;i&gt;Om Prion:&lt;/i&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;Prion är en kostnadsfri app för dokumentation och föräldrakommunikation. Med appen är det enkelt för personalen att ge föräldrar inblick i vad som sker på förskolan tillsammans med barnen. Appen finns gratis att ladda ned för iPhone, Android och lärplattor.&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+Lugn, här kommer 8 tips som olika förskolor själva har använt sig av, varsågoda!&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>Nytt digitalt arbetssätt på Möllevångens Montessoriförskola i Helsingborg</title>
       <link>https://prionapp.com/blogg/prion-pa-mollevangens-montessoriforskola/</link>
       <pubDate>Tue, 06 Feb 2018 08:00:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/prion-pa-mollevangens-montessoriforskola/</guid>
-      <description>&lt;p&gt;I höstas började Möllevångens Montessoriförskola i Helsingborg använda Prion. För 24Helsingborg.se berättade verksamhetschefen Jeanette Roberts om hur de arbetar med det nya digitala arbetssättet och om varför de bestämde sig för att införa det. Här är ett utdrag av artikeln:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/Mollevanges-montessoriforskola.png&#34; alt=&#34;Så här jobbar Möllevångens Montessoriförskola i Helsingborg med Prion&#34; /&gt;
-&lt;figcaption&gt; Jeanette Roberts, delägare och verksamhetschef på Möllevångens Montessoriförskola&lt;/figcaption&gt;&lt;/div&gt;
-&lt;/figure&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Möllevångens Montessoriförskola ligger i stadsdelen Tågaborg i Helsingborg och provade i början av hösten 2017 ett nytt digitalt arbetssätt med en mobilapp i deras verksamhet. En satsning som nu summeras som lyckad.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Den nya arbetsmetoden ger bättre inblick för föräldrarna samtidigt som förskolan sparar tid på administration.&amp;rdquo;
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;-Jeanette Roberts, Möllevångens Montessoriförskola&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Så här berättar Jeanette Roberts, delägare och verksamhetschef på Möllevångens Montessoriförskola om satsningen:&lt;/p&gt;
-
-&lt;p&gt;-Den nya arbetsmetoden ger bättre inblick för föräldrarna samtidigt som förskolan sparar tid på administration.&lt;/p&gt;
-
-&lt;p&gt;– Föräldrarna är jättenöjda med att få följa direkt i mobilen vad just deras barn hittar på. Med bilder och filmer kan vi ge en helt annan insyn i vår verksamhet och vårt pedagogiska uppdrag, berättar säger Jeanette Roberts vidare och fortsätter:&lt;/p&gt;
-
-&lt;p&gt;– Vi funderade länge på hur vi skulle kunna skicka bilder på barnen på ett integritetsäkert sätt. Dela via Facebook och Instagram var inget alternativ för oss då vi varken kunde behålla bildrättigheterna eller säkerställa att endast rätt förälder fick se inläggen om deras barn, förklarar Jeanette Roberts.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Föräldrarna är jättenöjda med att få följa direkt i mobilen vad just deras barn hittar på.&amp;rdquo;
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;-Jeanette Roberts, Möllevångens Montessoriförskola&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Fredrika Bernadotte, vd och grundare till Prion berättar vidare om Prion på Möllevångens Montessoriförskola:&lt;/p&gt;
-
-&lt;p&gt;Via appen kan föräldrarna ta del av vad barnen gör på förskolan och får information om olika aktiviteter. Utöver en förbättrad överblick för föräldrarna, bidrar också appen till förenklat dokumentationsarbete.&lt;/p&gt;
-
-&lt;p&gt;–  Tidigare samlade förskolan dokumentation endast i fysiska pärmar men nu kan man dokumentera barnens framsteg digitalt. Detta gör att lärarna sparar tid samtidigt som föräldrarna kan ta del av information direkt samma dag om något hänt via appen.&lt;/p&gt;
-
-&lt;p&gt;– Möllevången var snabba på bollen och det är alltid häftigt att se hur mycket glädje och nytta som appen ger till alla på förskolan, avslutar Fredrika Bernadotte med.&lt;/p&gt;
-
-&lt;p&gt;Läs hela artikeln på 24Helsingbprg.se här: &lt;a href=&#34;http://24helsingborg.se/2018/02/06/forskolan-pa-tagaborg-satsar-pa-ny-mobilapp/ &#34;target=&#34;_blank&#34; title=Förskolan på Tågaborg satsar på ny mobilapp&gt;Förskolan på Tågaborg satsar på ny mobilapp&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;a href=&#34;https://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I höstas började Möllevångens Montessoriförskola i Helsingborg använda Prion. För 24Helsingborg.se berättade verksamhetschefen Jeanette Roberts om hur de arbetar med det nya digitala arbetssättet och om varför de bestämde sig för att införa det. Här är ett utdrag av artikeln:&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>Nyhet! Bestäm vilka som ska få kommentera i grupper</title>
       <link>https://prionapp.com/blogg/begransa-kommentarer/</link>
       <pubDate>Thu, 01 Feb 2018 09:00:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/begransa-kommentarer/</guid>
-      <description>&lt;p&gt;Nu kan du som har skapat en grupp i Prion (owner) begränsa vem som får lämna kommentarer på inlägg i gruppen.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/blakommentar.png&#34; alt=&#34;Begränsa vilka som får kommentera i Prion&#34; /&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Flera av våra användare har efterfrågat möjligheten att få bestämma vilka som ska få kommentera i grupper. Det kan tex vara förskolepersonal som hanterar större grupper för informationsspridning till alla vårdnadshavare på en avdelning eller förskola och där man vill sköta dialogen snarare i de individuella barngrupperna i Prion.&lt;/p&gt;
-
-&lt;h4 id=&#34;hur-bestämmer-man-vem-som-får-kommentera&#34;&gt;Hur bestämmer man vem som får kommentera?&lt;/h4&gt;
-
-&lt;p&gt;Om du är owner i en grupp kan du gå till gruppens inställningar (group settings) och där klicka i om du vill att endast admins ska få kommentera. Inställningarna hittar du genom att klicka på kugghjulet längst upp till höger inne i en gruppsida i Prion. Man kan när som helst slå på eller av kommentarsfunktionen för medlemmarna.&lt;/p&gt;
-
-&lt;p&gt;I samma vy kan du även ställa in andra rättigheter till gruppmedlemmarna. Om inga aktiva val görs kan alla som är med i gruppen både göra inlägg och bjuda in andra till gruppen. Ägaren kan dock välja så att bara de som är administratörer har dessa befogenheter. I vyn för gruppens medlemmar bestämmer du vem du vill ska vara admins av gruppens medlemmar.&lt;/p&gt;
-
-&lt;p&gt;Owner har alltid den yttersta kontrollen över gruppen och det delade innehållet.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/screenshot-comments.png&#34; alt=&#34;Begränsa vilka som får kommentera i Prion&#34; /&gt;
-&lt;figcaption&gt;Så här ser gruppinställningarna ut för en owner.&lt;/figcaption&gt;&lt;/div&gt;
-&lt;/figure&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Om du har några frågor om gruppinställningar eller har förslag på förbättringar kan du alltid mejla oss på &lt;a href=&#34;mailto:hello@prionapp.com&#34;&gt;hello@prionapp.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;btn btn-xl&#34; href=&#34;https://bnc.lt/3TIg/qaaRFDrvGz &#34;target=&#34;_blank&#34; title=Öppna Prion
-&gt;Öppna Prion&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Nu kan du som har skapat en grupp i Prion (owner) begränsa vem som får lämna kommentarer på inlägg i gruppen.&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>Ny funktion - Scanna teckninger och dokument med Prion!</title>
       <link>https://prionapp.com/blogg/scanna-barnteckningar-med-prion-ny-funktion/</link>
       <pubDate>Mon, 29 Jan 2018 18:00:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/scanna-barnteckningar-med-prion-ny-funktion/</guid>
-      <description>&lt;p&gt;Nyhet! Nu har vi lanserat en ny funktion som gör det möjligt att scanna in fysiska dokument och papper direkt med din Prion-app, perfekt för dig som vill bevara barnens arbeten och teckningar på en och samma plats.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/gul-teckning.png&#34; alt=&#34;Barnteckning inscannad med Prion&#34; /&gt;
-&lt;/figure&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Med Prions scanner kan förskolor samla all dokumentation kring ett barn i samma digitala portfolio vilket ger en bättre översikt över barnets utveckling och underlag för reflektion.&lt;/p&gt;
-
-&lt;p&gt;Genom att scanna in barnteckningar och andra skolarbeten i Prion kan förskolorna minska sin pappersadministration. Föräldrar tar även del av sitt barns skapande direkt i mobilen redan samma dag som det har skett på förskolan.&lt;/p&gt;
-
-&lt;p&gt;Fysiska dokument riskerar att både skadas och bleknas över tid. Det kan därför vara bra att bevara gamla barnteckningar digitalt innan det är för sent. Ihop med &lt;a href=&#34;https://prionapp.com/blogg/fardiga-fotobocker-av-dina-prion-foton/&#34; title=Prion Books &gt;Prion Books&lt;/a&gt; kan föräldrar även skapa uppskattade fotoböcker av barnens konstverk.&lt;/p&gt;
-
-&lt;p&gt;Till skillnad från när man fotograferar ett dokument med mobilen så följer inte oönskad bakgrund med på ett inscannat dokument och skuggor och ojämnheter kan även ljusas upp.&lt;/p&gt;
-
-&lt;h3 id=&#34;hur-funkar-scanningen&#34;&gt;Hur funkar scanningen?&lt;/h3&gt;
-
-&lt;p&gt;&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/scanningsfunktion.png&#34; alt=&#34;Prions nya scanningsfunktion&#34; /&gt;
-&lt;figcaption&gt;Så här scannar du med Prion&lt;/figcaption&gt;&lt;/div&gt;
-&lt;/figure&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Så här går du till väga med att scanna i Prion:&lt;/p&gt;
-
-&lt;p&gt;1) Öppna Prion-appen och tryck på det stora plustecknet längst ner i huvudmenyn som leder dig till vyn för att skapa nytt inlägg.&lt;/p&gt;
-
-&lt;p&gt;2)  Ovanför kamera- och textbildikonerna hittar du ikonen för scanning. Tryck på ikonen och peka med mobilen på det du vill scanna.&lt;/p&gt;
-
-&lt;p&gt;3)  I det här steget kan du använda blixt ifall du behöver mer ljus och ändra från färg till svartvitt inscanning. Du kan också välja mellan manuell eller automatisk scanning.&lt;/p&gt;
-
-&lt;p&gt;4)  När du har scannat klart, kan du därefter beskära och rotera bilden. Tryck på “save” när du är nöjd och en nedsparad bild i kamerarullen är sedan redo för att delas vidare i Prion.&lt;/p&gt;
-
-&lt;h3 id=&#34;bilder-teckningar-och-filmer-allt-på-samma-plats&#34;&gt;Bilder, teckningar och filmer – allt på samma plats!&lt;/h3&gt;
-
-&lt;p&gt;Du kan dela vidare det inscannade dokumentet som ett vanligt Prion-inlägg ihop med andra bilder och videoklipp. En uppladdning i Prion kan innhålla max 10 stycken mediefiler men du kan välja att addera fler media i inlägget efter uppladdningen.&lt;/p&gt;
-
-&lt;p&gt;Den nya scanningsfunktionen finns än så länge på iPad och iPhone. Ladda ned senaste versionen på App Store.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;btn btn-xl&#34; href=&#34;https://bnc.lt/3TIg/qaaRFDrvGz &#34;target=&#34;_blank&#34; title=Öppna Prion
-&gt;Öppna Prion&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Nyhet! Nu har vi lanserat en ny funktion som gör det möjligt att scanna in fysiska dokument och papper direkt med din Prion-app, perfekt för dig som vill bevara barnens arbeten och teckningar på en och samma plats.&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>Bättre bilddokumentation på Eskelhem förskola på Gotland</title>
       <link>https://prionapp.com/blogg/gotlandpedagog-app-underlattar-bilddokumentation/</link>
       <pubDate>Fri, 12 Jan 2018 09:00:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/gotlandpedagog-app-underlattar-bilddokumentation/</guid>
-      <description>&lt;p&gt;Förskollärararna Karin Hellman och Anna Hemmungs på Eskelhem förskola har på Region Gotlands egna pedagogblogg beskrivit hur de gick från pärmar med bilder till att istället använda Prion. Här kommer ett utdrag på blogposten där de förklarar hur de har sparat tid på administrationen och förbättrat kontakten med föräldrarna.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/pedagoggotland-prion.png&#34; alt=&#34;Skärmdumpar på hur Eskelhem förskola använder Prion&#34; /&gt;
-&lt;figcaption&gt;Så här ser det ut inne i Prion för Eskelhem förskola&lt;/figcaption&gt;&lt;/div&gt;
-&lt;/figure&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;En föräldraenkät för några år sedan visade att föräldrarna på vår förskola ville ha mer information om barnens dag på förskolan än vad de fick. Vi hade dagliga samtal vid hämtning och lämning, vi skrev i kalendern vad vi hade gjort och vi hade dokumentationer uppsatta i hallen. Vi upplevde att många föräldrar var stressade vi hämtning och lämning och därför inte tog sig tid att se på bilderna vi hade satt upp i hallen eller diskutera med barnen. Det gjorde att vi började fundera på hur vi skulle kunna nå ut till föräldrarna på ett annat sätt.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Vi kan lättare följa barnens utveckling då vi även kan använda oss av film, vilket vi inte kunde göra när barnen hade pärmar med bilder.&amp;rdquo;
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;-Karin Hellman och Anna Hemmungs, förskollärare på Eskelhem förskola&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Vi hade tankar om att starta en blogg för att kunna ge föräldrarna inblick i barnens tid på förskolan, men precis när vi kommit igång med det så kom beslutet om att vi inte fick ha en blogg eller ett instagramkonto.&lt;/p&gt;
-
-&lt;p&gt;Vi har nu under hösten tagit bort barnens personliga pärmar då detta har tagit väldigt mycket tid från barngruppen och en ständig stress för oss pedagoger. Istället har vi bilder uppsatta i hallen som sedan sätts i en verksamhetspärm, men vi kände ändå att det inte riktigt räckte till.&lt;/p&gt;
-
-&lt;p&gt;Nu har vi börjat använda oss av en app som heter Prion. Det är en app som är anpassad till förskolan och som liknar Instagram. En av fördelarna med Prion är att rättigheterna till bilderna som vi lägger upp stannar kvar hos oss på förskolan.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Det bästa är att föräldrarna tillsammans med barnen kan prata om vad de har gjort i lugn och ro när de kommer hem. Det är lättare för barnen att berätta om sin dag på förskolan om det finns en bild till.&amp;rdquo;
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;-Karin Hellman och Anna Hemmungs, förskollärare på Eskelhem förskola&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I Prion kan man skapa olika grupper. Hos oss har vi bara en avdelning så vi har en grupp där alla föräldrar kan se bilderna. Dessutom har varje barn en enskild grupp där bara personalen och vårdnadshavarna kan se bilderna. I barnets personliga grupp lägger vi endast in bilder och filmer på just det enskilda barnet, medan i vår gemensamma grupp fokuserar vi på lärandet och har därmed just nu valt att inte ha med några ansikten på bilderna. När ett barn slutar hos oss kan vi lägga över föräldrarna som ägare till barnets grupp, vilket gör att föräldrarna och barnen kan ha kvar minnen av tiden på förskola. Det finns även möjlighet att beställa en bok med utvalda foton mot en kostnad.&lt;/p&gt;
-
-&lt;p&gt;Det här är verkligen en app som har underlättat vårt arbete. Om vi t.ex. är ute i skogen kan vi enkelt lägga upp bilder och text om vad vi gör och slipper ta tid på kontoret för att lägga över bilder till en dator för att sedan kunna skriva ut och sätta upp. Det bästa är att föräldrarna tillsammans med barnen kan prata om vad de har gjort i lugn och ro när de kommer hem. Det är lättare för barnen att berätta om sin dag på förskolan om det finns en bild till. Själva appen är väldigt enkel att använda och det är inte många steg för att lägga upp ett inlägg. Vi kan lättare följa barnens utveckling då vi även kan använda oss av film, vilket vi inte kunde göra när barnen hade pärmar med bilder.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Vi upplever Prion som ett smidigare och snabbare alternativ. Vi har även märkt att barnen blir mer engagerade. De äldre barnen kommer och frågar om vi kan ta bilder och lägga upp på Prion.&amp;rdquo;
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;-Karin Hellman och Anna Hemmungs, förskollärare på Eskelhem förskola&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;De föräldrar på vår förskola som har skaffat Prion har uppskattat appen och har blivit mer engagerade. De kan under bilderna skriva kommentarer, vilket är mycket uppskattat av oss pedagoger. När dagen börjar med en jobbig lämning för föräldrarna har vi nu möjligheten att använda oss av Prion där vi kan lägga upp en film eller bild på barnet så föräldrarna kan se att det går bra istället för att skicka mms, vilket vi gjort tidigare. Vi upplever Prion som ett smidigare och snabbare alternativ. Vi har även märkt att barnen blir mer engagerade. De äldre barnen kommer och frågar om vi kan ta bilder och lägga upp på Prion.&lt;/p&gt;
-
-&lt;p&gt;Vi hoppas att fler provar på Prion! Vi upplever att den hjälper oss i vårt arbete och sparar tid. Vi kan enklare följa barnens utveckling och föräldrarna får en helt annan insyn i vår verksamhet.&lt;/p&gt;
-
-&lt;p&gt;Läs bloggposten här: &lt;a href=&#34;http://www.pedagoggotland.se/2018/01/08/prion-en-app-som-underlattar-bilddokumentationen/ &#34;target=&#34;_blank&#34; title=Prion - en app som underlättar bilddokumentationen &gt;Prion - en app som underlättar bilddokumentationen&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;a href=&#34;https://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Förskollärararna Karin Hellman och Anna Hemmungs på Eskelhem förskola har på Region Gotlands egna pedagogblogg beskrivit hur de gick från pärmar med bilder till att istället använda Prion. Här kommer ett utdrag på blogposten där de förklarar hur de har sparat tid på administrationen och förbättrat kontakten med föräldrarna.&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>Färdiga fotoböcker av dina Prion-foton direkt till dörren</title>
       <link>https://prionapp.com/blogg/fardiga-fotobocker-av-dina-prion-foton/</link>
       <pubDate>Thu, 14 Dec 2017 15:00:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/fardiga-fotobocker-av-dina-prion-foton/</guid>
       <description>&lt;p&gt;Prion Books är en ny funktion där färdiga fotoalbum skapas automatiskt från dina bilder i Prion. Beställ till exempel en bildbok över ditt barns dagar på förskolan eller över året som har varit.
- 
-&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/preschool/prion-books.jpg&#34; alt=&#34;Prion Books&#34; /&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&#34;hur-funkar-prion-books&#34;&gt;Hur funkar Prion Books?&lt;/h3&gt;
-
-&lt;p&gt;Med en knapptryckning får du enkelt hem din färdiga fotobok. Fotoboken är 20x20 cm stor med hård pärm och har max 44 sidor. Varje bok kostar 349 kr (tryck och leverans direkt till dörren ingår). Efter beställning skickas faktura till din epost-adress.&lt;/p&gt;
-
-&lt;h4 id=&#34;så-här-enkelt-beställer-du-din-prion-book&#34;&gt;Så här enkelt beställer du din Prion Book&lt;/h4&gt;
-
-&lt;p&gt;1) Längst ner till höger i huvudmenyn hittar du dina Prion-grupper som färdiga färdiga fotoalbum i din app.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/prionbooks-meny.png&#34; alt=&#34;Prion Books hittar du i högra menyfliken&#34; /&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;2) Redigera din bok eller beställ den som den är. Du kan till exempel:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;lägga till bilder direkt från mobilens kamerarulle eller från dina Prion-grupper&lt;/li&gt;
-&lt;li&gt;ta bort bilder&lt;/li&gt;
-&lt;li&gt;lägga till och ändra captions till varje bild&lt;/li&gt;
-&lt;li&gt;ändra ordning på bilderna&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/prionbooks-redigering.png&#34; alt=&#34;Redigera Prion Books om du vill&#34; /&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;3) Fyll i postadressen dit du vill att boken ska levereras.
-Klart! Inom 1-2 veckor så ska du ha fått din bok.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/prionbooks-bestallning.png&#34; alt=&#34;Hur du beställer Prion Books&#34; /&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Fotoböckerna finns än så länge på iPhone och iPad. Öppna upp din Prion-app och kolla!&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;btn btn-xl&#34; href=&#34;https://bnc.lt/3TIg/qaaRFDrvGz &#34;target=&#34;_blank&#34; title=Öppna Prion &gt;Öppna Prion&lt;/a&gt;&lt;/p&gt;</description>
+ &lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>GDPR på Prion</title>
       <link>https://prionapp.com/blogg/gdpr-pa-prion/</link>
       <pubDate>Wed, 13 Dec 2017 09:00:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/gdpr-pa-prion/</guid>
-      <description>&lt;p&gt;Den 25 maj 2018 träder den nya dataförordningen från EU i kraft. Här beskriver vi hur Prion arbetar med GDPR och hur detta påverkar dig som användare.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;vad-är-gdpr&#34;&gt;Vad är GDPR?&lt;/h3&gt;
-
-&lt;p&gt;GDPR, General Data Protection Regulation, är en ny dataförordning som EU:s medlemsländer har antagit och som träder i kraft den 25 maj 2018. Den kommer att ersätta PUL, den svenska personuppgiftslagen.&lt;/p&gt;
-
-&lt;p&gt;Med GDPR stärks individens rätt att själv bestämma över sina personuppgifter, bland annat kommer reglerna om samtycken och informationsinsatserna bli hårdare.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/preschool/gdpr-prion.jpg&#34; alt=&#34;Prion är GDPR-säkert&#34; /&gt;
-&lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;gdpr-innebär-att&#34;&gt;GDPR innebär att:&lt;/h4&gt;
-
-&lt;h5 id=&#34;privacy-by-default&#34;&gt;Privacy by default&lt;/h5&gt;
-
-&lt;p&gt;Varje organisation måste själv ta ansvar för den data som används och vilka system som använder datan, även den data som har lagts över på en IT-leverantör. Privacy by default innebär att man arbetar strukturerat med integritetsäkerhet i IT-projekt och system i varje led och inte tar in mer information om individen än nödvändigt. Frågor som organisationen bör ställa sig är varför har man sparat vissa uppgifter om individen, vad kommer de användas till, vem har tillgång till dem etc.&lt;/p&gt;
-
-&lt;h5 id=&#34;dataskyddsombud&#34;&gt;Dataskyddsombud&lt;/h5&gt;
-
-&lt;p&gt;En ny roll införs som har särskilt ansvar för att se till att reglerna efterföljs och som bevakar dataskyddsfrågor. Offentliga myndigheter och enheter samt privata företag som behandlar uppgifter om hälsodata, biometriska data eller genomför alla former av profilering av individer på internet är skyldiga att utse ett dataskyddsombud.&lt;/p&gt;
-
-&lt;h5 id=&#34;obligatorisk-anmälan-till-dataskyddsinspektionen&#34;&gt;Obligatorisk anmälan till Dataskyddsinspektionen&lt;/h5&gt;
-
-&lt;p&gt;Om något inträffar som riskerar att personuppgifter hamnar i orätta händer så måste detta rapporteras till Datainspektionen. Även de berörda måste informeras inom 72 timmar. Det kan röra sig om dataintrång eller att ett misstag har skett.&lt;/p&gt;
-
-&lt;h5 id=&#34;samtycke&#34;&gt;Samtycke&lt;/h5&gt;
-
-&lt;p&gt;Företag kan inte kräva samtycke i utbyte mot tjänster eller annat som en person borde vara berättigad till.&lt;/p&gt;
-
-&lt;h5 id=&#34;dataportabilitet&#34;&gt;Dataportabilitet&lt;/h5&gt;
-
-&lt;p&gt;Den registrerade har rätt att få sin data i ett strukturerat och allmänt använt och maskinläsbart format och att kunna skicka den informationen till konkurrerande verksamhet (till exempel från ett försäkringsbolag till ett annat).&lt;/p&gt;
-
-&lt;h5 id=&#34;ökade-rättigheter-för-den-registrerade&#34;&gt;Ökade rättigheter för den registrerade&lt;/h5&gt;
-
-&lt;p&gt;Den registrerade har rätt till att elektroniskt få en gratis kopia på sina uppgifter och att även få sina uppgifter raderade eller upprättade om någon uppgift är felaktig.&lt;/p&gt;
-
-&lt;h5 id=&#34;böter-för-det-företag-som-inte-följer-gdpr&#34;&gt;Böter för det företag som inte följer GDPR&lt;/h5&gt;
-
-&lt;p&gt;Datainspektionen kan ge böter till den organisation som inte har efterlevt lagstiftningen.&lt;/p&gt;
-
-&lt;h4 id=&#34;vad-gör-prion&#34;&gt;Vad gör Prion?&lt;/h4&gt;
-
-&lt;p&gt;Vi på Prion arbetar noggrannt med våra interna processer, rutiner samt system enligt privacy per default. Just nu genomgår vi säkerhets- och riskanalyser över våra leverantörer för att säkerställa att deras hantering av personuppgifter uppfyller GDPR till den 25 maj. Vi förbereder även våra system med att kunna exportera ut och redigera användardata ifall den användare efterfrågar det (dataportabilitet) och ser över våra samtyckesavtal. Det är idag redan möjligt att radera användardata.&lt;/p&gt;
-
-&lt;h4 id=&#34;vad-behöver-du-som-användare-tänka-på&#34;&gt;Vad behöver du som användare tänka på?&lt;/h4&gt;
-
-&lt;p&gt;Om du använder Prion i en organisation, till exempel på en förskola, bör du göra en inventering och säkerhetsanalys över hur din organisation använder personuppgifter.&lt;/p&gt;
-
-&lt;p&gt;Du som använder Prion för privat bruk har ingen skyldighet att följa GDPR. Dock kan du ställa krav på att din leverantör följer GDPR. Läs mer här på &lt;a href=&#34;https://www.datainspektionen.se/dataskyddsreformen/dataskyddsforordningen/tillampningsomrade/undantag-for-privat-behandling-av-personuppgifter/&#34; target=&#34;_blank&#34; title=Datainspektionen hemsidaDatainspektionen hemsida&gt;Datainspektionen hemsida&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Så här tolkar vi GDPR och hur detta påverkar oss och våra användare. Hör av dig till &lt;a href=&#34;mailto:hello@prionapp.com&#34; title=hello@prionapp.com&gt;hello@prionapp.com&lt;/a&gt; om du har fler frågor om GDPR.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;a href=&#34;https://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Den 25 maj 2018 träder den nya dataförordningen från EU i kraft. Här beskriver vi hur Prion arbetar med GDPR och hur detta påverkar dig som användare.&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>Sista minuten-tips kring luciabilder på förskolan</title>
-      <link>https://prionapp.com/blogg/luciabilder%20p%C3%A5%20f%C3%B6rskolan/</link>
+      <link>https://prionapp.com/blogg/luciabilder-p%C3%A5-f%C3%B6rskolan/</link>
       <pubDate>Mon, 11 Dec 2017 09:00:05 +0100</pubDate>
-
-      <guid>https://prionapp.com/blogg/luciabilder%20p%C3%A5%20f%C3%B6rskolan/</guid>
+      
+      <guid>https://prionapp.com/blogg/luciabilder-p%C3%A5-f%C3%B6rskolan/</guid>
       <description>&lt;p&gt;Lucia är ett uppskattat firande på förskolan där föräldrar samlas och vill fotografera barnens lussande. Bilder på andras barn är idag känsligt men med klara förhållningsregler från förskolan så kommer man långt.&lt;/p&gt;
 
-&lt;p&gt;Vi på Prion som jobbar med säker bilddelning ihop med många förskolor har här sammanfattat en sista minuten-lista om fotografering på lucia och även sammanställt tips på hur själva luciafirandet kan se ut på förskolorna. Varsågod!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;sista-minuten-checklista-att-stämma-av-inför-lucia-färdig-att-skriva-ut&#34;&gt;Sista minuten-checklista att stämma av inför lucia – färdig att skriva ut:&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://prionapp.com/img/preschool/checklista infor lucia.pdf&#34; target=&#34;_blank&#34;&gt;
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/preschool/prions-lucia-checklista.jpg&#34; alt=&#34;Drawing&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;figcaption&gt;Klicka på bilden för att skriva ut&lt;/figcaption&gt;&lt;/div&gt;
-&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;6-tips-om-lucia-på-förskolan&#34;&gt;6 tips om lucia på förskolan:&lt;/h3&gt;
-
-&lt;p&gt;Det finns många sätt för en förskola att anordna en trygg lucia med fotografering, här berättar några förskolor om deras tips:&lt;/p&gt;
-
-&lt;h5 id=&#34;1-berätta-i-förväg-vad-som-gäller-för-föräldrarna&#34;&gt;1) Berätta i förväg vad som gäller för föräldrarna&lt;/h5&gt;
-
-&lt;p&gt;Kan låta självklart men ändå lätt att missa. I samband med att du bjuder in föräldrarna till luciafirande, informera då tydligt om vad som gäller kring fotografering just på er förskola.&lt;/p&gt;
-
-&lt;h5 id=&#34;2-påminn-föräldrarna&#34;&gt;2) Påminn föräldrarna&lt;/h5&gt;
-
-&lt;p&gt;Påminn löpande om era regler. På Asklidens förskola har man till exempel satt upp en skylt om fotograferingsförbud på förskolan. Påminn även föräldrarna om vad du förväntar dig av dem strax innan luciafirandet börjar.&lt;/p&gt;
-
-&lt;h5 id=&#34;3-arrangera-luciatåg-utan-fotografering&#34;&gt;3) Arrangera luciatåg utan fotografering&lt;/h5&gt;
-
-&lt;p&gt;Be föräldrarna om att inte fotografera under själva luciatåget utan att vänta med det tills framträdandet är klart.&lt;/p&gt;
-
-&lt;p&gt;”De får inte ta bilder när barnen sjunger. Dels för att det stör barnen som står på scenen och dels för att vi inte kan kontrollera vilka barn som är med på bilderna. Däremot får de gärna fotografera sina barn efteråt”, sager Karin Hellman, förskollärare Eskelhem på Gotland.&lt;/p&gt;
-
-&lt;h5 id=&#34;4-låt-personalen-fotografera-istället&#34;&gt;4) Låt personalen fotografera istället&lt;/h5&gt;
-
-&lt;p&gt;Så arbetar förskollärare Susanne Walldén på Asklidens förskola: “När vi har lucia, uppmanar vi föräldrarna att inte ta kort då utan vi har egen fotografering efteråt”. Personalen vet vilka barn som får fotograferas och kan därför i lugn och ro skicka ut bilderna till föräldrarna senare.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/preschool/luciatips-fran-Prion.jpg&#34; alt=&#34;Drawing&#34; /&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/figure&gt;
-
-&lt;h5 id=&#34;5-ha-eget-luciafirande-utan-föräldrar&#34;&gt;5) Ha eget luciafirande utan föräldrar&lt;/h5&gt;
-
-&lt;p&gt;Bjud inte in föräldrarna till själva firandet utan ha istället drop-in fika i samband med att föräldrar hämtar där de får se bilder från barnens luciatåg. Med detta upplägg så har du inte bara kontroll över vem som blir fotograferad utan kan också minska stressen och dämpa det dåliga samvetet för föräldrar som har svårt att lämna jobb och andra åtaganden.&lt;/p&gt;
-
-&lt;p&gt;På förskolorna Ankaret och Bruksgården arrangeras julfest med just detta upplägg:
-“Julfesten på förskolan är på dagen med alla avdelningar och då är inga föräldrar eller vårdnadshavare med. Dagen firas med julmat, jullekar, dans och avslutatas med att tomten kommer förbi med en liten julklapp. Fotografering på julfesten görs av personalen som vet vilka barn som får fotograferas”, berättar förskolechefen Katarina Wendin.&lt;/p&gt;
-
-&lt;h5 id=&#34;6-sätt-en-tydlig-året-runt-policy&#34;&gt;6) Sätt en tydlig året-runt policy&lt;/h5&gt;
-
-&lt;p&gt;Sätt upp en tydlig policy om fotografering på andras barn och sociala medier och säkerställ att föräldrarna har tagit del av materialet. Att kunna fotografera och därmed dokumentera verksamheten är viktigt för förskolan. Förskolan behöver därför vara tydlig mot föräldrarna om att deras material inte får delas vidare på sociala medier, oavsett om det är lucia eller inte.&lt;/p&gt;
-
-&lt;p&gt;”Vi har skrivit i vår verksamhetsfolder att föräldrarna inte får fotografera andra barn och det gäller året runt. Denna skickas hem till föräldrarna innan de börjar på förskolan. Sen brukar vi påminna dem innan själva lucia börjar att de inte får ta bilder där andra barn finns med”, säger Karin Hellman.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sådär ja! Dessa tips fungerar givetvis att applicera på andra högtider och även generellt hur du jobbar med fotografering på förskolan.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Glad lucia önskar vi på Prion, appen som gör det enklare för föräldrar och förskolor att dela bilder, videos och inlägg privat.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Vi på Prion som jobbar med säker bilddelning ihop med många förskolor har här sammanfattat en sista minuten-lista om fotografering på lucia och även sammanställt tips på hur själva luciafirandet kan se ut på förskolorna. Varsågod!&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>Snäckstrands förskola i tidningen Barometern om Prion</title>
       <link>https://prionapp.com/blogg/snackstrands-forskola-barometern/</link>
       <pubDate>Thu, 07 Dec 2017 10:00:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/snackstrands-forskola-barometern/</guid>
-      <description>&lt;p&gt;Snäckstrands förskola på Öland blev intervjuad av tidningen Barometern om hur de förbättrade föräldrakommunikationen med Prion. Här kommer ett utdrag från artikeln.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Det är smidigt, vi behöver inte sitta och välja ut bilder eller sudda ut ansikten.&amp;rdquo;
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;-Nina Filipsson, förskollärare på Snäckstrands förskola&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I artikeln beskrivs hur digitalt lärande och hjälpmedel är på modet men att många föräldrar inte vill att deras barn ska synas för andra, till exempel på sociala medier. Just kommunikationen mellan förskola och föräldrar är viktig dock har stressade föräldrar inte alltid tid att titta igenom pärmen om deras barn på förskolan.&lt;/p&gt;
-
-&lt;p&gt;Snäckstrands förskola i Mörbylånga kommun på Öland var en av de första förskolorna i Sverige som började använda Prion för att underlätta både dokumentation och kommunikation med föräldrarna. De testade Prion i en av sina barngrupper i våras och sedan hösten finns Prion på alla grupper på förskolan.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/preschool/snackstrands-forskola-i-barometern.png&#34; alt=&#34;Snäckstrands förskola i barometern om Prion&#34; /&gt;
-&lt;figcaption&gt;Ylva Friman tar foto på barnen. Foto: Sofia Hedman&lt;/figcaption&gt;&lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;”Det var i en Facebook-grupp om digitala verktyg som vi såg att några apputvecklare ville ha testskolor för ett pilotprojekt. Vi tyckte att det verkade intressant och sa ja till att vara med”, berättar förskolläraren Nina Filipsson till Barometern.&lt;/p&gt;
-
-&lt;p&gt;Snäckstrands förskola blev väldigt nöjda med hur smidigt systemet var och och att det var snabbare än att skicka sms, mms eller skriva blogg och veckobrev.&lt;/p&gt;
-
-&lt;p&gt;På förskolan har varje förälder sin egna ”brevlåda” i mobilen där de får info om det egna barnet sedan kan alla föräldrar även ingå i en gemensam informationsmapp med generell inblick från förskolan.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Det går snabbt at ta en bild på ett barn som varit ledset när föräldern lämnade de, och visa att allt fungerar väl.&amp;rdquo;
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;-Ylva Friman, förskollärare på Snäckstrands förskola&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;”Det går snabbt att ta en bild på ett barn som varit ledset när föräldern lämnade de, och visa att allt fungerar väl. Sedan kan föräldern svara genom att gilla bilden eller skriva något”, säger Ylva Friman, också förskollärare på Snäckstrand.&lt;/p&gt;
-
-&lt;p&gt;”Jag använder appen mest som veckoinformation. Det är smidigt, vi behöver inte sitta och välja ut bilder eller sudda ut ansikten. Vi kan också visa hur vi jobbar med lärande på ett enkelt och tydligt sätt, säger Nina Filipsson.&lt;/p&gt;
-
-&lt;p&gt;Nina Filipsson förklarar även att appen är gratis. ”Det är bara om man gör tillval, som att skriva ut en fotobok som det kostar”, avslutar Nina Filipsson med.&lt;/p&gt;
-
-&lt;p&gt;Läs hela artikeln här: &lt;a href=&#34;http://www.barometern.se/oland/digital-app-hjalper-forskola/&#34; target=&#34;_blank&#34;  title=Digital app hjälper förskola &gt;Digital app hjälper förskola&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Snäckstrands förskola på Öland blev intervjuad av tidningen Barometern om hur de förbättrade föräldrakommunikationen med Prion. Här kommer ett utdrag från artikeln.&lt;/p&gt;</description>
     </item>
-
+    
     <item>
       <title>Prion på Asklidens förskola</title>
       <link>https://prionapp.com/blogg/prion-askliden-forskola/</link>
       <pubDate>Thu, 23 Nov 2017 10:16:05 +0100</pubDate>
-
+      
       <guid>https://prionapp.com/blogg/prion-askliden-forskola/</guid>
-      <description>&lt;p&gt;Sedan årskiftet har Asklidens förskola använt Prion på sina tre avdelningar i syfte att förbättra och effektivisera kommunikationen med föräldrarna. Förskollärare Susanne Walldén och barnskötare Jessica Lindvall jobbar båda på Asklidens förskola och har varit med sedan Prion introducerades.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/preschool/susannejessica-5.jpg&#34; alt=&#34;susanne&amp;jessica&#34; /&gt;
-&lt;figcaption&gt;Susanne Walldén, förskollärare, och Jessica Lindvall, barnskötare&lt;/figcaption&gt;&lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&#34;snabbt-smidigt-och-enkelt-att-använda-ger-mer-tid-för-barnen&#34;&gt;Snabbt, smidigt och enkelt att använda - ger mer tid för barnen&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Vi sparar tid som vi annars lagt på dokumentation.&amp;rdquo;
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;-Susanne Walldén, förskollärare på Asklidens förskola&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Det administrativa arbetet blir minimalt. Vi postar nästan varje dag på Prion, 3-4 gånger i veckan. I och med att det går så fort kan vi lägga upp en bild på några sekunder och sedan kan vi ägna oss åt barnen. Vi behöver inte ha med oss kameran utan allting sköts via Prion-appen på mobilen eller iPaden. Med kameran var vi tvungna att bära med oss den, ladda in bilderna i iPaden, sedan skrivas ut och därefter sättas in i fotoramen. Nu sker dokumentationen snabbt och smidigt. Dessutom involveras föräldrarna på samma gång. Vi sparar tid som vi annars hade lagt på att dokumentera samtidigt som föräldrarna blir mer delaktiga i verksamheten.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;div style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://prionapp.com/img/preschool/Askliden.jpg&#34; alt=&#34;Drawing&#34; /&gt;
-&lt;figcaption&gt;Asklidens förskola&lt;/figcaption&gt;&lt;/div&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&#34;ökad-delaktighet-hos-föräldrarna&#34;&gt;Ökad delaktighet hos föräldrarna&lt;/h3&gt;
-
-&lt;p&gt;När föräldrarna får en daglig inblick ökar engagemanget och delaktigheten. Det är så härligt när de kommer och hämtar barnen för då vet de redan vad vi har gjort. En mycket positiv förändring är just mötet när föräldrar kommer och vänder sig direkt till barnen för att fråga om dagen. Förut vände de sig till oss i personalen, men med lite mer information kan föräldrarna ställa rätt frågor som gör att barnen kan berätta själva.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;”För mig som förälder gör Prion att jag har en insikt om vad som görs i verksamheten. Fördelen är att när jag hämtar mitt barn och vi pratar om dagen har jag lite förkunskap och kan stötta och fråga henne så hon kommer ihåg mer av dagen. Vi behöver inte stå kvar vid bildskärmen på förskolan för att se bilderna utan kan göra det när det passar oss”
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;-Veronica Hansson, förälder till barn på Asklidens förskola&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;kommunikationen-blir-mer-personlig-mellan-förskolan-och-föräldrarna&#34;&gt;Kommunikationen blir mer personlig mellan förskolan och föräldrarna&lt;/h3&gt;
-
-&lt;p&gt;En annan aspekt är hur personlig man kan vara i uppdateringarna. Vi har märkt att faktumet att vi kan visa barnens ansikten på bilderna ger en helt annan förståelse hos föräldrarna än till exempel opersonligare inlägg på Facebook.&lt;/p&gt;
-
-&lt;h3 id=&#34;utökad-användning-av-prion&#34;&gt;Utökad användning av Prion&lt;/h3&gt;
-
-&lt;p&gt;Vi började med Prion på två avdelningar och var så nöjda att vi efter sommaren även införde mobilappen på vår tredje avdelning. Först använde vi en gemensam grupp i appen för varsin avdelning med föräldrar knutna till dem men nu har vi även infört individuella grupper för varje barn med barnets föräldrar.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Jag hoppas fler förskolor ansluter sig för det ger otroligt mycket tillbaka till förskolan och i slutändan till barnen&amp;rdquo;
-&lt;p class=&#34;subpage-quote-caption&#34;&gt;-Susanne Walldén, förskollärare på Asklidens förskola&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://prionapp.com/img/preschool/skurup-logo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://prionapp.com/forskola/&#34; title=läs om Prion för förskolor &gt;Läs mer om appen här.&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sedan årskiftet har Asklidens förskola använt Prion på sina tre avdelningar i syfte att förbättra och effektivisera kommunikationen med föräldrarna. Förskollärare Susanne Walldén och barnskötare Jessica Lindvall jobbar båda på Asklidens förskola och har varit med sedan Prion introducerades.&lt;/p&gt;</description>
     </item>
+    
+    <item>
+      <title>Nyhet! Flera adminstratörer i Prion-grupper</title>
+      <link>https://prionapp.com/blogg/ny-funktion-fler-admins/</link>
+      <pubDate>Wed, 15 Nov 2017 12:14:05 +0100</pubDate>
+      
+      <guid>https://prionapp.com/blogg/ny-funktion-fler-admins/</guid>
+      <description>&lt;p&gt;Ny funktion i Prion! Nu kan du ha flera administratörer i en grupp. Perfekt om man som förskola vill att personal ska kunna ha egna konton men ändå kunna ha mer långtgående rättigheter än föräldrarna i gruppen.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bruksgårdens förskola</title>
+      <link>https://prionapp.com/blogg/bruksg%C3%A5rdens-f%C3%B6rskola/</link>
+      <pubDate>Wed, 02 Aug 2017 11:16:05 +0100</pubDate>
+      
+      <guid>https://prionapp.com/blogg/bruksg%C3%A5rdens-f%C3%B6rskola/</guid>
+      <description>&lt;p&gt;Bruksgårdens förskola är en kommunal förskola i Skurup där barnen får vara med och påverka. Prion har använts sedan årsskiftet som ett sätt att främja barnens tankar och idéer samtidigt som föräldrarna får en bättre inblick i verksamheten. Marie Cornmark, förskolechef på Bruksgårdens förskola var med och införde Prion på förskolan. Här svarar hon på 3 korta frågor om Prion:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nu introduceras Video i Prion - på alla plattformar</title>
+      <link>https://prionapp.com/blogg/video/</link>
+      <pubDate>Fri, 28 Jul 2017 10:16:05 +0100</pubDate>
+      
+      <guid>https://prionapp.com/blogg/video/</guid>
+      <description>Att spela in kortare filmer är ett effektivt verktyg för att bevara en händelser och därför har video en självklar plats i Prion. Från och med nu går det både att dela och spela in filmklipp direkt i appen - allt för att göra det enkelt att dela och bevara personliga minnen.
 
+Videofilmer har en Play-symbol som på bilden. Tryck på bilden för att börja spela filmen i appen.</description>
+    </item>
+    
+    <item>
+      <title>Förskolepodden och Prion i samarbete</title>
+      <link>https://prionapp.com/blogg/forskolepodden/</link>
+      <pubDate>Wed, 19 Jul 2017 10:16:05 +0100</pubDate>
+      
+      <guid>https://prionapp.com/blogg/forskolepodden/</guid>
+      <description>Under 2017 samarbetar Prion med Förskolepodden, Sveriges enda podd som riktar sig direkt till förskolan och förskollärare. Förskolepodden drivs av förskollärarna Josefin Malm och Sofie Källhage.
+Podden innehåller reflektioner och diskussioner kopplat till förskolan och uppdraget som förskollärare. Förskolepodden har ofta besök av spännande gäster, bland annat utbildningsministern Gustaf Fridolin och Skolinspektionens generaldirektör Helén Ängmo. Vi på Prion är stolta över att de vill samarbeta med oss, såhär säger Förskolepodden själva om samarbetet:</description>
+    </item>
+    
+    <item>
+      <title>Prion i Skurups kommun</title>
+      <link>https://prionapp.com/blogg/prion-i-skurups-kommun/</link>
+      <pubDate>Thu, 20 Apr 2017 10:16:05 +0100</pubDate>
+      
+      <guid>https://prionapp.com/blogg/prion-i-skurups-kommun/</guid>
+      <description>Skurups kommun ligger i Skåne län. Kommunen driver 10 kommunala förskolor som alla har sin egen profil och verksamhetsidé. Annelie Medoc är IKT-pedagog centralt inom kommunen och den som introducerade Prion.
+Uppskattar enkelheten för både pedagogerna och föräldrarna  “Det gick snabbt och lätt att komma igång.“  Det var av en slump som vi stötte på Prionapp - sedan gick det snabbt och lätt att komma igång. Pedagogerna hos oss är nöjda över hur lätt det är att använda verktyget.</description>
+    </item>
+    
+    <item>
+      <title>Digitalisering inkluderas i förskolans läroplan - förändringarna i korthet</title>
+      <link>https://prionapp.com/blogg/4-forandringar-i-forskolans-laroplan-att-vanta/</link>
+      <pubDate>Tue, 07 Feb 2017 10:16:05 +0100</pubDate>
+      
+      <guid>https://prionapp.com/blogg/4-forandringar-i-forskolans-laroplan-att-vanta/</guid>
+      <description>Förändringarna som Skolverket föreslår handlar om att barnen ska få träna sig i att använda digitala verktyg och medier i tidig ålder på förskolan. Att behärska digitala medier kommer vara viktigt för likvärdigheten och möjligheterna att lyckas i sin senare skolgång, regeringen beslutade i mars 2017 att digitala verktyg ska ha ett större fokus genom hela grund- och gymnasieskolan.
+Här är en sammfattning på förändringarna som Skolverket lagt fram för regeringen.</description>
+    </item>
+    
+    <item>
+      <title>Förskolan ska förbereda barnen för ett digitaliserat samhälle</title>
+      <link>https://prionapp.com/blogg/forskolan-ska-forbereda-barnen-for-ett-digitaliserat-samhalle/</link>
+      <pubDate>Tue, 07 Feb 2017 10:16:05 +0100</pubDate>
+      
+      <guid>https://prionapp.com/blogg/forskolan-ska-forbereda-barnen-for-ett-digitaliserat-samhalle/</guid>
+      <description>Förskolan ska förbereda barn för ett allt mer digitaliserat samhälle. Därför föreslår nu Skolverket förändringar i läroplanen för förskolan. Förändringarna innebär att det ingår förskolors uppdrag att ge barnen möjligheter att möta och förhålla sig till den moderna digitala teknik som de omges av på sin egen nivå. Det kan exempelvis handla om hushållsapparater, trafikljus och kameror.
+ “Vi vet att många förskolor redan idag arbetar med att låta barnen möta digitala verktyg som ett inslag i förskolans verksamhet.</description>
+    </item>
+    
+    <item>
+      <title>Prion som digitalt hjälpmedel i förskolan</title>
+      <link>https://prionapp.com/blogg/prion-som-digitalt-hjalpmedel-i-forskolan/</link>
+      <pubDate>Tue, 07 Feb 2017 10:16:05 +0100</pubDate>
+      
+      <guid>https://prionapp.com/blogg/prion-som-digitalt-hjalpmedel-i-forskolan/</guid>
+      <description>&lt;p&gt;Med Prion är det enkelt att ge föräldrar insyn i vad som sker på förskolan i veckorna. Styr enkelt vilka som tar del av olika inlägg och dela bilder och information fritt utan att äventyra barnens integritet. Rättigheterna till bilderna tillfaller förskolan.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
