@@ -725,6 +725,8 @@ section h2.section-heading {
 
 @media(min-width:992px) {
   #landing-video {
+    position: relative;
+    z-index: 1031;
     margin-left: 80px;
     margin-right: 50px;
   }
