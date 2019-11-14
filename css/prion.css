@@ -310,6 +310,7 @@ header .intro-text {
   margin-left: 0px;
   margin-right: 0px;
   font-style: normal;
+  line-height: 1.75;
 }
 
 .subpage-content-container h1,
@@ -326,6 +327,10 @@ header .intro-text {
   text-align: center;
   font-style: italic;
   font-size: 11px;
+}
+
+.subpage-content-container {
+  text-align: justify;
 }
 
 .blog-author {

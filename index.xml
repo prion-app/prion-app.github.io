@@ -6,10 +6,39 @@
     <description>Recent content on Prion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <lastBuildDate>Wed, 13 Nov 2019 12:25:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2019 13:15:00 +0100</lastBuildDate>
     
 	<atom:link href="https://prionapp.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dataskydd på Prion</title>
+      <link>https://prionapp.com/dataskydd/</link>
+      <pubDate>Thu, 14 Nov 2019 13:15:00 +0100</pubDate>
+      
+      <guid>https://prionapp.com/dataskydd/</guid>
+      <description>Dataskydd är av central betydelse i vår vision om en bättre förskoleplattform. Vi vill att alla som använder Prion ska känna sig säkra med att dela material genom oss. Därför har vi tagit fram detta material för att ge en inblick i hur vi ser på dataskydd inom förskolan, visa hur vi arbetar och svara på vanliga frågor om dataskyddet på Prion.
+Vad innebär dataskydd? Lite förenklat kan man säga att begreppet dataskydd handlar om hur organisationer ska hantera personuppgifter som de av ett eller annat skäl samlar in och använder i sin verksamhet.</description>
+    </item>
+    
+    <item>
+      <title>Frågor och svar om dataskydd</title>
+      <link>https://prionapp.com/dataskydd-fragor-och-svar/</link>
+      <pubDate>Thu, 14 Nov 2019 13:15:00 +0100</pubDate>
+      
+      <guid>https://prionapp.com/dataskydd-fragor-och-svar/</guid>
+      <description>Man kan spara ner material från appen. Är inte det en säkerhetsrisk? Det är viktigt att ha i åtanke att det inte är möjligt att fullt ut förhindra någon från att sprida vidare digitalt material som de har fått tillgång till. Det finns vissa tekniska metoder som kan göra det svårare, men vi kan till exempel inte hindra någon från att ta ett fotografi av en bild i Prion. Det enda sättet att vara helt säker på att känsligt innehåll inte sprids är att inte ladda upp det från första början, och att bara dela innehåll med personer som du litar på.</description>
+    </item>
+    
+    <item>
+      <title>Vårt arbete med dataskydd</title>
+      <link>https://prionapp.com/dataskydd-vart-arbete/</link>
+      <pubDate>Thu, 14 Nov 2019 13:15:00 +0100</pubDate>
+      
+      <guid>https://prionapp.com/dataskydd-vart-arbete/</guid>
+      <description>Inbyggt dataskydd En viktig princip inom EU:s dataskyddsförordning är den om inbyggt dataskydd. Det innebär att nya tjänster som tas fram ska ha ett tillfredsställande dataskydd och att dataskyddet inte är något som ska göras hastigt i sista stund. För oss på Prion innebär det att dataskydd är något som vi beaktar genom hela utvecklingsprocessen, från idé till färdig produkt och vidare i drift och underhåll.
+Vad är ett tillfredsställande dataskydd?</description>
+    </item>
     
     <item>
       <title>Nya guider finns tillgängliga under Frågor och Svar!</title>
