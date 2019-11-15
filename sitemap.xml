@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://prionapp.com/dataskydd/</loc>
-    <lastmod>2019-11-14T13:15:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://prionapp.com/dataskydd-fragor-och-svar/</loc>
     <lastmod>2019-11-14T13:15:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://prionapp.com/</loc>
+    <loc>https://prionapp.com/dataskydd/</loc>
     <lastmod>2019-11-14T13:15:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://prionapp.com/dataskydd-vart-arbete/</loc>
+    <loc>https://prionapp.com/dataskydd-informationssakerhet/</loc>
+    <lastmod>2019-11-14T13:15:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prionapp.com/</loc>
     <lastmod>2019-11-14T13:15:00+01:00</lastmod>
   </url>
   
@@ -33,12 +33,12 @@
   </url>
   
   <url>
-    <loc>https://prionapp.com/tags/ios/</loc>
+    <loc>https://prionapp.com/categories/ios/</loc>
     <lastmod>2019-11-13T12:25:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://prionapp.com/categories/ios/</loc>
+    <loc>https://prionapp.com/tags/ios/</loc>
     <lastmod>2019-11-13T12:25:00+01:00</lastmod>
   </url>
   

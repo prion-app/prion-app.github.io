@@ -12,16 +12,6 @@
     
     
     <item>
-      <title>Dataskydd på Prion</title>
-      <link>https://prionapp.com/dataskydd/</link>
-      <pubDate>Thu, 14 Nov 2019 13:15:00 +0100</pubDate>
-      
-      <guid>https://prionapp.com/dataskydd/</guid>
-      <description>Dataskydd är av central betydelse i vår vision om en bättre förskoleplattform. Vi vill att alla som använder Prion ska känna sig säkra med att dela material genom oss. Därför har vi tagit fram detta material för att ge en inblick i hur vi ser på dataskydd inom förskolan, visa hur vi arbetar och svara på vanliga frågor om dataskyddet på Prion.
-Vad innebär dataskydd? Lite förenklat kan man säga att begreppet dataskydd handlar om hur organisationer ska hantera personuppgifter som de av ett eller annat skäl samlar in och använder i sin verksamhet.</description>
-    </item>
-    
-    <item>
       <title>Frågor och svar om dataskydd</title>
       <link>https://prionapp.com/dataskydd-fragor-och-svar/</link>
       <pubDate>Thu, 14 Nov 2019 13:15:00 +0100</pubDate>
@@ -31,11 +21,20 @@ Vad innebär dataskydd? Lite förenklat kan man säga att begreppet dataskydd ha
     </item>
     
     <item>
-      <title>Vårt arbete med dataskydd</title>
-      <link>https://prionapp.com/dataskydd-vart-arbete/</link>
+      <title>GDPR och dataskydd på Prion</title>
+      <link>https://prionapp.com/dataskydd/</link>
       <pubDate>Thu, 14 Nov 2019 13:15:00 +0100</pubDate>
       
-      <guid>https://prionapp.com/dataskydd-vart-arbete/</guid>
+      <guid>https://prionapp.com/dataskydd/</guid>
+      <description>GDPR är namnet på den EU-förordning som reglerar skyddet av personuppgifter. På svenska heter detta dataskydd och är av central betydelse i vår vision om en bättre förskoleplattform. Vi vill att alla som använder Prion ska känna sig säkra med att dela material genom oss. Därför vill vi här ge en inblick i hur vi ser på dataskydd inom förskolan, visa hur vi arbetar och svara på vanliga frågor om dataskyddet på Prion.</description>
+    </item>
+    
+    <item>
+      <title>Informationssäkerhet på Prion</title>
+      <link>https://prionapp.com/dataskydd-informationssakerhet/</link>
+      <pubDate>Thu, 14 Nov 2019 13:15:00 +0100</pubDate>
+      
+      <guid>https://prionapp.com/dataskydd-informationssakerhet/</guid>
       <description>Inbyggt dataskydd En viktig princip inom EU:s dataskyddsförordning är den om inbyggt dataskydd. Det innebär att nya tjänster som tas fram ska ha ett tillfredsställande dataskydd och att dataskyddet inte är något som ska göras hastigt i sista stund. För oss på Prion innebär det att dataskydd är något som vi beaktar genom hela utvecklingsprocessen, från idé till färdig produkt och vidare i drift och underhåll.
 Vad är ett tillfredsställande dataskydd?</description>
     </item>

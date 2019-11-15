@@ -204,6 +204,10 @@ footer a {
   color: #000;
 }
 
+.subpage-content-container a button {
+  color: #000;
+}
+
 .link-list {
   padding: 0px;
 }
