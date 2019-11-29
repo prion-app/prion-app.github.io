@@ -6,10 +6,21 @@
     <description>Recent content on Prion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <lastBuildDate>Thu, 14 Nov 2019 13:15:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2019 10:45:00 +0100</lastBuildDate>
     
 	<atom:link href="https://prionapp.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Prion söker fler säljare till teamet!</title>
+      <link>https://prionapp.com/blogg/prion-soker-fler-saljare-till-teamet/</link>
+      <pubDate>Fri, 29 Nov 2019 10:45:00 +0100</pubDate>
+      
+      <guid>https://prionapp.com/blogg/prion-soker-fler-saljare-till-teamet/</guid>
+      <description>Prion är i ständig utveckling och söker just nu efter nya medlemmar till teamet för att kunna växa ännu mer! Vi letar efter nya säljare som kan arbeta med att bygga relationer med både befintliga och nya kunder runt om i Sverige. Vill du vara med och göra skillnad och skapa förändring för kommande generationer i förskolan? Sök till Prions säljteam idag!
+  
+Genom vår plattform hjälper vi förskolan arbeta mer effektivt med administration så att pedagoger kan spendera mer tid med barnen.</description>
+    </item>
     
     <item>
       <title>Frågor och svar om GDPR</title>
@@ -389,16 +400,7 @@ Här är en sammfattning på förändringarna som Skolverket lagt fram för rege
       <pubDate>Tue, 07 Feb 2017 10:16:05 +0100</pubDate>
       
       <guid>https://prionapp.com/forskola-mallar-och-produktblad/</guid>
-      <description>Prion Föräldrainformation
-Ett informationsblad i A4-format om Prion för föräldrar.
-
-Förskoleinformation
-Ett informationsblad i A4-format om Prion för förskolepersonal.
-
-Broschyr om Prion
-En broschyr som beskriver vad Prion att skicka till föräldrar och andra på förskolan som vill veta mer.
-
-Produktblad och funktioner
+      <description>Prion Produktblad och funktioner
 Se bilder från Prion-appen och en lista med funktioner.
 
 Mallar Mall för vårdnadshavares samtycke
