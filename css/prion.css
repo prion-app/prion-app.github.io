@@ -532,7 +532,8 @@ section h2.section-heading {
   .subpage-content-container h3,
   .subpage-content-container h4,
   .subpage-content-container h5,
-  .subpage-content-container h6 {
+  .subpage-content-container h6,
+  .subpage-content-container figure img {
     margin-left: 100px;
     margin-right: 100px;
   }
