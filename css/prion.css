@@ -613,9 +613,6 @@ section h2.section-heading {
 }
 
 @media(min-width:992px) {
-  #gdpr-section {
-    padding-left: 140px;
-  }
   #gdpr-section p {
     max-width: 600px;
     margin-right: 30px;
@@ -627,10 +624,6 @@ section h2.section-heading {
 }
 
 @media(min-width:1200px) {
-  #gdpr-section {
-    padding-left: 190px;
-  }
-
   #gdpr-section p {
     max-width: 800px;
     margin-right: 40px;
@@ -640,6 +633,7 @@ section h2.section-heading {
     width: 70%;
   }
 }
+
 .floating_phone_kids {
   width: 80%;
   margin-left: auto;
