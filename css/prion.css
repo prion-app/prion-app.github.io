@@ -301,7 +301,7 @@ header .intro-text {
 }
 
 .subpage-content-container img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .subpage-content-container p,
@@ -543,11 +543,13 @@ section h2.section-heading {
     margin-right: 100px;
   }
 
+  /*
   .subpage-content-container img {
     width: calc(100% + 200px);
     margin-left: -100px;
     margin-right: -100px;
   }
+  */
 
   .subnav-container {
     height: 33px;
