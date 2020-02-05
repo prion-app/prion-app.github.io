@@ -62,6 +62,22 @@ $('form[id=contactForm]').submit(function(){
   return false;
 });
 
+// Async preschool contact form
+$('form[id=preschoolContactForm]').submit(function(){
+  $.post($(this).attr('action'), $(this).serialize(), function(res){
+    $('form[id=contactForm] #success').hide();
+    $('form[id=contactForm] #error').hide();
+    if (res.success) {
+      $('form[id=contactForm] #success').show();
+    }
+  }, 'json').fail(function(){
+    $('form[id=contactForm] #success').hide();
+    $('form[id=contactForm] #error').hide();
+    $('form[id=contactForm] #success').show();
+  });
+  return false;
+});
+
 // Async news form
 $('form[id=newsForm]').submit(function(){
   $.post($(this).attr('action'), $(this).serialize(), function(res){
