@@ -1025,3 +1025,9 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 }
+
+.modal-link {
+    cursor: pointer;
+    color: #0EB3EE;
+    text-decoration: none;
+}
