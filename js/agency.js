@@ -78,6 +78,22 @@ $('form[id=newsForm]').submit(function(){
   return false;
 });
 
+// Async news form
+$('form[id=preschoolContactModal]').submit(function(){
+  $.post($(this).attr('action'), $(this).serialize(), function(res){
+    $('form[id=preschoolContactModal] #success').hide();
+    $('form[id=preschoolContactModal] #error').hide();
+    if (res.success) {
+      $('form[id=preschoolContactModal] #success').show();
+    }
+  }, 'json').fail(function(){
+    $('form[id=preschoolContactModal] #success').hide();
+    $('form[id=preschoolContactModal] #error').hide();
+    $('form[id=preschoolContactModal] #success').show();
+  });
+  return false;
+});
+
 // Contact form validation
 $.validate({
   modules : 'html5, toggleDisabled'

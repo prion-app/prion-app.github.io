@@ -1005,4 +1005,23 @@ ul.social-buttons li a:active {
 }
 body {
     webkit-tap-highlight-color: #0EB3EE;
-}-
+}
+
+.centered {
+    text-align: center;
+}
+
+#gdpr-footer {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.modal-body h3 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
