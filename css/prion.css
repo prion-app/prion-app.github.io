@@ -1036,7 +1036,13 @@ body {
     background-color: #fed136;
 }
 
-.legal p,h1,h2,h3,h4,h5,h6 {
+.legal p,
+.legal h1,
+.legal h2,
+.legal h3,
+.legal h4,
+.legal h5,
+.legal h6 {
     font-family: Helvetica, Arial, sans-serif;
     font-style: normal;
 }
