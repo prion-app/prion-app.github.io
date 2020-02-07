@@ -96,5 +96,5 @@ $('form[id=preschoolContactModal]').submit(function(){
 
 // Contact form validation
 $.validate({
-  modules : 'html5, toggleDisabled'
+  modules : 'html5' //, toggleDisabled'
 });
