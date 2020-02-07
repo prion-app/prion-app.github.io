@@ -560,9 +560,9 @@ Här är en sammfattning på förändringarna som Skolverket lagt fram för rege
           <li><a href="/en/">English</a></li>
 
           
-            <li><a href="http://app.prionapp.com/privacy">Om personuppgifter</a></li>
+            <li><a href="/privacy">Om personuppgifter</a></li>
           
-            <li><a href="http://app.prionapp.com/terms">Allmänna villkor</a></li>
+            <li><a href="/terms">Allmänna villkor</a></li>
           
 
         </ul>
@@ -586,21 +586,36 @@ Här är en sammfattning på förändringarna som Skolverket lagt fram för rege
 <script src="https://prionapp.com/js/agency.js"></script>
 
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-58485128-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 
+<script src="/js/js.cookie.js"></script>
+<script src="/js/analytics.js"></script>
 
+<div class="modal" id="cookieConsentModal" tabindex="-1" role="dialog" aria-labelledby="cookieConsentModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cookieConsentModalLabel">Vi använder kakor</h5>
+      </div>
+      <div class="modal-body">
+        <p>Vår webbplats använder cookies för att fungera ordentligt. Genom att
+        besöka webbplatsen godkänner du Prions användning av cookies för
+        grundläggande funktionalitet. Du kan läsa mer om vår användning av
+        cookies <a href="/cookies">här.</a></p>
 
-
-
+        <p>Vi vill också använda cookies för att samla in statistik om våra
+        besökare och förbättra Prion våra besökares användarupplevelse, samt
+        kommunicera med er via sociala medier. Om du godkänner vår användning
+        av cookies för dessa ändamål kommer vi att dela besöksinformationen med
+        våra partners.
+      </div>
+      <div class="modal-footer">
+        <a href="/cookies" id="cookiesReadMoreButton" class="btn btn-xl">Läs mer</a>
+        <button id="cookiesDenyButton" class="btn btn-xl">Jag nekar</button>
+        <button id="cookiesAcceptButton" class="btn btn-xl">Jag godkänner</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   </body>
 </html>
