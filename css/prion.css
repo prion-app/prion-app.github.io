@@ -1016,11 +1016,11 @@ body {
     font-size: smaller;
 }
 
-.modal-body {
+#preschoolContactContent {
     padding: 30px;
 }
 
-.modal-body h3 {
+#preschoolContactContent h3 {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -1039,4 +1039,17 @@ body {
 .legal p,h1,h2,h3,h4,h5,h6 {
     font-family: Helvetica, Arial, sans-serif;
     font-style: normal;
+}
+
+#cookieConsentModal .modal-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}
+
+#cookieConsentModal .modal-footer .btn {
+    flex-grow: 1;
+    flex-basis: 50%;
 }

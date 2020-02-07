@@ -244,56 +244,56 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-body">
-        <h3>Kontakta oss!</h3>
-        <form action="https://formspree.io/hello@prionapp.com" method="POST" name="preschoolContactForm" id="preschoolContactForm">
-          <fieldset>
-            <div>
+        <div id="preschoolContactContent">
+          <h3>Kontakta oss!</h3>
+          <form action="https://formspree.io/hello@prionapp.com" method="POST" name="preschoolContactForm" id="preschoolContactForm">
+            <fieldset>
               <div>
-                <div class="form-group">
-                  <input class="form-control" required="required" type="text" name="firstname" placeholder="Förnamn" data-validation-error-msg="Uppge ditt förnamn">
-                  <p class="help-block text-danger"></p>
+                <div>
+                  <div class="form-group">
+                    <input class="form-control" required="required" type="text" name="firstname" placeholder="Förnamn" data-validation-error-msg="Uppge ditt förnamn">
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+                  <div class="form-group">
+                    <input class="form-control" required="required" type="text" name="lastname" placeholder="Efternamn" data-validation-error-msg="Uppge ditt efternamn">
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+                  <div class="form-group">
+                    <input class="form-control" required="required" type="text" name="schoolname" placeholder="Förskolans namn" data-validation-error-msg="Uppge namnet på din förskola">
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+                  <div class="form-group">
+                    <input class="form-control" required="required" type="email" name="email" placeholder="E-postadress" data-validation-error-msg="Uppge din e-postadress">
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+                  <div class="form-group">
+                    <input class="form-control" required="required" type="tel" name="phone" placeholder="Telefonnummer" pattern="\d+" data-validation-error-msg="Uppge ditt telefonnummer">
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+                  <input type="text" name="_gotcha" style="display:none" />
                 </div>
 
-                <div class="form-group">
-                  <input class="form-control" required="required" type="text" name="lastname" placeholder="Efternamn" data-validation-error-msg="Uppge ditt efternamn">
-                  <p class="help-block text-danger"></p>
+                <div>
+                  <div class="text-success" id="success" style="display:none;">
+                    Tack för att du kontaktar oss, vi hör av oss snart
+                  </div>
+                  <div class="text-danger" id="error" style="display:none;">
+                    Meddelandet kunde inte skickas. Vänligen kontakta oss på <a href="mailto:hello@prionapp.com">hello@prionapp.com</a> istället.
+                  </div>
                 </div>
 
-                <div class="form-group">
-                  <input class="form-control" required="required" type="text" name="schoolname" placeholder="Förskolans namn" data-validation-error-msg="Uppge namnet på din förskola">
-                  <p class="help-block text-danger"></p>
+                <div class="text-center">
+                  <input type="submit" value="Skicka" class="btn btn-primary btn-md" />
                 </div>
-
-                <div class="form-group">
-                  <input class="form-control" required="required" type="email" name="email" placeholder="E-postadress" data-validation-error-msg="Uppge din e-postadress">
-                  <p class="help-block text-danger"></p>
-                </div>
-
-                <div class="form-group">
-                  <input class="form-control" required="required" type="tel" name="phone" placeholder="Telefonnummer" pattern="\d+" data-validation-error-msg="Uppge ditt telefonnummer">
-                  <p class="help-block text-danger"></p>
-                </div>
-
-                <input type="text" name="_gotcha" style="display:none" />
               </div>
-
-              <div>
-                <div class="text-success" id="success" style="display:none;">
-                  Tack för att du kontaktar oss, vi hör av oss snart
-                </div>
-                <div class="text-danger" id="error" style="display:none;">
-                  Meddelandet kunde inte skickas. Vänligen kontakta oss på <a href="mailto:hello@prionapp.com">hello@prionapp.com</a> istället.
-                </div>
-              </div>
-
-              <div class="text-center">
-                <input type="submit" value="Skicka" class="btn btn-primary btn-md" />
-              </div>
-            </div>
-          </fieldset>
-        </form>
-        
-
+            </fieldset>
+          </form>
+        </div>
       </div>
     </div>
   </div>
