@@ -1078,6 +1078,25 @@ ul.product-modules li {
 }
 
 #landing-page-title {
-    margin-top: 0px;
-    margin-bottom: 30px
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
+
+@media(min-width:0px) {
+    .content {
+        padding-top: 50px;
+    }
+}
+
+@media(min-width:768px) {
+    .content {
+        padding-top: 201px;
+    }
+}
+
+@media(min-width:990px) {
+    .content {
+        padding-top: 101px;
+    }
+}
+
