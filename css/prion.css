@@ -1066,7 +1066,7 @@ ul.product-modules {
 }
 
 ul.product-modules li {
-    padding-left: 60px;
+    padding-left: 45px;
     font-size: 16px;
     background: url('/img/checkmark.png') no-repeat left center;
     background-size: 30px 30px;
@@ -1074,4 +1074,5 @@ ul.product-modules li {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: left;
 }
