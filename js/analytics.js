@@ -30,6 +30,26 @@ $(document).ready(function() {
 
     fbq('init', '1475640072603866');
     fbq('track', "PageView");
+
+    $('#forskola-contact-button').click(function() {
+      fbq('track', 'Contact');
+    });
+
+    $('#footer-contact-form-submit-button').click(function() {
+      fbq('track', 'Contact');
+    });
+
+    $('#prion-landing-page-contact-button').click(function() {
+      fbq('track', 'InitiateCheckout');
+    });
+
+    $('#preschoolContactForm').submit(function() {
+      fbq('track', 'Lead');
+    });
+
+    $('#footer-news-form-submit-button').click(function() {
+      fbq('track', 'Subscribe', {value: '0.00', currency: 'USD', predicted_ltv: '0.00'});
+    });
   }
 
   var installGoogleAnalytics = function() {
@@ -45,17 +65,20 @@ $(document).ready(function() {
   }
 
   var setConsentCookie = function(accept) {
-      cc = {
-        accept: accept,
-        date: new Date()
-      };
-      Cookies.set("cc", {accept: true, date: new Date()}, { expires: 365 });
+      Cookies.set("cc", {accept: accept, date: new Date()}, { expires: 365 });
+  }
+
+  var installTrackers = function() {
+    installLinkedIn();
+    installFacebook();
+    installGoogleAnalytics();
   }
 
   var showCookieConsentModal = function() {
     $('#cookiesAcceptButton').click(function() {
       setConsentCookie(true);
       $('#cookieConsentModal').modal('hide');
+      installTrackers();
     });
 
     $('#cookiesDenyButton').click(function() {
@@ -75,8 +98,6 @@ $(document).ready(function() {
   if (cookie === undefined) {
     showCookieConsentModal();
   } else if (cookie.accept) {
-    installLinkedIn();
-    installFacebook();
-    installGoogleAnalytics();
+    installTrackers();
   }
 });
