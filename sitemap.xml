@@ -3,42 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://prionapp.com/blogg/</loc>
+    <lastmod>2020-03-03T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prionapp.com/blogg/brandstad-forskola-berattar-om-prion-pa-forskolan/</loc>
+    <lastmod>2020-03-03T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prionapp.com/categories/</loc>
+    <lastmod>2020-03-03T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prionapp.com/categories/ios/</loc>
+    <lastmod>2020-03-03T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prionapp.com/tags/ios/</loc>
+    <lastmod>2020-03-03T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prionapp.com/</loc>
+    <lastmod>2020-03-03T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prionapp.com/tags/</loc>
+    <lastmod>2020-03-03T08:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://prionapp.com/prion/</loc>
     <lastmod>2020-02-06T09:08:05+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://prionapp.com/</loc>
-    <lastmod>2020-02-06T09:08:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prionapp.com/blogg/</loc>
-    <lastmod>2019-12-04T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prionapp.com/categories/</loc>
-    <lastmod>2019-12-04T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://prionapp.com/blogg/fotografering-vid-lucia/</loc>
-    <lastmod>2019-12-04T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prionapp.com/tags/ios/</loc>
-    <lastmod>2019-12-04T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prionapp.com/categories/ios/</loc>
-    <lastmod>2019-12-04T15:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prionapp.com/tags/</loc>
     <lastmod>2019-12-04T15:00:00+01:00</lastmod>
   </url>
   

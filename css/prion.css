@@ -177,6 +177,16 @@ li.checkmark {
   border-style: solid;
   border-color: #fff;
 }
+.quote-image-large {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+}
 
 ul.social-buttons li a {
   background-color: #222;

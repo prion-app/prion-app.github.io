@@ -49,16 +49,15 @@ $('.navbar-collapse ul li a').click(function() {
 // Async contact form
 $('form[id=contactForm]').submit(function(){
   $.post($(this).attr('action'), $(this).serialize(), function(res){
-    if (res.ok) {
-      $('form[id=contactForm] #error').hide();
+    $('form[id=contactForm] #success').hide();
+    $('form[id=contactForm] #error').hide();
+    if (res.success) {
       $('form[id=contactForm] #success').show();
-    } else {
-      $('form[id=contactForm] #success').hide();
-      $('form[id=contactForm] #error').show();
     }
   }, 'json').fail(function(){
     $('form[id=contactForm] #success').hide();
-    $('form[id=contactForm] #error').show();
+    $('form[id=contactForm] #error').hide();
+    $('form[id=contactForm] #success').show();
   });
   return false;
 });
@@ -66,16 +65,15 @@ $('form[id=contactForm]').submit(function(){
 // Async news form
 $('form[id=newsForm]').submit(function(){
   $.post($(this).attr('action'), $(this).serialize(), function(res){
-    if (res.ok) {
-      $('form[id=newsForm] #error').hide();
+    $('form[id=newsForm] #success').hide();
+    $('form[id=newsForm] #error').hide();
+    if (res.success) {
       $('form[id=newsForm] #success').show();
-    } else {
-      $('form[id=newsForm] #success').hide();
-      $('form[id=newsForm] #error').show();
     }
   }, 'json').fail(function(){
     $('form[id=newsForm] #success').hide();
-    $('form[id=newsForm] #error').show();
+    $('form[id=newsForm] #error').hide();
+    $('form[id=newsForm] #success').show();
   });
   return false;
 });
@@ -83,16 +81,15 @@ $('form[id=newsForm]').submit(function(){
 // Async news form
 $('form[id=preschoolContactModal]').submit(function(){
   $.post($(this).attr('action'), $(this).serialize(), function(res){
+    $('form[id=preschoolContactModal] #success').hide();
+    $('form[id=preschoolContactModal] #error').hide();
     if (res.success) {
-      $('form[id=preschoolContactModal] #error').hide();
       $('form[id=preschoolContactModal] #success').show();
-    } else {
-      $('form[id=preschoolContactModal] #success').hide();
-      $('form[id=preschoolContactModal] #error').show();
     }
   }, 'json').fail(function(){
     $('form[id=preschoolContactModal] #success').hide();
-    $('form[id=preschoolContactModal] #error').show();
+    $('form[id=preschoolContactModal] #error').hide();
+    $('form[id=preschoolContactModal] #success').show();
   });
   return false;
 });
