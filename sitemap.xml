@@ -18,17 +18,12 @@
   </url>
   
   <url>
-    <loc>https://prionapp.com/categories/ios/</loc>
-    <lastmod>2020-03-03T08:00:05+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://prionapp.com/tags/ios/</loc>
     <lastmod>2020-03-03T08:00:05+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://prionapp.com/</loc>
+    <loc>https://prionapp.com/categories/ios/</loc>
     <lastmod>2020-03-03T08:00:05+01:00</lastmod>
   </url>
   
@@ -39,6 +34,11 @@
   
   <url>
     <loc>https://prionapp.com/prion/</loc>
+    <lastmod>2020-02-06T09:08:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prionapp.com/</loc>
     <lastmod>2020-02-06T09:08:05+01:00</lastmod>
   </url>
   
