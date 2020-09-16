@@ -6,10 +6,19 @@
     <description>Recent content on Prion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <lastBuildDate>Fri, 12 Jun 2020 07:28:05 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 10:54:00 +0200</lastBuildDate>
     
 	<atom:link href="https://prionapp.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nyhet: Nu lanseras nya Prion webb!</title>
+      <link>https://prionapp.com/blogg/nu-lanseras-nya-prion-webb/</link>
+      <pubDate>Wed, 16 Sep 2020 10:54:00 +0200</pubDate>
+      
+      <guid>https://prionapp.com/blogg/nu-lanseras-nya-prion-webb/</guid>
+      <description>&lt;p&gt;Prions nya tjänst för webben är här - tillgänglig för alla kunder med någon av våra produktmoduler.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Ett samtal med förskolan Violen om Prion!</title>
