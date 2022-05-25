@@ -312,6 +312,7 @@ header .intro-text {
 
 .subpage-content-container li {
   margin-bottom: 14px;
+  line-height: 1.75;
 }
 
 .subpage-content-container blockquote p {
