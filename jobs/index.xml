@@ -6,24 +6,21 @@
     <description>Recent content in Jobs on Prion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <lastBuildDate>Wed, 14 Dec 2016 10:16:05 +0100</lastBuildDate><atom:link href="https://prionapp.com/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Dec 2016 10:16:05 +0100</lastBuildDate>
+    <atom:link href="https://prionapp.com/jobs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android Utvecklare sökes</title>
       <link>https://prionapp.com/jobs/android.se/</link>
       <pubDate>Wed, 14 Dec 2016 10:16:05 +0100</pubDate>
-      
       <guid>https://prionapp.com/jobs/android.se/</guid>
       <description>Om bolaget Vi är ett svenskt start-up i centrala Stockholm och är antagna till Handelshögskolans inkubator, SSE Business Lab. När nätverken på sociala medier växer sig allt större och vi använder oss alltmer av bilder för att kommunicera ökar behovet av att smidigt kunna dela bilder riktat - Prion gör det lätt och roligt att posta bilder privat i grupper. Många grupper är kopplade till barn och familj, där barnbilder och andra familjerelaterade bilder delas inom familjen.</description>
     </item>
-    
     <item>
       <title>iOS Utvecklare sökes</title>
       <link>https://prionapp.com/jobs/ios.se/</link>
       <pubDate>Wed, 14 Dec 2016 10:16:05 +0100</pubDate>
-      
       <guid>https://prionapp.com/jobs/ios.se/</guid>
       <description>Om bolaget Vi är ett svenskt start-up i centrala Stockholm och är antagna till Handelshögskolans inkubator, SSE Business Lab. När nätverken på sociala medier växer sig allt större och vi använder oss alltmer av bilder för att kommunicera ökar behovet av att smidigt kunna dela bilder riktat - Prion gör det lätt och roligt att posta bilder privat i grupper. Många grupper är kopplade till barn och familj, där barnbilder och andra familjerelaterade bilder delas inom familjen.</description>
     </item>
-    
   </channel>
 </rss>
