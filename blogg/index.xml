@@ -4,7 +4,7 @@
     <title>Blogg on Prion</title>
     <link>https://prionapp.com/blogg/</link>
     <description>Recent content in Blogg on Prion</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>sv-se</language>
     <lastBuildDate>Tue, 24 May 2022 10:30:00 +0200</lastBuildDate>
     <atom:link href="https://prionapp.com/blogg/index.xml" rel="self" type="application/rss+xml" />

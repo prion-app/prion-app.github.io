@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ios on Prion</title>
+    <title>Ios on Prion</title>
     <link>https://prionapp.com/categories/ios/</link>
-    <description>Recent content in ios on Prion</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ios on Prion</description>
+    <generator>Hugo</generator>
     <language>sv-se</language>
     <lastBuildDate>Tue, 24 May 2022 10:30:00 +0200</lastBuildDate>
     <atom:link href="https://prionapp.com/categories/ios/index.xml" rel="self" type="application/rss+xml" />
