@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ny Kund - Registrering</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            font-size: 1.3em;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #555;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: border-color 0.2s;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+
+        input.error {
+            border-color: #f44336;
+            background-color: #ffebee;
+        }
+
+        .error-message {
+            color: #f44336;
+            font-size: 13px;
+            margin-top: 4px;
+            display: block;
+        }
+
+        .dynamic-section {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .nested-section {
+            background: #fff;
+            padding: 16px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        button {
+            padding: 10px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .btn-add {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .btn-add:hover {
+            background: #45a049;
+        }
+
+        .btn-remove {
+            background: #f44336;
+            color: white;
+            padding: 6px 12px;
+            font-size: 13px;
+        }
+
+        .btn-remove:hover {
+            background: #da190b;
+        }
+
+        .btn-submit {
+            background: #2196F3;
+            color: white;
+            font-size: 16px;
+            padding: 12px 32px;
+            margin-top: 24px;
+        }
+
+        .btn-submit:hover {
+            background: #0b7dda;
+        }
+
+        .item-number {
+            color: #777;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 8px;
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Registrering Ny Kund</h1>
+
+        <form x-data="{
+            orgName: '',
+            orgRegistrationNumber: '',
+            signatories: [{
+                name: '',
+                title: '',
+                email: '',
+                phone: ''
+            }],
+            invoicingEmail: '',
+            invoicingReference: '',
+            dogCare: [{
+                name: '',
+                responsible: [{
+                    name: '',
+                    email: '',
+                    role: ''
+                }],
+                employees: [{
+                    email: ''
+                }]
+            }],
+            submitted: false,
+            submitForm(e) {
+                e.preventDefault();
+                this.submitted = true;
+
+                // Check if form is valid using native HTML5 validation
+                const form = e.target;
+                if (!form.checkValidity()) {
+                    return;
+                }
+
+                const data = {
+                    orgName: this.orgName,
+                    orgRegistrationNumber: this.orgRegistrationNumber,
+                    signatories: this.signatories,
+                    invoicingEmail: this.invoicingEmail,
+                    invoicingReference: this.invoicingReference,
+                    dogCare: this.dogCare
+                };
+                alert('Form data:\n\n' + JSON.stringify(data, null, 2));
+            }
+        }" @submit="submitForm" novalidate>
+
+            <!-- Organization Info -->
+            <h2>Organisationsinformation</h2>
+
+            <div class="form-group">
+                <label for="orgName">Organisationsnamn *</label>
+                <input type="text" id="orgName" x-model="orgName" @blur="if (dogCare[0].name === '') dogCare[0].name = orgName" required
+                    x-ref="orgName" :class="submitted && !orgName ? 'error' : ''">
+                <span x-show="submitted && !orgName" class="error-message">Detta fält är obligatoriskt</span>
+            </div>
+
+            <div class="form-group">
+                <label for="orgRegistrationNumber">Organisationsnummer *</label>
+                <input type="text" id="orgRegistrationNumber" x-model="orgRegistrationNumber" required
+                    :class="submitted && !orgRegistrationNumber ? 'error' : ''">
+                <span x-show="submitted && !orgRegistrationNumber" class="error-message">Detta fält är obligatoriskt</span>
+            </div>
+
+            <!-- Firmatecknare -->
+            <h2>Firmatecknare</h2>
+
+            <template x-for="(signatory, index) in signatories" :key="index">
+                <div class="dynamic-section">
+                    <div class="section-header">
+                        <div class="item-number">Firmatecknare <span x-text="index + 1"></span></div>
+                        <button type="button" class="btn-remove" @click="signatories.splice(index, 1)" x-show="signatories.length > 1">
+                            Ta bort
+                        </button>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Namn *</label>
+                        <input type="text" x-model="signatory.name" required
+                            :class="submitted && !signatory.name ? 'error' : ''">
+                        <span x-show="submitted && !signatory.name" class="error-message">Detta fält är obligatoriskt</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Titel *</label>
+                        <input type="text" x-model="signatory.title" required
+                            :class="submitted && !signatory.title ? 'error' : ''">
+                        <span x-show="submitted && !signatory.title" class="error-message">Detta fält är obligatoriskt</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>E-post *</label>
+                        <input type="email" x-model="signatory.email" required
+                            :class="submitted && !signatory.email ? 'error' : ''">
+                        <span x-show="submitted && !signatory.email" class="error-message">Detta fält är obligatoriskt</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Telefon *</label>
+                        <input type="tel" x-model="signatory.phone" required
+                            :class="submitted && !signatory.phone ? 'error' : ''">
+                        <span x-show="submitted && !signatory.phone" class="error-message">Detta fält är obligatoriskt</span>
+                    </div>
+                </div>
+            </template>
+
+            <button type="button" class="btn-add" @click="signatories.push({ name: '', title: '', email: '', phone: '' })">
+                + Lägg till firmatecknare
+            </button>
+
+            <!-- Invoicing Info -->
+            <h2>Faktureringsinformation</h2>
+
+            <div class="form-group">
+                <label for="invoicingEmail">Fakturering e-post *</label>
+                <input type="email" id="invoicingEmail" x-model="invoicingEmail" required
+                    :class="submitted && !invoicingEmail ? 'error' : ''">
+                <span x-show="submitted && !invoicingEmail" class="error-message">Detta fält är obligatoriskt</span>
+            </div>
+
+            <div class="form-group">
+                <label for="invoicingReference">Faktureringsreferens</label>
+                <input type="text" id="invoicingReference" x-model="invoicingReference">
+            </div>
+
+            <!-- Dog Care -->
+            <h2>Hunddagis</h2>
+
+            <template x-for="(care, careIndex) in dogCare" :key="careIndex">
+                <div class="dynamic-section">
+                    <div class="section-header">
+                        <div class="item-number">Hunddagis <span x-text="careIndex + 1"></span></div>
+                        <button type="button" class="btn-remove" @click="dogCare.splice(careIndex, 1)" x-show="dogCare.length > 1">
+                            Ta bort
+                        </button>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Namn</label>
+                        <input type="text" x-model="care.name">
+                    </div>
+
+                    <!-- Verksamhetsansvarig -->
+                    <h3>Verksamhetsansvarig</h3>
+                    <template x-for="(resp, respIndex) in care.responsible" :key="respIndex">
+                        <div class="nested-section">
+                            <div class="section-header">
+                                <div class="item-number">Ansvarig <span x-text="respIndex + 1"></span></div>
+                                <button type="button" class="btn-remove" @click="care.responsible.splice(respIndex, 1)" x-show="care.responsible.length > 1">
+                                    Ta bort
+                                </button>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Namn *</label>
+                                <input type="text" x-model="resp.name" required
+                                    :class="submitted && !resp.name ? 'error' : ''">
+                                <span x-show="submitted && !resp.name" class="error-message">Detta fält är obligatoriskt</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label>E-post *</label>
+                                <input type="email" x-model="resp.email" required
+                                    :class="submitted && !resp.email ? 'error' : ''">
+                                <span x-show="submitted && !resp.email" class="error-message">Detta fält är obligatoriskt</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Roll *</label>
+                                <input type="text" x-model="resp.role" required
+                                    :class="submitted && !resp.role ? 'error' : ''">
+                                <span x-show="submitted && !resp.role" class="error-message">Detta fält är obligatoriskt</span>
+                            </div>
+                        </div>
+                    </template>
+
+                    <button type="button" class="btn-add" @click="care.responsible.push({ name: '', email: '', role: '' })">
+                        + Lägg till verksamhetsansvarig
+                    </button>
+
+                    <!-- Medarbetare -->
+                    <h3>Medarbetare</h3>
+                    <template x-for="(emp, empIndex) in care.employees" :key="empIndex">
+                        <div class="nested-section">
+                            <div class="section-header">
+                                <div class="item-number">Medarbetare <span x-text="empIndex + 1"></span></div>
+                                <button type="button" class="btn-remove" @click="care.employees.splice(empIndex, 1)" x-show="care.employees.length > 1">
+                                    Ta bort
+                                </button>
+                            </div>
+
+                            <div class="form-group">
+                                <label>E-post *</label>
+                                <input type="email" x-model="emp.email" required
+                                    :class="submitted && !emp.email ? 'error' : ''">
+                                <span x-show="submitted && !emp.email" class="error-message">Detta fält är obligatoriskt</span>
+                            </div>
+                        </div>
+                    </template>
+
+                    <button type="button" class="btn-add" @click="care.employees.push({ email: '' })">
+                        + Lägg till medarbetare
+                    </button>
+                </div>
+            </template>
+
+            <button type="button" class="btn-add" @click="dogCare.push({ name: '', responsible: [{ name: '', email: '', role: '' }], employees: [{ email: '' }] })">
+                + Lägg till hunddagis
+            </button>
+
+            <!-- Submit -->
+            <div>
+                <button type="submit" class="btn-submit">Skicka ansökan</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
