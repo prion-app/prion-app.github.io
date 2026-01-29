@@ -162,6 +162,29 @@
             gap: 8px;
             margin-top: 16px;
         }
+
+        .btn-submit:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .success-message {
+            background: #4CAF50;
+            color: white;
+            padding: 16px;
+            border-radius: 4px;
+            margin-top: 24px;
+            font-weight: 500;
+        }
+
+        .error-banner {
+            background: #f44336;
+            color: white;
+            padding: 16px;
+            border-radius: 4px;
+            margin-top: 24px;
+            font-weight: 500;
+        }
     </style>
 </head>
 <body>
@@ -169,6 +192,7 @@
         <h1>Registrering Ny Kund</h1>
 
         <form x-data="{
+            backendUrl: 'https://api.prod.prion.cloud',
             orgName: '',
             orgRegistrationNumber: '',
             signatories: [{
@@ -179,21 +203,25 @@
             }],
             invoicingEmail: '',
             invoicingReference: '',
-            dogCare: [{
+            dogCareCenters: [{
                 name: '',
                 responsible: [{
                     name: '',
                     email: '',
                     role: ''
                 }],
-                employees: [{
+                staff_account: {
                     email: ''
-                }]
+                }
             }],
             submitted: false,
-            submitForm(e) {
+            submitting: false,
+            submitSuccess: false,
+            submitError: null,
+            async submitForm(e) {
                 e.preventDefault();
                 this.submitted = true;
+                this.submitError = null;
 
                 // Check if form is valid using native HTML5 validation
                 const form = e.target;
@@ -201,15 +229,52 @@
                     return;
                 }
 
+                this.submitting = true;
+
+                // Clean up data: convert empty strings to null for optional fields
+                const cleanDogCareCenters = this.dogCareCenters.map(care => ({
+                    ...care,
+                    staff_account: {
+                        email: care.staff_account.email || null
+                    }
+                }));
+
                 const data = {
                     orgName: this.orgName,
                     orgRegistrationNumber: this.orgRegistrationNumber,
                     signatories: this.signatories,
                     invoicingEmail: this.invoicingEmail,
-                    invoicingReference: this.invoicingReference,
-                    dogCare: this.dogCare
+                    invoicingReference: this.invoicingReference || null,
+                    dogCareCenters: cleanDogCareCenters
                 };
-                alert('Form data:\n\n' + JSON.stringify(data, null, 2));
+
+                try {
+                    const response = await fetch(`${this.backendUrl}/api/dogcare-signup/v1/submit`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data)
+                    });
+
+                    if (!response.ok) {
+                        const errorData = await response.json();
+                        let errorMsg = 'Något gick fel vid inskickning';
+                        if (typeof errorData.detail === 'string') {
+                            errorMsg = errorData.detail;
+                        } else if (errorData.detail && Array.isArray(errorData.detail)) {
+                            // Pydantic validation errors
+                            errorMsg = errorData.detail.map(err => `${err.loc.join('.')}: ${err.msg}`).join(', ');
+                        }
+                        throw new Error(errorMsg);
+                    }
+
+                    this.submitSuccess = true;
+                } catch (error) {
+                    this.submitError = error.message;
+                } finally {
+                    this.submitting = false;
+                }
             }
         }" @submit="submitForm" novalidate>
 
@@ -218,7 +283,7 @@
 
             <div class="form-group">
                 <label for="orgName">Organisationsnamn *</label>
-                <input type="text" id="orgName" x-model="orgName" @blur="if (dogCare[0].name === '') dogCare[0].name = orgName" required
+                <input type="text" id="orgName" x-model="orgName" @blur="if (dogCareCenters[0].name === '') dogCareCenters[0].name = orgName" required
                     x-ref="orgName" :class="submitted && !orgName ? 'error' : ''">
                 <span x-show="submitted && !orgName" class="error-message">Detta fält är obligatoriskt</span>
             </div>
@@ -294,18 +359,20 @@
             <!-- Dog Care -->
             <h2>Hunddagis</h2>
 
-            <template x-for="(care, careIndex) in dogCare" :key="careIndex">
+            <template x-for="(care, careIndex) in dogCareCenters" :key="careIndex">
                 <div class="dynamic-section">
                     <div class="section-header">
                         <div class="item-number">Hunddagis <span x-text="careIndex + 1"></span></div>
-                        <button type="button" class="btn-remove" @click="dogCare.splice(careIndex, 1)" x-show="dogCare.length > 1">
+                        <button type="button" class="btn-remove" @click="dogCareCenters.splice(careIndex, 1)" x-show="dogCareCenters.length > 1">
                             Ta bort
                         </button>
                     </div>
 
                     <div class="form-group">
-                        <label>Namn</label>
-                        <input type="text" x-model="care.name">
+                        <label>Namn *</label>
+                        <input type="text" x-model="care.name" required
+                            :class="submitted && !care.name ? 'error' : ''">
+                        <span x-show="submitted && !care.name" class="error-message">Detta fält är obligatoriskt</span>
                     </div>
 
                     <!-- Verksamhetsansvarig -->
@@ -346,39 +413,33 @@
                         + Lägg till verksamhetsansvarig
                     </button>
 
-                    <!-- Medarbetare -->
-                    <h3>Medarbetare</h3>
-                    <template x-for="(emp, empIndex) in care.employees" :key="empIndex">
-                        <div class="nested-section">
-                            <div class="section-header">
-                                <div class="item-number">Medarbetare <span x-text="empIndex + 1"></span></div>
-                                <button type="button" class="btn-remove" @click="care.employees.splice(empIndex, 1)" x-show="care.employees.length > 1">
-                                    Ta bort
-                                </button>
-                            </div>
-
-                            <div class="form-group">
-                                <label>E-post *</label>
-                                <input type="email" x-model="emp.email" required
-                                    :class="submitted && !emp.email ? 'error' : ''">
-                                <span x-show="submitted && !emp.email" class="error-message">Detta fält är obligatoriskt</span>
-                            </div>
-                        </div>
-                    </template>
-
-                    <button type="button" class="btn-add" @click="care.employees.push({ email: '' })">
-                        + Lägg till medarbetare
-                    </button>
+                    <!-- Personalkonto -->
+                    <h3>Personalkonto</h3>
+                    <div class="form-group">
+                        <label>E-post</label>
+                        <input type="email" x-model="care.staff_account.email">
+                    </div>
                 </div>
             </template>
 
-            <button type="button" class="btn-add" @click="dogCare.push({ name: '', responsible: [{ name: '', email: '', role: '' }], employees: [{ email: '' }] })">
+            <button type="button" class="btn-add" @click="dogCareCenters.push({ name: '', responsible: [{ name: '', email: '', role: '' }], staff_account: { email: '' } })">
                 + Lägg till hunddagis
             </button>
 
             <!-- Submit -->
             <div>
-                <button type="submit" class="btn-submit">Skicka ansökan</button>
+                <button type="submit" class="btn-submit" :disabled="submitting">
+                    <span x-show="!submitting">Skicka ansökan</span>
+                    <span x-show="submitting">Skickar...</span>
+                </button>
+
+                <!-- Success message -->
+                <div x-show="submitSuccess" class="success-message">
+                    Tack för din ansökan! Vi återkommer till dig inom kort.
+                </div>
+
+                <!-- Error message -->
+                <div x-show="submitError" class="error-banner" x-text="submitError"></div>
             </div>
         </form>
     </div>
