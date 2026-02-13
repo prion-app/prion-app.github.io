@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ny Kund - Registrering</title>
+    <title>Ny Kund Hunddagis</title>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <style>
         * {
@@ -17,6 +17,7 @@
             padding: 0 20px;
             background: #f5f5f5;
             color: #333;
+            position: relative;
         }
 
         .container {
@@ -29,6 +30,44 @@
         h1 {
             margin-top: 0;
             color: #2c3e50;
+        }
+
+        /* Section numbering and hierarchy */
+        .main-section {
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 3px solid #e0e0e0;
+        }
+
+        .main-section:last-child {
+            border-bottom: none;
+        }
+
+        .section-number {
+            display: inline-block;
+            background: rgb(14, 179, 238);
+            color: white;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            border-radius: 50%;
+            font-weight: 600;
+            margin-right: 12px;
+            font-size: 16px;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .section-title h2 {
+            margin: 0;
+            border: none;
+            padding: 0;
+            font-size: 1.5em;
         }
 
         h2 {
@@ -45,6 +84,51 @@
             margin-top: 24px;
             margin-bottom: 12px;
             font-size: 1.1em;
+        }
+
+        /* Dog care center visual distinction */
+        .dogcare-section {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border-left: 6px solid rgb(14, 179, 238);
+            padding: 32px;
+            margin: 32px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .dogcare-section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid rgba(14, 179, 238, 0.3);
+        }
+
+        .dogcare-section-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .dogcare-number {
+            background: rgb(14, 179, 238);
+            color: white;
+            width: 48px;
+            height: 48px;
+            line-height: 48px;
+            text-align: center;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        .dogcare-section-title h2 {
+            margin: 0;
+            border: none;
+            padding: 0;
+            color: rgb(14, 179, 238);
+            font-size: 1.6em;
         }
 
         .form-group {
@@ -69,22 +153,56 @@
             transition: border-color 0.2s;
         }
 
+        .dog-row {
+            display: grid;
+            grid-template-columns: 1fr 200px 40px;
+            gap: 12px;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .dog-row input[type="text"] {
+            margin-bottom: 0;
+        }
+
+        .dog-row input.date-input {
+            font-family: monospace;
+        }
+
+        .btn-remove-icon {
+            background: transparent;
+            color: #f44336;
+            border: none;
+            padding: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            line-height: 1;
+            transition: background-color 0.2s;
+        }
+
+        .btn-remove-icon:hover {
+            background: #ffebee;
+        }
+
+        input::placeholder {
+            opacity: 0.4;
+        }
+
         input:focus {
             outline: none;
             border-color: #4CAF50;
         }
 
-        input.error {
+        /* Show validation errors only after form submission attempt */
+        form.was-validated input:invalid,
+        form.was-validated input[type="text"]:invalid,
+        form.was-validated input[type="email"]:invalid,
+        form.was-validated input[type="tel"]:invalid {
             border-color: #f44336;
             background-color: #ffebee;
         }
 
-        .error-message {
-            color: #f44336;
-            font-size: 13px;
-            margin-top: 4px;
-            display: block;
-        }
 
         .dynamic-section {
             background: #f9f9f9;
@@ -169,13 +287,29 @@
             cursor: not-allowed;
         }
 
+        .btn-clear {
+            background: white;
+            color: #666;
+            border: 2px solid #ddd;
+            font-size: 16px;
+            padding: 12px 32px;
+            margin-top: 24px;
+        }
+
+        .btn-clear:hover {
+            background: #f5f5f5;
+            border-color: #999;
+        }
+
         .success-message {
             background: #4CAF50;
             color: white;
-            padding: 16px;
-            border-radius: 4px;
+            padding: 24px;
+            border-radius: 8px;
             margin-top: 24px;
             font-weight: 500;
+            text-align: center;
+            font-size: 18px;
         }
 
         .error-banner {
@@ -186,262 +320,665 @@
             margin-top: 24px;
             font-weight: 500;
         }
+
+        /* Spinner animation */
+        .spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .opening-hours-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+        }
+
+        .opening-hours-table th,
+        .opening-hours-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .opening-hours-table th {
+            font-weight: 500;
+            color: #555;
+            width: 120px;
+        }
+
+        .opening-hours-table input[type="text"].time-input {
+            width: 80px;
+            padding: 6px 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            text-align: center;
+            font-family: monospace;
+        }
+
+        .opening-hours-table input[type="checkbox"] {
+            margin-right: 8px;
+            accent-color: rgb(14, 179, 238);
+        }
+
+        .time-inputs {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .time-inputs.disabled {
+            opacity: 0.5;
+        }
+
+        /* Submit section */
+        .submit-section {
+            margin-top: 48px;
+            padding-top: 32px;
+        }
+
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            body {
+                margin: 0;
+                padding: 0;
+                background: white;
+            }
+
+            .container {
+                padding: 20px 16px;
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .dynamic-section {
+                padding: 16px;
+            }
+
+            .nested-section {
+                padding: 12px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+                margin-top: 24px;
+            }
+
+            h3 {
+                font-size: 16px;
+                margin-top: 16px;
+            }
+
+            .opening-hours-table th,
+            .opening-hours-table td {
+                padding: 8px 4px;
+            }
+
+            .opening-hours-table th {
+                width: auto;
+                font-size: 14px;
+            }
+
+            .dog-row {
+                grid-template-columns: 1fr 140px 36px;
+                gap: 8px;
+            }
+        }
     </style>
 </head>
-<body>
-    <div class="container">
-        <h1>Registrering Ny Kund</h1>
+<body x-data="{
+    backendUrl: 'https://api.prod.prion.cloud',
+    orgName: '',
+    orgRegistrationNumber: '',
+    address: '',
+    signatories: [{
+        name: '',
+        title: '',
+        email: '',
+        phone: ''
+    }],
+    invoicingEmail: '',
+    invoicingReference: '',
+    dogCareCenters: [{
+        name: 'Hunddagis 1',
+        responsible: [{
+            name: '',
+            email: '',
+            role: ''
+        }],
+        staff_account: {
+            email: ''
+        },
+        opening_hours: {
+            monday: { open: true, start: '09:00', end: '17:00' },
+            tuesday: { open: true, start: '09:00', end: '17:00' },
+            wednesday: { open: true, start: '09:00', end: '17:00' },
+            thursday: { open: true, start: '09:00', end: '17:00' },
+            friday: { open: true, start: '09:00', end: '17:00' },
+            saturday: { open: false, start: '', end: '' },
+            sunday: { open: false, start: '', end: '' }
+        },
+        dogs: []
+    }],
+    submitting: false,
+    submitSuccess: false,
+    submitError: null,
+    init() {
+        this.loadFromStorage();
+        this.$watch('orgName', () => this.saveToStorage());
+        this.$watch('orgRegistrationNumber', () => this.saveToStorage());
+        this.$watch('address', () => this.saveToStorage());
+        this.$watch('signatories', () => this.saveToStorage(), { deep: true });
+        this.$watch('invoicingEmail', () => this.saveToStorage());
+        this.$watch('invoicingReference', () => this.saveToStorage());
+        this.$watch('dogCareCenters', () => this.saveToStorage(), { deep: true });
+    },
+    addDogCareCenter() {
+        const newNumber = this.dogCareCenters.length + 1;
+        this.dogCareCenters.push({
+            name: 'Hunddagis ' + newNumber,
+            responsible: [{ name: '', email: '', role: '' }],
+            staff_account: { email: '' },
+            opening_hours: {
+                monday: { open: true, start: '09:00', end: '17:00' },
+                tuesday: { open: true, start: '09:00', end: '17:00' },
+                wednesday: { open: true, start: '09:00', end: '17:00' },
+                thursday: { open: true, start: '09:00', end: '17:00' },
+                friday: { open: true, start: '09:00', end: '17:00' },
+                saturday: { open: false, start: '', end: '' },
+                sunday: { open: false, start: '', end: '' }
+            },
+            dogs: []
+        });
+    },
+    removeDogCareCenter(index) {
+        if (confirm('Är du säker på att du vill ta bort detta hunddagis?')) {
+            this.dogCareCenters.splice(index, 1);
+        }
+    },
+    saveToStorage() {
+        const data = {
+            version: 1,
+            orgName: this.orgName,
+            orgRegistrationNumber: this.orgRegistrationNumber,
+            address: this.address,
+            signatories: this.signatories,
+            invoicingEmail: this.invoicingEmail,
+            invoicingReference: this.invoicingReference,
+            dogCareCenters: this.dogCareCenters
+        };
+        localStorage.setItem('dogcareSignupForm', JSON.stringify(data));
+    },
+    loadFromStorage() {
+        const saved = localStorage.getItem('dogcareSignupForm');
+        if (!saved) return;
 
-        <form x-data="{
-            backendUrl: 'https://api.prod.prion.cloud',
-            orgName: '',
-            orgRegistrationNumber: '',
-            signatories: [{
-                name: '',
-                title: '',
-                email: '',
-                phone: ''
-            }],
-            invoicingEmail: '',
-            invoicingReference: '',
-            dogCareCenters: [{
-                name: '',
-                responsible: [{
-                    name: '',
-                    email: '',
-                    role: ''
-                }],
-                staff_account: {
-                    email: ''
-                }
-            }],
-            submitted: false,
-            submitting: false,
-            submitSuccess: false,
-            submitError: null,
-            async submitForm(e) {
-                e.preventDefault();
-                this.submitted = true;
-                this.submitError = null;
+        try {
+            const data = JSON.parse(saved);
 
-                // Check if form is valid using native HTML5 validation
-                const form = e.target;
-                if (!form.checkValidity()) {
-                    return;
-                }
+            // Version check - clear if mismatch
+            if (data.version !== 1) {
+                throw new Error('Version mismatch');
+            }
 
-                this.submitting = true;
+            // Validate structure
+            if (!data.dogCareCenters || !Array.isArray(data.dogCareCenters)) {
+                throw new Error('Invalid data structure');
+            }
 
-                // Clean up data: convert empty strings to null for optional fields
-                const cleanDogCareCenters = this.dogCareCenters.map(care => ({
-                    ...care,
-                    staff_account: {
-                        email: care.staff_account.email || null
-                    }
-                }));
+            this.orgName = data.orgName || '';
+            this.orgRegistrationNumber = data.orgRegistrationNumber || '';
+            this.address = data.address || '';
+            this.signatories = data.signatories || this.signatories;
+            this.invoicingEmail = data.invoicingEmail || '';
+            this.invoicingReference = data.invoicingReference || '';
+            this.dogCareCenters = data.dogCareCenters || this.dogCareCenters;
 
-                const data = {
-                    orgName: this.orgName,
-                    orgRegistrationNumber: this.orgRegistrationNumber,
-                    signatories: this.signatories,
-                    invoicingEmail: this.invoicingEmail,
-                    invoicingReference: this.invoicingReference || null,
-                    dogCareCenters: cleanDogCareCenters
-                };
+            // Ensure all dog care centers have dogs array initialized
+            this.dogCareCenters.forEach(care => {
+                if (!care.dogs) care.dogs = [];
+            });
+        } catch (e) {
+            console.error('Failed to load saved form data, clearing localStorage:', e);
+            localStorage.removeItem('dogcareSignupForm');
+            // Form will continue with defaults from x-data
+        }
+    },
+    clearForm() {
+        if (confirm('Är du säker på att du vill rensa formuläret? All ifylld data kommer att tas bort.')) {
+            localStorage.removeItem('dogcareSignupForm');
+            location.reload();
+        }
+    },
+    async submitForm(e) {
+        e.preventDefault();
+        this.submitError = null;
+        this.submitSuccess = false;
 
-                try {
-                    const response = await fetch(`${this.backendUrl}/api/dogcare-signup/v1/submit`, {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify(data)
-                    });
+        // Check if form is valid using native HTML5 validation
+        const form = e.target;
+        form.classList.add('was-validated');
 
-                    if (!response.ok) {
-                        const errorData = await response.json();
-                        let errorMsg = 'Något gick fel vid inskickning';
-                        if (typeof errorData.detail === 'string') {
-                            errorMsg = errorData.detail;
-                        } else if (errorData.detail && Array.isArray(errorData.detail)) {
-                            // Pydantic validation errors
-                            errorMsg = errorData.detail.map(err => `${err.loc.join('.')}: ${err.msg}`).join(', ');
+        if (!form.checkValidity()) {
+            // Scroll to first invalid field
+            const firstInvalid = form.querySelector(':invalid');
+            if (firstInvalid) {
+                firstInvalid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+            return;
+        }
+
+        // Validate birth dates are real dates (business logic)
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        for (const care of this.dogCareCenters) {
+            if (care.dogs) {
+                for (const dog of care.dogs) {
+                    if (dog.birthDate) {
+                        const date = new Date(dog.birthDate);
+                        // Check if it's a valid date and matches the input format
+                        if (isNaN(date.getTime()) || date.toISOString().slice(0, 10) !== dog.birthDate) {
+                            this.submitError = 'Ogiltigt födelsedatum: ' + dog.birthDate + '. Kontrollera att datumet är korrekt.';
+                            return;
                         }
-                        throw new Error(errorMsg);
+                        // Check if date is not in the future
+                        if (date > today) {
+                            this.submitError = 'Födelsedatum kan inte vara i framtiden: ' + dog.birthDate;
+                            return;
+                        }
                     }
-
-                    this.submitSuccess = true;
-                } catch (error) {
-                    this.submitError = error.message;
-                } finally {
-                    this.submitting = false;
                 }
             }
-        }" @submit="submitForm" novalidate>
+        }
 
-            <!-- Organization Info -->
-            <h2>Organisationsinformation</h2>
+        // Validate opening hours (business logic)
+        for (const care of this.dogCareCenters) {
+            for (const [day, hours] of Object.entries(care.opening_hours)) {
+                if (hours.open && hours.start && hours.end) {
+                    if (hours.start >= hours.end) {
+                        this.submitError = 'Öppettider för ' + care.name + ': Starttid måste vara före sluttid';
+                        return;
+                    }
+                }
+            }
+        }
 
-            <div class="form-group">
-                <label for="orgName">Organisationsnamn *</label>
-                <input type="text" id="orgName" x-model="orgName" @blur="if (dogCareCenters[0].name === '') dogCareCenters[0].name = orgName" required
-                    x-ref="orgName" :class="submitted && !orgName ? 'error' : ''">
-                <span x-show="submitted && !orgName" class="error-message">Detta fält är obligatoriskt</span>
+        this.submitting = true;
+
+        // Clean up data: convert empty strings to null for optional fields
+        const cleanDogCareCenters = this.dogCareCenters.map(care => ({
+            ...care,
+            staff_account: {
+                email: care.staff_account.email || null
+            },
+            dogs: care.dogs && care.dogs.length > 0 ? care.dogs.map(dog => ({
+                name: dog.name,
+                birthDate: dog.birthDate || null
+            })) : null
+        }));
+
+        const data = {
+            orgName: this.orgName,
+            orgRegistrationNumber: this.orgRegistrationNumber,
+            address: this.address,
+            signatories: this.signatories,
+            invoicingEmail: this.invoicingEmail,
+            invoicingReference: this.invoicingReference || null,
+            dogCareCenters: cleanDogCareCenters
+        };
+
+        try {
+            const response = await fetch(this.backendUrl + '/api/dogcare-signup/v1/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                let errorMsg = 'Något gick fel vid inskickning';
+                if (typeof errorData.detail === 'string') {
+                    errorMsg = errorData.detail;
+                } else if (errorData.detail && Array.isArray(errorData.detail)) {
+                    // Pydantic validation errors
+                    errorMsg = errorData.detail.map(err => err.loc.join('.') + ': ' + err.msg).join(', ');
+                }
+                throw new Error(errorMsg);
+            }
+
+            this.submitSuccess = true;
+            // Clear saved form data on successful submission
+            localStorage.removeItem('dogcareSignupForm');
+        } catch (error) {
+            this.submitError = error.message;
+        } finally {
+            this.submitting = false;
+        }
+    }
+}">
+
+    <div class="container">
+        <!-- Success message (shown after successful submission) -->
+        <div x-show="submitSuccess">
+            <h1>Tack för din ansökan!</h1>
+            <div class="success-message">
+                Vi har tagit emot din ansökan och återkommer till dig inom kort.
             </div>
+        </div>
 
-            <div class="form-group">
-                <label for="orgRegistrationNumber">Organisationsnummer *</label>
-                <input type="text" id="orgRegistrationNumber" x-model="orgRegistrationNumber" required
-                    :class="submitted && !orgRegistrationNumber ? 'error' : ''">
-                <span x-show="submitted && !orgRegistrationNumber" class="error-message">Detta fält är obligatoriskt</span>
-            </div>
+        <!-- Form (hidden after successful submission) -->
+        <form @submit="submitForm" autocomplete="off" novalidate x-show="!submitSuccess">
 
-            <!-- Firmatecknare -->
-            <h2>Firmatecknare</h2>
+            <h1>Ny Kund Hunddagis</h1>
 
-            <template x-for="(signatory, index) in signatories" :key="index">
-                <div class="dynamic-section">
-                    <div class="section-header">
-                        <div class="item-number">Firmatecknare <span x-text="index + 1"></span></div>
-                        <button type="button" class="btn-remove" @click="signatories.splice(index, 1)" x-show="signatories.length > 1">
-                            Ta bort
-                        </button>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Namn *</label>
-                        <input type="text" x-model="signatory.name" required
-                            :class="submitted && !signatory.name ? 'error' : ''">
-                        <span x-show="submitted && !signatory.name" class="error-message">Detta fält är obligatoriskt</span>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Titel *</label>
-                        <input type="text" x-model="signatory.title" required
-                            :class="submitted && !signatory.title ? 'error' : ''">
-                        <span x-show="submitted && !signatory.title" class="error-message">Detta fält är obligatoriskt</span>
-                    </div>
-
-                    <div class="form-group">
-                        <label>E-post *</label>
-                        <input type="email" x-model="signatory.email" required
-                            :class="submitted && !signatory.email ? 'error' : ''">
-                        <span x-show="submitted && !signatory.email" class="error-message">Detta fält är obligatoriskt</span>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Telefon *</label>
-                        <input type="tel" x-model="signatory.phone" required
-                            :class="submitted && !signatory.phone ? 'error' : ''">
-                        <span x-show="submitted && !signatory.phone" class="error-message">Detta fält är obligatoriskt</span>
-                    </div>
+            <!-- Section 1: Organization Info -->
+            <div class="main-section">
+                <div class="section-title">
+                    <span class="section-number">1</span>
+                    <h2>Organisationsinformation</h2>
                 </div>
-            </template>
 
-            <button type="button" class="btn-add" @click="signatories.push({ name: '', title: '', email: '', phone: '' })">
-                + Lägg till firmatecknare
-            </button>
+                <div class="form-group">
+                    <label for="orgName">Organisationsnamn *</label>
+                    <input type="text" id="orgName" x-model="orgName" required>
+                </div>
 
-            <!-- Invoicing Info -->
-            <h2>Faktureringsinformation</h2>
+                <div class="form-group">
+                    <label for="orgRegistrationNumber">Organisationsnummer *</label>
+                    <input type="text" id="orgRegistrationNumber" x-model="orgRegistrationNumber" required>
+                </div>
 
-            <div class="form-group">
-                <label for="invoicingEmail">Fakturering e-post *</label>
-                <input type="email" id="invoicingEmail" x-model="invoicingEmail" required
-                    :class="submitted && !invoicingEmail ? 'error' : ''">
-                <span x-show="submitted && !invoicingEmail" class="error-message">Detta fält är obligatoriskt</span>
+                <div class="form-group">
+                    <label for="address">Adress *</label>
+                    <input type="text" id="address" x-model="address" required>
+                </div>
             </div>
 
-            <div class="form-group">
-                <label for="invoicingReference">Faktureringsreferens</label>
-                <input type="text" id="invoicingReference" x-model="invoicingReference">
+            <!-- Section 2: Firmatecknare -->
+            <div class="main-section">
+                <div class="section-title">
+                    <span class="section-number">2</span>
+                    <h2>Firmatecknare</h2>
+                </div>
+
+                <template x-for="(signatory, index) in signatories" :key="index">
+                    <div class="dynamic-section">
+                        <div class="section-header">
+                            <div class="item-number">Firmatecknare <span x-text="index + 1"></span></div>
+                            <button type="button" class="btn-remove" @click="signatories.splice(index, 1)" x-show="signatories.length > 1">
+                                Ta bort
+                            </button>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Namn *</label>
+                            <input type="text" x-model="signatory.name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Titel *</label>
+                            <input type="text" x-model="signatory.title" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>E-post *</label>
+                            <input type="email" x-model="signatory.email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Telefon *</label>
+                            <input type="tel" x-model="signatory.phone" required>
+                        </div>
+                    </div>
+                </template>
+
+                <button type="button" class="btn-add" @click="signatories.push({ name: '', title: '', email: '', phone: '' })">
+                    + Lägg till firmatecknare
+                </button>
             </div>
 
-            <!-- Dog Care -->
-            <h2>Hunddagis</h2>
+            <!-- Section 3: Invoicing Info -->
+            <div class="main-section">
+                <div class="section-title">
+                    <span class="section-number">3</span>
+                    <h2>Faktureringsinformation</h2>
+                </div>
 
-            <template x-for="(care, careIndex) in dogCareCenters" :key="careIndex">
-                <div class="dynamic-section">
-                    <div class="section-header">
-                        <div class="item-number">Hunddagis <span x-text="careIndex + 1"></span></div>
-                        <button type="button" class="btn-remove" @click="dogCareCenters.splice(careIndex, 1)" x-show="dogCareCenters.length > 1">
-                            Ta bort
+                <div class="form-group">
+                    <label for="invoicingEmail">Fakturering e-post *</label>
+                    <input type="email" id="invoicingEmail" x-model="invoicingEmail" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="invoicingReference">Faktureringsreferens</label>
+                    <input type="text" id="invoicingReference" x-model="invoicingReference">
+                </div>
+            </div>
+
+            <!-- Section 4: Dog Care Centers -->
+            <div class="main-section">
+                <div class="section-title">
+                    <span class="section-number">4</span>
+                    <h2>Hunddagis</h2>
+                </div>
+
+                <template x-for="(care, careIndex) in dogCareCenters" :key="careIndex">
+                    <div class="dogcare-section">
+                        <div class="dogcare-section-header">
+                            <div class="dogcare-section-title">
+                                <div class="dogcare-number" x-text="careIndex + 1"></div>
+                                <h2 x-text="'Hunddagis ' + (careIndex + 1)"></h2>
+                            </div>
+                            <button type="button" class="btn-remove" @click="removeDogCareCenter(careIndex)" x-show="dogCareCenters.length > 1">
+                                Ta bort
+                            </button>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Namn *</label>
+                            <input type="text" x-model="care.name" required>
+                        </div>
+
+                        <!-- Verksamhetsansvarig -->
+                        <h3>Verksamhetsansvarig</h3>
+                        <template x-for="(resp, respIndex) in care.responsible" :key="respIndex">
+                            <div class="nested-section">
+                                <div class="section-header">
+                                    <div class="item-number">Ansvarig <span x-text="respIndex + 1"></span></div>
+                                    <button type="button" class="btn-remove" @click="care.responsible.splice(respIndex, 1)" x-show="care.responsible.length > 1">
+                                        Ta bort
+                                    </button>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Namn *</label>
+                                    <input type="text" x-model="resp.name" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>E-post *</label>
+                                    <input type="email" x-model="resp.email" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Roll *</label>
+                                    <input type="text" x-model="resp.role" required>
+                                </div>
+                            </div>
+                        </template>
+
+                        <button type="button" class="btn-add" @click="care.responsible.push({ name: '', email: '', role: '' })">
+                            + Lägg till verksamhetsansvarig
                         </button>
-                    </div>
 
-                    <div class="form-group">
-                        <label>Namn *</label>
-                        <input type="text" x-model="care.name" required
-                            :class="submitted && !care.name ? 'error' : ''">
-                        <span x-show="submitted && !care.name" class="error-message">Detta fält är obligatoriskt</span>
-                    </div>
+                        <!-- Personalkonto -->
+                        <h3>Personalkonto</h3>
+                        <div class="form-group">
+                            <label>E-post</label>
+                            <input type="email" x-model="care.staff_account.email">
+                        </div>
 
-                    <!-- Verksamhetsansvarig -->
-                    <h3>Verksamhetsansvarig</h3>
-                    <template x-for="(resp, respIndex) in care.responsible" :key="respIndex">
-                        <div class="nested-section">
-                            <div class="section-header">
-                                <div class="item-number">Ansvarig <span x-text="respIndex + 1"></span></div>
-                                <button type="button" class="btn-remove" @click="care.responsible.splice(respIndex, 1)" x-show="care.responsible.length > 1">
-                                    Ta bort
+                        <!-- Öppettider -->
+                        <h3>Öppettider</h3>
+                        <table class="opening-hours-table">
+                            <thead>
+                                <tr>
+                                    <th>Dag</th>
+                                    <th>Öppet</th>
+                                    <th>Tider</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Måndag</td>
+                                    <td><input type="checkbox" x-model="care.opening_hours.monday.open"></td>
+                                    <td>
+                                        <div class="time-inputs" :class="!care.opening_hours.monday.open ? 'disabled' : ''">
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="09:00" title="Format: HH:MM (t.ex. 09:00)" x-model="care.opening_hours.monday.start" :disabled="!care.opening_hours.monday.open">
+                                            <span>–</span>
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="17:00" title="Format: HH:MM (t.ex. 17:00)" x-model="care.opening_hours.monday.end" :disabled="!care.opening_hours.monday.open">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tisdag</td>
+                                    <td><input type="checkbox" x-model="care.opening_hours.tuesday.open"></td>
+                                    <td>
+                                        <div class="time-inputs" :class="!care.opening_hours.tuesday.open ? 'disabled' : ''">
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="09:00" title="Format: HH:MM (t.ex. 09:00)" x-model="care.opening_hours.tuesday.start" :disabled="!care.opening_hours.tuesday.open">
+                                            <span>–</span>
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="17:00" title="Format: HH:MM (t.ex. 17:00)" x-model="care.opening_hours.tuesday.end" :disabled="!care.opening_hours.tuesday.open">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Onsdag</td>
+                                    <td><input type="checkbox" x-model="care.opening_hours.wednesday.open"></td>
+                                    <td>
+                                        <div class="time-inputs" :class="!care.opening_hours.wednesday.open ? 'disabled' : ''">
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="09:00" title="Format: HH:MM (t.ex. 09:00)" x-model="care.opening_hours.wednesday.start" :disabled="!care.opening_hours.wednesday.open">
+                                            <span>–</span>
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="17:00" title="Format: HH:MM (t.ex. 17:00)" x-model="care.opening_hours.wednesday.end" :disabled="!care.opening_hours.wednesday.open">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Torsdag</td>
+                                    <td><input type="checkbox" x-model="care.opening_hours.thursday.open"></td>
+                                    <td>
+                                        <div class="time-inputs" :class="!care.opening_hours.thursday.open ? 'disabled' : ''">
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="09:00" title="Format: HH:MM (t.ex. 09:00)" x-model="care.opening_hours.thursday.start" :disabled="!care.opening_hours.thursday.open">
+                                            <span>–</span>
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="17:00" title="Format: HH:MM (t.ex. 17:00)" x-model="care.opening_hours.thursday.end" :disabled="!care.opening_hours.thursday.open">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Fredag</td>
+                                    <td><input type="checkbox" x-model="care.opening_hours.friday.open"></td>
+                                    <td>
+                                        <div class="time-inputs" :class="!care.opening_hours.friday.open ? 'disabled' : ''">
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="09:00" title="Format: HH:MM (t.ex. 09:00)" x-model="care.opening_hours.friday.start" :disabled="!care.opening_hours.friday.open">
+                                            <span>–</span>
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="17:00" title="Format: HH:MM (t.ex. 17:00)" x-model="care.opening_hours.friday.end" :disabled="!care.opening_hours.friday.open">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="display: none;">
+                                    <td>Lördag</td>
+                                    <td><input type="checkbox" x-model="care.opening_hours.saturday.open"></td>
+                                    <td>
+                                        <div class="time-inputs" :class="!care.opening_hours.saturday.open ? 'disabled' : ''">
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="09:00" title="Format: HH:MM (t.ex. 09:00)" x-model="care.opening_hours.saturday.start" :disabled="!care.opening_hours.saturday.open">
+                                            <span>–</span>
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="17:00" title="Format: HH:MM (t.ex. 17:00)" x-model="care.opening_hours.saturday.end" :disabled="!care.opening_hours.saturday.open">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="display: none;">
+                                    <td>Söndag</td>
+                                    <td><input type="checkbox" x-model="care.opening_hours.sunday.open"></td>
+                                    <td>
+                                        <div class="time-inputs" :class="!care.opening_hours.sunday.open ? 'disabled' : ''">
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="09:00" title="Format: HH:MM (t.ex. 09:00)" x-model="care.opening_hours.sunday.start" :disabled="!care.opening_hours.sunday.open">
+                                            <span>–</span>
+                                            <input type="text" class="time-input" pattern="(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]" placeholder="17:00" title="Format: HH:MM (t.ex. 17:00)" x-model="care.opening_hours.sunday.end" :disabled="!care.opening_hours.sunday.open">
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <!-- Hundar -->
+                        <h3>Hundar</h3>
+                        <p style="color: #555; font-size: 14px; margin-top: -8px; margin-bottom: 16px;">Valfritt - lägg till hundar som kommer vara inskrivna i hunddagis</p>
+
+                        <template x-for="(dog, dogIndex) in care.dogs" :key="dogIndex">
+                            <div class="dog-row">
+                                <input type="text" x-model="dog.name" required
+                                    :placeholder="'Hund ' + (dogIndex + 1) + ' - Namn'">
+
+                                <input type="text" class="date-input" x-model="dog.birthDate"
+                                    pattern="(19|20)\d{2}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])"
+                                    placeholder="ÅÅÅÅ-MM-DD"
+                                    title="Format: ÅÅÅÅ-MM-DD (t.ex. 2022-09-10)">
+
+                                <button type="button" class="btn-remove-icon" @click="care.dogs.splice(dogIndex, 1)" title="Ta bort hund">
+                                    ×
                                 </button>
                             </div>
+                        </template>
 
-                            <div class="form-group">
-                                <label>Namn *</label>
-                                <input type="text" x-model="resp.name" required
-                                    :class="submitted && !resp.name ? 'error' : ''">
-                                <span x-show="submitted && !resp.name" class="error-message">Detta fält är obligatoriskt</span>
-                            </div>
-
-                            <div class="form-group">
-                                <label>E-post *</label>
-                                <input type="email" x-model="resp.email" required
-                                    :class="submitted && !resp.email ? 'error' : ''">
-                                <span x-show="submitted && !resp.email" class="error-message">Detta fält är obligatoriskt</span>
-                            </div>
-
-                            <div class="form-group">
-                                <label>Roll *</label>
-                                <input type="text" x-model="resp.role" required
-                                    :class="submitted && !resp.role ? 'error' : ''">
-                                <span x-show="submitted && !resp.role" class="error-message">Detta fält är obligatoriskt</span>
-                            </div>
-                        </div>
-                    </template>
-
-                    <button type="button" class="btn-add" @click="care.responsible.push({ name: '', email: '', role: '' })">
-                        + Lägg till verksamhetsansvarig
-                    </button>
-
-                    <!-- Personalkonto -->
-                    <h3>Personalkonto</h3>
-                    <div class="form-group">
-                        <label>E-post</label>
-                        <input type="email" x-model="care.staff_account.email">
+                        <button type="button" class="btn-add" @click="if (!care.dogs) care.dogs = []; care.dogs.push({ name: '', birthDate: null })">
+                            + Lägg till hund
+                        </button>
                     </div>
-                </div>
-            </template>
+                </template>
 
-            <button type="button" class="btn-add" @click="dogCareCenters.push({ name: '', responsible: [{ name: '', email: '', role: '' }], staff_account: { email: '' } })">
-                + Lägg till hunddagis
-            </button>
-
-            <!-- Submit -->
-            <div>
-                <button type="submit" class="btn-submit" :disabled="submitting">
-                    <span x-show="!submitting">Skicka ansökan</span>
-                    <span x-show="submitting">Skickar...</span>
+                <button type="button" class="btn-add" @click="addDogCareCenter()" style="margin-top: 24px;">
+                    + Lägg till hunddagis
                 </button>
+            </div>
 
-                <!-- Success message -->
-                <div x-show="submitSuccess" class="success-message">
-                    Tack för din ansökan! Vi återkommer till dig inom kort.
+            <!-- Submit Section -->
+            <div class="submit-section">
+                <div class="section-title">
+                    <span class="section-number">5</span>
+                    <h2>Skicka</h2>
                 </div>
 
                 <!-- Error message -->
-                <div x-show="submitError" class="error-banner" x-text="submitError"></div>
+                <div x-show="submitError" class="error-banner" x-text="submitError" style="margin-bottom: 24px;"></div>
+
+                <button type="submit" class="btn-submit" :disabled="submitting">
+                    <span x-show="!submitting">Skicka ansökan</span>
+                    <span x-show="submitting">
+                        <span class="spinner"></span>
+                        Skickar...
+                    </span>
+                </button>
+                <button type="button" class="btn-clear" @click="clearForm()" :disabled="submitting">
+                    Rensa formulär
+                </button>
             </div>
+
         </form>
     </div>
 </body>
