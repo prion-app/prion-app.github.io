@@ -618,6 +618,19 @@
             }
         }
 
+        // Validate email uniqueness across all Verksamhetsansvarig and Personalkonto
+        const allEmails = [];
+        for (const care of this.dogCareCenters) {
+            for (const resp of care.responsible) {
+                if (resp.email) allEmails.push(resp.email.toLowerCase());
+            }
+            if (care.staff_account.email) allEmails.push(care.staff_account.email.toLowerCase());
+        }
+        if (new Set(allEmails).size !== allEmails.length) {
+            this.submitError = 'Varje användare måste ha en unik e-post. Kontrollera att ingen e-post används mer än en gång bland Verksamhetsansvariga och Personalkonton.';
+            return;
+        }
+
         this.submitting = true;
 
         // Clean up data: convert empty strings to null for optional fields
@@ -830,6 +843,7 @@
 
                         <!-- Personalkonto -->
                         <h3>Personalkonto</h3>
+                        <p style="color: #555; font-size: 14px; margin-top: -8px; margin-bottom: 16px;">Varje användare måste ha en unik e-post. Exempelvis kan e-posten inte vara densamma som för en verksamhetsansvarig.</p>
                         <div class="form-group">
                             <label>E-post</label>
                             <input type="email" x-model="care.staff_account.email">
