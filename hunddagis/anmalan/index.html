@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ny Kund Hunddagis</title>
+    <title>Registrera mitt hunddagis</title>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <style>
         * {
@@ -559,12 +559,6 @@
             // Form will continue with defaults from x-data
         }
     },
-    clearForm() {
-        if (confirm('Är du säker på att du vill rensa formuläret? All ifylld data kommer att tas bort.')) {
-            localStorage.removeItem('dogcareSignupForm');
-            location.reload();
-        }
-    },
     async submitForm(e) {
         e.preventDefault();
         this.submitError = null;
@@ -699,7 +693,7 @@
         <!-- Form (hidden after successful submission) -->
         <form @submit="submitForm" autocomplete="off" novalidate x-show="!submitSuccess">
 
-            <h1>Ny Kund Hunddagis</h1>
+            <h1>Registrera mitt hunddagis</h1>
 
             <!-- Section 1: Organization Info -->
             <div class="main-section">
@@ -987,9 +981,6 @@
                         <span class="spinner"></span>
                         Skickar...
                     </span>
-                </button>
-                <button type="button" class="btn-clear" @click="clearForm()" :disabled="submitting">
-                    Rensa formulär
                 </button>
             </div>
 
