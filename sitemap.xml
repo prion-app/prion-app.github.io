@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://prionapp.com/jobs/</loc>
+    <lastmod>2026-05-05T08:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://prionapp.com/jobs/kundtjanst/</loc>
+    <lastmod>2026-05-05T08:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://prionapp.com/</loc>
+    <lastmod>2026-05-05T08:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://prionapp.com/blogg/</loc>
     <lastmod>2026-03-05T10:00:00+01:00</lastmod>
   </url><url>
@@ -12,9 +21,6 @@
     <lastmod>2026-03-05T10:00:00+01:00</lastmod>
   </url><url>
     <loc>https://prionapp.com/tags/ios/</loc>
-    <lastmod>2026-03-05T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://prionapp.com/</loc>
     <lastmod>2026-03-05T10:00:00+01:00</lastmod>
   </url><url>
     <loc>https://prionapp.com/blogg/rektor-pa-fria-forskolan-framtiden-om-valet-och-anvandningen-av-prion/</loc>
@@ -193,14 +199,5 @@
   </url><url>
     <loc>https://prionapp.com/forskola/</loc>
     <lastmod>2017-02-07T10:16:05+01:00</lastmod>
-  </url><url>
-    <loc>https://prionapp.com/jobs/android.se/</loc>
-    <lastmod>2016-12-14T10:16:05+01:00</lastmod>
-  </url><url>
-    <loc>https://prionapp.com/jobs/ios.se/</loc>
-    <lastmod>2016-12-14T10:16:05+01:00</lastmod>
-  </url><url>
-    <loc>https://prionapp.com/jobs/</loc>
-    <lastmod>2016-12-14T10:16:05+01:00</lastmod>
   </url>
 </urlset>
