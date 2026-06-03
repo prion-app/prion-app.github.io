@@ -682,6 +682,21 @@ section h2.section-heading {
   max-width: 250px;
 }
 
+.preschool-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px 40px;
+  margin: 40px 0;
+}
+.preschool-logos img {
+  height: 50px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+}
+
 .desktop_explain_image {
   width: 100%;
   display: none;
