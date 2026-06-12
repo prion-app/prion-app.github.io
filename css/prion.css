@@ -692,9 +692,19 @@ section h2.section-heading {
 }
 .preschool-logos img {
   height: 50px;
-  width: auto;
-  max-width: 200px;
   object-fit: contain;
+  /* Mobile: two per row */
+  flex: 0 0 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+}
+
+/* The content column maxes out at ~789px, so six logos never fit on one
+   line. From tablet up we lay them out as two even rows of three. */
+@media (min-width: 768px) {
+  .preschool-logos img {
+    flex: 0 0 calc(33.333% - 27px);
+    max-width: calc(33.333% - 27px);
+  }
 }
 
 .desktop_explain_image {
